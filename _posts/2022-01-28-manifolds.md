@@ -7,8 +7,6 @@ similarity.
 
 > **tl;dr** Low-dimensional patterns in neural space and organismal space have analogous causes: function and constraint. This analogy suggests several insights for neuroscience, for example that disambiguating function and constraint requires a causal test. Such tests have actually been done in several clever experiments that used brain computer interfaces and artificial selection. 
 
-[comment]: <> (![](/images/2022-01-28-manifolds/analogy.jpg))
-
 <img src="/images/2022-01-28-manifolds/analogy.jpg" style="background:none; border:none; box-shadow:none;">
 <span class="caption"> (a) Schematic of low-dimensional neural activity. Each dimension represents the firing rate of one neuron.
 (b) The *Otopteryx* uses its ears as wings and is an example of an animal that is theoretically possible but doesn't actually exist.
