@@ -1,3 +1,7 @@
+---
+bibliography: 2022-01-28-manifolds.bib
+---
+
 # Low-dimensional manifolds in neuroscience and evolution
 
 The brain contains billions of neurons, so you might think we need a billion numbers to describe what the brain is doing. But in practice, we don’t need a billion numbers -- just a handful often goes a long way. The brain therefore
