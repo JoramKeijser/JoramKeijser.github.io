@@ -12,5 +12,5 @@ similarity.
 
 ![](/images/2022-01-28-manifolds/analogy.jpg)
 <span class="caption"> (a) Schematic of low-dimensional neural activity. Each dimension represents the firing rate of one neuron.
-(b) The imaginary *Otopteryx* uses its ears as wings and is an example of a theoretically possible animal that doesn't exist. 
+(b) The *Otopteryx* uses its ears as wings and is an example of an animal that is theoretically possible but doesn't actually exist.
   (a) From [Cunningham & Yu](https://doi.org/10.1038/nn.3776), (b) from [Stumpke](http://www.sivatherium.narod.ru/library/Stumpke/book_en.htm).</span>
