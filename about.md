@@ -7,8 +7,8 @@ I've created this website because I wanted to start blogging, but might add more
 ## Publications
 - Invariant neural subspaces maintained by feedback modulation\
   Naumann, Keijser & Sprekeler
-  [[Preprint]](https://www.biorxiv.org/content/10.1101/2021.10.29.466453v1) [[tweeprint]](https://twitter.com/sprekeler/status/1455256882155773952?s=20&t=mTEadfKIlJjh6b3N7Or6_Q)
+  [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.10.29.466453v1) [[Twitter]](https://twitter.com/sprekeler/status/1455256882155773952?s=20&t=mTEadfKIlJjh6b3N7Or6_Q)
 - Optimizing interneuron circuits for compartment-specific feedback inhibition\
   Keijser & Sprekeler 
-  [[Preprint]](https://www.biorxiv.org/content/10.1101/2020.11.17.386920v2) [[tweeprint]](https://twitter.com/sprekeler/status/1329388530808877057?s=20&t=mTEadfKIlJjh6b3N7Or6_Q)
+  [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2020.11.17.386920v2) [[Twitter]](https://twitter.com/sprekeler/status/1329388530808877057?s=20&t=mTEadfKIlJjh6b3N7Or6_Q)
 
