@@ -1,6 +1,3 @@
----
-bibliography: 2022-01-28-manifolds.bib
----
 
 # Low-dimensional manifolds in neuroscience and evolution
 
