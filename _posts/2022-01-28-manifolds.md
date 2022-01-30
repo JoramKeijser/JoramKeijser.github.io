@@ -1,5 +1,5 @@
  caption {
-  font-size: 80%;
+  font-size: 67%;
 }
 
 # Low-dimensional manifolds in neuroscience and evolution
