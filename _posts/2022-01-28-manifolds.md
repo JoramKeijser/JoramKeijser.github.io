@@ -17,3 +17,9 @@ Over a decade of large-scale neural recordings has revealed that the activity of
 
 ### Low-dimensional phenotypes
 It's much easier to observe and compare a lot of animals than to record from a lot of neurons, and that's probably why comparative biologists have long known that phenotypes are also low-dimensional. For example, most mammals have seven neck vertebrae, even though the long-necked giraffe might benefit from more, and the neckless whale could do with less. In phenotype space, therefore, only the subspace of mammals with seven neck vertebrae is densely occupied. Body forms within species can also be surprisingly simple: fruit fly wings are well-approximated by a single dimension (see first figure, [Alba et al.](https://doi.org/10.7554/eLife.66750))! What causes such a sparse occupation of phenotypic spaces?
+
+### Functional causes of low-d patterns
+The first shared type of cause for low-d patterns in neural and phenotypic space is functional. Low-dimensional neural activity can result from low-dimensional neural computation: Ff a brain area is engaged in a simple computation (say, integrating a noisy variable over time), it’s activity will also be simple. This intuition was formalised by [Gao et al.](https://doi.org/10.1101/214262), who showed that besides the number of task variables, the smoothness of neural activity also matters (Fig.~\ref{reaches}). If we record for a limited amount of time, and neural activity cannot behave erratically, the total number of brain states is necessarily limited. 
+
+<img src="/images/3theory.jpg" style="background:none; border:none; box-shadow:none;">
+<span class="caption"> If a subject is doing a relatively simple task like reaching, its neural activity varies smoothly in time, and we don't record for very long, activity will be low-dimensional. From [Gao et al. bioRxiv 2017](https://doi.org/10.1101/214262)  </span>
