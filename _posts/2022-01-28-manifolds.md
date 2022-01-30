@@ -15,7 +15,7 @@ Here's the table of contents:
 ### Low-dimensional manifolds everywhere
 Over a decade of large-scale neural recordings has revealed that the activity of a large number of neurons can often be captured by a much smaller number of key dimensions. In auditory cortex, for example, neural population activity rotates in a low-dimensional space that depends on the sound stimulus, which sets the population's initial state ([Bondanelli et al.](https://doi.org/10.7554/eLife.53151)). The initial state can also be used to incorporate prior expectations into neural dynamics, integrating them with sensory evidence in a Bayes-optimal way ([Sohn et al.](https://doi.org/10.1016/j.neuron.2019.06.012)). Although in both of these cases, neural activity is not fully explained by two or three dimensions, these dimensions do relate to behavior in an interpretable way[^1]. But human interpretability is not one of the brain’s design principles, raising the question why neural activity should be low-dimensional. 
 
-[^1] Interpretability is perhaps the most important reason why low-dimensionality is so important. Or as Geoffrey Hinton said:
+[^1]: Interpretability is perhaps the most important reason why low-dimensionality is so important. Or as Geoffrey Hinton said:
 ``To deal with a 14-dimensional space, visualize a 3-D space and say 'fourteen' to yourself very loudly. Everyone does it.''
 
 <img src="/images/2neuralexamples.jpg" style="background:none; border:none; box-shadow:none;">
