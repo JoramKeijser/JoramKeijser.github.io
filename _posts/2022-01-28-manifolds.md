@@ -78,4 +78,4 @@ A final takeaway is that the analogous phenomena of low-d patterns in neural spa
 
 ### Acknowledgements
 
-Thanks to colleague, friend, and Twitter celebrity [Rob Lange](https://roberttlange.github.io/) for feedback on this post and encouragements to start a blog in the first place. 
+Thanks to [Rob Lange](https://roberttlange.github.io/) for feedback on this post and encouragement to start blogging in the first place. 
