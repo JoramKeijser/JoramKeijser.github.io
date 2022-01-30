@@ -1,9 +1,11 @@
 # Low-dimensional manifolds in neuroscience and evolution
 
+
+The brain contains billions of neurons, so you might think we need a billion numbers to describe the brain's activity. But in practice, we don’t need a billion numbers -- just a handful often goes a long way. These numbers are said to define a low-dimensional *manifold* in neural space, and their existence implies that the brain typically visits only a small fraction of all its potential states. There is an analogous observation in evolutionary biology: The number of existing organisms is only a tiny fraction of all potential organisms. For example, there are no (and have never been) unicorns or centaurs, even though they are obviously conceivable to the human mind. In this blog pots, we will examine these analogous neural and evolutionary/developmental phenomena, and see what lessons can be draw from their similarity. 
+
 <img src="/images/1analogy.jpg" style="background:none; border:none; box-shadow:none;">
 <span class="caption">   (a) Population activity lies on a low-dimensional manifold in neural space. Each dimension corresponds to the activity of one neuron. (b) Variation of wing structure across a population of *Drosophila* lies on a low-dimensional manifold in phenotype space. Each dimension corresponds to the intensity of one pixel from an image of the wing. (a) From [Gallego et al. 2017](https://doi.org/10.1016/j.neuron.2017.05.025), (b) from [Alba et al. 2021](https://doi.org/10.7554/eLife.66750). </span>
 
-The brain contains billions of neurons, so you might think we need a billion numbers to describe the brain's activity. But in practice, we don’t need a billion numbers -- just a handful often goes a long way. These numbers are said to define a low-dimensional *manifold* in neural space, and their existence implies that the brain typically visits only a small fraction of all its potential states. There is an analogous observation in evolutionary biology: The number of existing organisms is only a tiny fraction of all potential organisms. For example, there are no (and have never been) unicorns or centaurs, even though they are obviously conceivable to the human mind. In this blog pots, we will examine these analogous neural and evolutionary/developmental phenomena, and see what lessons can be draw from their similarity. 
 
 1. TOC
 {:toc}
