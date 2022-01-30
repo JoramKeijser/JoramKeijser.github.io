@@ -1,1 +1,1 @@
-A blog about computational neuroscience, evolution, and machine learning. The title of this blog was inspired by the poetic [closing passage](https://en.m.wikipedia.org/wiki/On_the_Origin_of_Species#Concluding_remarks) of Darwin's 1859 book On the Origin of Species. 
+A blog about computational neuroscience, evolution, and machine learning. The title of this blog was inspired by the poetic [closing passage](https://en.m.wikipedia.org/wiki/On_the_Origin_of_Species#Concluding_remarks) of Darwin's *On the Origin of Species*. 
