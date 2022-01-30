@@ -60,3 +60,11 @@
 
 .codecell table { width: auto; }
 
+Adjust font size for footnotes.
+.captions {
+  font-size: 10px !important;
+  p, li{
+    font-size: 19px !important;
+ } 
+}
+
