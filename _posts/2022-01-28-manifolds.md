@@ -6,5 +6,5 @@ similarity.
 
 > **tl;dr** Low-dimensional patterns in neural space and organismal space are both caused by functional reasons, but also by constraints. This analogy suggests several insights for neuroscience, for example that disambiguating function and constraint requires a causal test. Causal tests have actually been done in several clever experiments that used brain computer interfaces and artificial selection. 
 
-<img src="/images/2022-01-28-manifolds/1analogy.jpg" style="background:none; border:none; box-shadow:none;">
+<img src="/images/1analogy.jpg" style="background:none; border:none; box-shadow:none;">
 <span class="caption"> (a) Population activity lies on a low-dimensional manifold in neural space. Each dimension corresponds to the activity of one neuron (b) The variation of wing structures across a population of *Drosophila* lies a low-dimensional manifold in phenotype space. Each dimension corresponds to the intensity of one pixel from an image of the wing. </span>
