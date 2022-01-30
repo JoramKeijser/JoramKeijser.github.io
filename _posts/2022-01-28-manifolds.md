@@ -1,7 +1,3 @@
- caption {
-  font-size: 67%;
-}
-
 # Low-dimensional manifolds in neuroscience and evolution
 
 <img src="/images/1analogy.jpg" style="background:none; border:none; box-shadow:none;">
