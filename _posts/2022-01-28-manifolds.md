@@ -28,4 +28,4 @@ Just like the brain learns to generate activity that’s suitable for the curren
 This pattern reversed once pollution decreased. At each point in time, selection therefore favours a limited set of phenotypes, making alternatives rare or non-existent. Both neural activity and phenotypes can therefore be limited to a small set of “optimal” patterns.
 
 <img src="/images/4moths.jpg" style="background:none; border:none; box-shadow:none;">
-<span class="caption">  </span>
+<span class="caption"> Peppered moths can have a light or a dark (melanic) colour. Air pollution made trees darker, and therefore decreased the visibility of melanic moths. The pattern reversed when air pollution decreased. (a) from [Wikipedia](https://commons.wikimedia.org/wiki/File:Lichte_en_zwarte_versie_berkenspanner.jpg), (b) from [Hedrick 2006](https://www.annualreviews.org/doi/abs/10.1146/annurev.ecolsys.37.091305.110132). </span>
