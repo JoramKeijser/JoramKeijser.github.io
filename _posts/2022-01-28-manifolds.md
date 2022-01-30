@@ -70,3 +70,8 @@ This idea is supported by the aforementioned work on the one-dimensional *Drosop
 
 Attractor dynamics can therefore steer neural activity or development towards one of a discrete number of states, and away from competing states. This decreases the dimensionality, but that's a good thing, since it makes allows neural computation or development to resist disturbing influences. 
 
+<img src="/images/7attractors.jpg" style="background:none; border:none; box-shadow:none;">
+<span class="caption"> (a) Attractor dynamics can increase the robustness of neural activity during decision making. The black curve represents the energy landscape, the ball represents neural activity following the curve's gradient until it ends up in an attractor state.
+(b) Attractor dynamics can similarly increase the robustness of developmental processes to genetic and environmental variability. This is visualize here in [Waddington's epigenetic landscape](). The ball represents a developing cell, which becomes progressively committed to a particular identity. 
+(a) From [Finkelstein et al.](https://doi.org/10.1038/s41593-021-00840-6), (b) from [Waddington 1957](https://doi.org/10.4324/9781315765471)</span>
+
