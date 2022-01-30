@@ -60,10 +60,10 @@
 
 .codecell table { width: auto; }
 
-.captions {
-  font-size: 8px !important;
-  p, li{
-    font-size: 8px !important;
- } 
+.post figcaption {
+  text-align: center;
+  font-size: .8rem;
+  font-style: italic;
+  color: light-grey;
 }
 
