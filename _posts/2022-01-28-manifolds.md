@@ -7,9 +7,6 @@ The brain contains billions of neurons, so you might think we need a billion num
 <span class="caption" STYLE="font-size:60%">  (a) Population activity lies on a low-dimensional manifold in neural space. Each dimension corresponds to the activity of one neuron. (b) Variation of wing structure across a population of *Drosophila* lies on a low-dimensional manifold in phenotype space. Each dimension corresponds to the intensity of one pixel from an image of the wing. (a) From [Gallego et al. 2017](https://doi.org/10.1016/j.neuron.2017.05.025), (b) from [Alba et al. 2021](https://doi.org/10.7554/eLife.66750). </span>
 
 
-1. TOC
-{:toc}
-
 ### The finding: low-dimensional manifolds
 Over a decade of large-scale neural recordings has revealed that the activity of a large number of neurons can often be captured by a much smaller number of key dimensions. In auditory cortex, for example, neural population activity rotates in a low-dimensional space that depends on the sound stimulus, which sets the population's initial state ([Bondanelli et al.](https://doi.org/10.7554/eLife.53151)). The initial state can also be used to incorporate prior expectations into neural dynamics, integrating them with sensory evidence in a Bayes-optimal way ([Sohn et al.](https://doi.org/10.1016/j.neuron.2019.06.012)). Although in both of these cases, neural activity is not fully explained by two or three dimensions, these dimensions do relate to behavior in an interpretable way. But human interpretability is not one of the brain’s design principles, raising the question why neural activity should be low-dimensional. 
 
