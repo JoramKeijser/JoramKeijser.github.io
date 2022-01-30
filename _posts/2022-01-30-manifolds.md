@@ -91,7 +91,7 @@ The analogy between neuroscience and comparative biology suggests several lesson
 
 A second lesson is that identifying a role for neural constraints is only the first step. The second step is to understand the mechanism causing the constraint. This was possible in the butterfly, because it is a relatively simple and well-studied model organism. Determining mechanisms of neural constraints might also require a model organism that is more experimentally accessible than, for example, a primate. 
 
-A final takeaway is that the analogous phenomena of low-d patterns in neural space and organismal/phenotypic space interact. The brain's structure (phenotypic space) influences its activity (neural space). Conversely, the brain's activity can influence its evolution by shaping behavior. 
+Finally, it might be interesting to consider how the analogous neural and evolutionary phenomena interact. For example because the brain's structure (phenotypic space) influences its activity (neural space), and, conversely, because the brain's activity can influence its evolution by shaping behavior. 
 
 
 ### Acknowledgements
