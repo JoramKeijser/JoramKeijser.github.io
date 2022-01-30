@@ -1,6 +1,6 @@
 ## Joram Keijser
 
-I'm a PhD student in computational neuroscience supervised by Prof. [Henning Sprekeler](https://www.sprekelerlab.org/), funded by the [TU Berlin](https://www.tu.berlin/) and [ECN Berlin](https://www.ecn-berlin.de/). I train neural networks and analyse data to understand inhibitory cell types and cortical population dynamics. I also co-organize the [WWNeuRise seminar](https://neurise.github.io/) for early career researchers, and teach at BCCN Berlin's [Master Program Computational Neuroscience](https://www.bccn-berlin.de/master-program.html). Previously, I obtained a MSc in mathematics from [Leiden University](https://www.universiteitleiden.nl/). 
+I'm a PhD student in computational neuroscience supervised by Prof. [Henning Sprekeler](https://www.sprekelerlab.org/), funded by the [TU Berlin](https://www.tu.berlin/) and [ECN Berlin](https://www.ecn-berlin.de/). I train neural networks and analyse data to understand inhibitory cell types and cortical population dynamics. I also co-organize the [WWNeuRise seminar](https://neurise.github.io/) for early career researchers, and teach at BCCN Berlin's [Master Program Computational Neuroscience](https://www.bccn-berlin.de/master-program.html). Previously, I obtained a MSc in mathematics from [Leiden University](https://www.universiteitleiden.nl/). Outside of the lab, I'm a voracious [reader](https://www.goodreads.com/user/show/13625271-joram-keijser) and a less-than-voracious runner.
 
 ### Publications
 - Invariant neural subspaces maintained by feedback modulation\
