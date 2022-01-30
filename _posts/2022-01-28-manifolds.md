@@ -47,3 +47,7 @@ Sadtler et al. used the experimental control provided by a brain computer interf
 
 The data from Sadtler et al. favours the second hypothesis over the first. Subjects could quickly adapt to inside manifold perturbations, but not outside manifold perturbations. This failure to learn suggests that the low-dimensionality of the intuitive manifold was not due to functional requirements, but rather to constraints. Later work from the same labs showed that neural activity is not very flexible within the manifold [Golub et al.](https://doi.org/10.1038/s41593-018-0095-3), but that new activity patterns can be learned when subjects are given enough time [Oby et al.](https://doi.org/10.1073/pnas.1820296116).
 
+<img src="/images/5neuralconstraints.jpg" style="background:none; border:none; box-shadow:none;">
+<span class="caption"> Neural constraints on learning [Sadtler et al. 2014](https://doi.org/10.1038/nature13665). Neural activity is usually confined to an intuitive manifold. Changes to the BCI readout within this manifold (red) are easy to learn, changes outside
+the manifold (blue) are hard to learn. </span>
+
