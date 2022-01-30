@@ -62,4 +62,11 @@ During development, eyespot size is regulated by signalling from clusters of org
 
 The difference in flexibility between the two characters would have been difficult to predict from observational data alone, since the correlation across eyespot color and size are similar in wild type butterflies. These experiments therefore not only show that either selective pressure or genetic constraints might can a role, they also show that disambiguating the two requires causal experiments. 
 
+## Benefits of low-dimensionality
+Low-dimensionality can also be beneficial, for example when it provides robustness
+to noise and other sources of variability. Neuroscientists have long known the importance of so-called attractor dynamics: A [Hopfield network](https://doi.org/10.1073/pnas.79.8.2554) converges to a previously imprinted attractor state, starting from an initial state that is similar to the attractor. You can think of this as an associative memory: Only seeing part of someone's face immediately brings to mind their entire face, and even more features such as their voice. The network therefore is robust to missing or noisy information. Attractor dynamics can also make the formation of a decision robust to irrelevant information, as recently shown by [Finkelstein et al.](https://doi.org/10.1038/s41593-021-00840-6). 
+Attractor dynamics are also thought to increase developmental robustness. For example, cells adopt one out of many possible cell types, characterised by a reliable set of properties and functions. This type of ``canalisation'' makes development robust to genetic and environmental variability ([Waddington](https://doi.org/10.1038/150563a0), [Flatt](https://doi.org/10.1086/432265)).
+This idea is supported by the aforementioned work on the one-dimensional *Drosophila* wings ([Alba et al.](https://doi.org/10.7554/eLife.66750)). Genetic and environmental perturbations led to variation along the one principal direction, suggesting their effect is canalised by development. 
+
+Attractor dynamics can therefore steer neural activity or development towards one of a discrete number of states, and away from competing states. This decreases the dimensionality, but that's a good thing, since it makes allows neural computation or development to resist disturbing influences. 
 
