@@ -9,7 +9,7 @@ similarity.
 <img src="/images/1analogy.jpg" style="background:none; border:none; box-shadow:none;">
 <span class="caption"> (a) Population activity lies on a low-dimensional manifold in neural space. Each dimension corresponds to the activity of one neuron. (b) Variation of wing structure across a population of *Drosophila* lies on a low-dimensional manifold in phenotype space. Each dimension corresponds to the intensity of one pixel from an image of the wing. (a) From [Gallego et al. Neuron 2017](https://doi.org/10.1016/j.neuron.2017.05.025), (b) from [Alba et al. eLife 2021](https://doi.org/10.7554/eLife.66750).</span>
 
-### Low-dimensional neural activity
+### The finding: low-dimensional manifolds
 Over a decade of large-scale neural recordings has revealed that the activity of a large number of neurons can often be captured by a much smaller number of key dimensions. In auditory cortex, for example, neural population activity rotates in a low-dimensional space that depends on the sound stimulus, which sets the population's initial state ([Bondanelli et al.](https://doi.org/10.7554/eLife.53151)). The initial state can also be used to incorporate prior expectations into the dynamics, integrating them with sensory evidence in Bayes-optimal way ([Sohn et al.](https://doi.org/10.1016/j.neuron.2019.06.012)). Although in both of these cases, neural activity is not fully explained by two or three dimensions, these dimensions do relate to behavior in an interpretable way. But human interpretability is not one of the brain’s design principles, raising the question why neural activity should be low-dimensional. 
 
 <img src="/images/2neuralexamples.jpg" style="background:none; border:none; box-shadow:none;">
@@ -18,7 +18,7 @@ Over a decade of large-scale neural recordings has revealed that the activity of
 
 It's much easier to observe and compare a lot of animals than to record from a lot of neurons, and that's probably why comparative biologists have long known that phenotypes are also low-dimensional. For example, most mammals have seven neck vertebrae, even though the long-necked giraffe might benefit from more, and the neckless whale could do with less. In phenotype space, therefore, only the subspace of mammals with seven neck vertebrae is densely occupied. Body forms within species can also be surprisingly simple: fruit fly wings are well-approximated by a single dimension (see first figure, [Alba et al.](https://doi.org/10.7554/eLife.66750))! What causes such a sparse occupation of phenotypic spaces?
 
-### Functional causes of low-d patterns
+### Explanation 1: function 
 The first shared type of cause for low-d patterns in neural and phenotypic space is functional. Low-dimensional neural activity can result from low-dimensional neural computation: Ff a brain area is engaged in a simple computation (say, integrating a noisy variable over time), it’s activity will also be simple. This intuition was formalised by [Gao et al.](https://doi.org/10.1101/214262), who showed that besides the number of task variables, the smoothness of neural activity also matters (Fig.~\ref{reaches}). If we record for a limited amount of time, and neural activity cannot behave erratically, the total number of brain states is necessarily limited. 
 
 <img src="/images/3theory.jpg" style="background:none; border:none; box-shadow:none;">
@@ -29,3 +29,10 @@ This pattern reversed once pollution decreased. At each point in time, selection
 
 <img src="/images/4moths.jpg" style="background:none; border:none; box-shadow:none;">
 <span class="caption"> Peppered moths can have a light or a dark (melanic) colour. Air pollution made trees darker, and therefore decreased the visibility of melanic moths. The pattern reversed when air pollution decreased. (a) from [Wikipedia](https://commons.wikimedia.org/wiki/File:Lichte_en_zwarte_versie_berkenspanner.jpg), (b) from [Hedrick, Annu. Rev. Ecol. Evol. Syst. 2006](https://www.annualreviews.org/doi/abs/10.1146/annurev.ecolsys.37.091305.110132). </span>
+
+### Explanation 2: constraints 
+But sometimes the brain cannot produce a certain pattern of neural activity, even when it would be best to do so. Similarly, a certain phenotype might fail to evolve, even when it would increase a species’ fitness or save it from extinction. In this case, the lack of variability must be due to the presence of constraints. For neural activity, such a constraint can be caused by neural connectivity. If, for example, two excitatory neurons are reciprocally connected, this might exclude activity patterns in which only one of them is active. Of course, synaptic plasticity could weaken their connectivity -- but this takes time. In the case of evolution, a constraint might be due to a single gene that affects multiple traits, such that changing one trait but not the other is genetically impossible. A similar constraint can also arise when two traits are coded for by different genes, but these genes are inherited together (for example because they’re located nearby in the genome). Over time, these constraints could be alleviated by mutations, but just like synaptic plasticity, this takes time.
+
+In sum, there are analogous reasons for the low-dimensional patterns in neural space and animal space. This points to fundamental similarities between their origins. 
+Neural activity is shaped by learning, and animal forms are shaped by natural selection. Both learning and natural selection tend to increase some kind of performance or fitness measure. But neither does so from scratch, and this limits
+how much they can change, especially in the short run.  
