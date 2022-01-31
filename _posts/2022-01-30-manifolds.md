@@ -96,4 +96,4 @@ Finally, it might be interesting to consider how the analogous neural and evolut
 
 ### Acknowledgements
 
-Thanks to [Rob Lange](https://roberttlange.github.io/) for feedback on this post and encouragement to start blogging in the first place. 
+Thanks to [Robert Lange](https://roberttlange.github.io/) for feedback on this post and encouragement to start blogging in the first place. 
