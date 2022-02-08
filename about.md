@@ -7,7 +7,7 @@ I'm a PhD student in computational neuroscience supervised by Prof. [Henning Spr
   Schroeder, Pardi, **Keijser**, Dalmay, Schuman, Sprekeler, Letzkus
   [[bioRxiv]](https://doi.org/10.1101/2022.02.07.479360) [[Twitter]](https://twitter.com/anna_schroed/status/1490986047186288643?s=20&t=9szqPmtJHnibb7hc3OgJUw)
 - Invariant neural subspaces maintained by feedback modulation\
-  Naumann, **Keijser** & Sprekeler
+  Naumann, **Keijser**. Sprekeler
   [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.10.29.466453v1) [[Twitter]](https://twitter.com/sprekeler/status/1455256882155773952?s=20&t=mTEadfKIlJjh6b3N7Or6_Q)
 - Optimizing interneuron circuits for compartment-specific feedback inhibition\
   **Keijser** & Sprekeler 
