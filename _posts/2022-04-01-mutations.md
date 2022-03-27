@@ -1,7 +1,7 @@
 ## Does evolution estimate gradients?
 Well, does it? 
 
-<img src="/images/1analogy.jpg" style="background:none; border:none; box-shadow:none;">
+<img src="/images/evo_double.gif" style="background:none; border:none; box-shadow:none;">
 <span class="caption" STYLE="font-size:85%">  (a) Population activity lies on a low-dimensional manifold in neural space. Each dimension corresponds to the activity of one neuron. (b) Variation of wing structure across a population of *Drosophila* lies on a low-dimensional manifold in phenotype space. Each dimension corresponds to the intensity of one pixel from an image of the wing. (a) From [Gallego et al. 2017](https://doi.org/10.1016/j.neuron.2017.05.025), (b) from [Alba et al. 2021](https://doi.org/10.7554/eLife.66750). </span>
 
 
