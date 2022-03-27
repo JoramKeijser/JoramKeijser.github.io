@@ -1,10 +1,5 @@
 ## Does evolution estimate gradients?
 
-<p align="center">
-<img src="/images/evo_double.gif" style="background:none; border:none; box-shadow:none;">
-</p>
-
-
 Imagine you’re on a hike, trying to work your way up a mountain. Unfortunately, it is a foggy day, so you can see your immediate surroundings 
 but not the mountain top. In which direction do you decide to walk? Your intuition probably tells you to choose the direction in which the 
 terrain rises most rapidly. And this intuition makes sense: without knowledge about the overall landscape, the immediate direction of steepest
