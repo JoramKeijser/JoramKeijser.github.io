@@ -33,3 +33,18 @@ As Yann LeCun (not exactly just anyone when it comes to gradient descent) recent
 Here, we will investigate why many biologists do believe that evolution works through random mutations, 
 but also why recent experiments might overturn this idea. We will start by familiarising ourselves with the general role of mutations 
 in the evolutionary process. 
+
+## Mutations are the fuel for evolution
+
+Since the start of the COVID pandemic, the world has been confronted with a steady stream of new virus variants, each spreading more rapidly than its predecessors. Where do these new variants come from? Mutations - mistakes in the copying of DNA - introduce changes in the viral genome. Some of these changes give the virus a fitness advantage, for example by making it more transmissible. If this advantage is big enough, the changed genome will come to dominate. 
+
+The example of COVID evolution highlights the key steps that underlie evolution more generally. First, mutations introduce variation across a population. Next, natural selection picks out the variation that is best suited to the current environment. If natural selection is a car driving up a fitness hill, then mutations are the car’s fuel. But like a car’s fuel doesn’t influence its driving direction, mutations are thought to arise independently of their fitness effect. So there’s a clear separation between the two steps of evolution: improvements in fitness are only due to selection, not to mutations. The best we could hope for is lots of mutations, so natural selection has enough variability to choose from. 
+
+<p align="center">
+<img src="https://cdn.kastatic.org/ka-perseus-images/8f33aa4bd39c5c435af5e5dc4001d73721a25f85.png" style="background:none; border:none; box-shadow:none;">
+</p>
+
+
+
+
+
