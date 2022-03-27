@@ -1,7 +1,7 @@
 ## Does evolution estimate gradients?
 
 <img src="/images/evo_double.gif" style="background:none; border:none; box-shadow:none;">
-<span class="caption" STYLE="font-size:85%"> Optimisation is most efficient when it generates candidate solutions using gradient information, which is what gradient-descent does. Yet evolution by natural selection isn't traditionally believed to exploit this idea. </span>
+<span class="caption" STYLE="font-size:85%">  </span>
 
 
 Imagine you’re on a hike, trying to work your way up a mountain. Unfortunately, it is a foggy day, so you can see your immediate surroundings 
