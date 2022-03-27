@@ -41,7 +41,7 @@ Since the start of the COVID pandemic, the world has been confronted with a stea
 The example of COVID evolution highlights the key steps that underlie evolution more generally. First, mutations introduce variation across a population. Next, natural selection picks out the variation that is best suited to the current environment. If natural selection is a car driving up a fitness hill, then mutations are the car’s fuel. But like a car’s fuel doesn’t influence its driving direction, mutations are thought to arise independently of their fitness effect. So there’s a clear separation between the two steps of evolution: improvements in fitness are only due to selection, not to mutations. The best we could hope for is lots of mutations, so natural selection has enough variability to choose from. 
 
 <p align="center">
-<img src="https://cdn.kastatic.org/ka-perseus-images/8f33aa4bd39c5c435af5e5dc4001d73721a25f85.png" style="background:none; border:none; box-shadow:none;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Mutation_and_selection_diagram.svg" style="background:none; border:none; box-shadow:none;">
 </p>
 
 
