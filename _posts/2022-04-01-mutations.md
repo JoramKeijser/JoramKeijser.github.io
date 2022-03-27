@@ -1,4 +1,9 @@
-## Does evolution estimate gradients?
+---
+image: /images/evo_double.gif
+title: "Does evolution estimate the fitness gradient?"
+---
+
+## Does evolution estimate the fitness gradient?
 
 <p align="center">
 <img src="/images/evo_double.gif" style="background:none; border:none; box-shadow:none;">
