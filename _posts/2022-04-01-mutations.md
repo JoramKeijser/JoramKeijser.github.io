@@ -7,6 +7,8 @@ title: "Does evolution estimate the fitness gradient?"
 <p align="center">
 <img src="/images/evo_double.gif" style="background:none; border:none; box-shadow:none;">
 </p>
+<span class="caption" STYLE="font-size:85%"> Gradient-based optimisation is more efficient than gradient-free optimization, yet evolution by natural selection might be gradient free. </span>
+
 
 Imagine you’re on a hike, trying to work your way up a mountain. Unfortunately, it is a foggy day, so you can see your immediate surroundings 
 but not the mountain top. In which direction do you decide to walk? Your intuition probably tells you to choose the direction in which the 
@@ -82,7 +84,7 @@ Luria therefore decided to investigate if E. coli’s T1 resistance occurred spo
 ## A Nobel-prize winning experiment 
 
 <p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Luria-delbruck_diagram.svg"  width="400" style="background:none; border:none; box-shadow:none;"/>
+<img src="/images/fluctuation_test.svg"  width="700" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> The competing hypotheses of induced and spontaneous mutations predict different numbers of surviving
 bacteria. Source: [Wikipedia](https://en.wikipedia.org/wiki/Luria%E2%80%93Delbr%C3%BCck_experiment#/media/File:Luria-delbruck_diagram.svg
@@ -98,7 +100,22 @@ Their findings earned Luria (along with Max Delbruck and Alfred Hershey) the 196
 
 But like the original work from Luria and Delbruck, the follow-up studies finding random mutations were held back by a major technological limitation: they couldn’t detect mutations across many genes. At the time of their key experiment, Luria and Delbruck didn’t even know what a gene exactly was! This meant that only those “genes” could be studied that had a clear fitness effect. But most genes, we know now, affect fitness in only a very modest way. This meant that further study of mutation rates had to wait until the postgenomic era. 
 
+## Genomic clues of non-random mutation rates
 
+<p align="center">
+<img src="/images/martincorena.svg" style="background:none; border:none; box-shadow:none;"/>
+</p>
+<span class="caption" STYLE="font-size:85%"> (a) Mutation rates (estimated using the synonymous diversity across different strains), vary along the E. coli genome. Red bars indicate 95% confidence interval under a uniform mutation rate. (b) Genes with lower mutation rates are more often essential From [Martincorena et al.](https://doi.org/10.1038/nature10995). </span>
 
+## Planting the seeds of a revolution
+
+<p align="center">
+<img src="/images/monroe.svg" style="background:none; border:none; box-shadow:none;"/>
+</p>
+<span class="caption" STYLE="font-size:85%"> Left: Arabidopsis thaliana. Middle: mutations are lower for bases within gene bodies. TSS: transcription start sites, TTS:  transcription termination sites.  Right: the mutation rate varies with gene function. </span>
+
+## Reconciling Luria-Delbruck with genomic data
+
+## Conclusion
 
 
