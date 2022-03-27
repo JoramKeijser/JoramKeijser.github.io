@@ -6,8 +6,8 @@
 
 
 Imagine you’re on a hike, trying to work your way up a mountain. Unfortunately, it is a foggy day, so you can see your immediate surroundings 
-but not the mountain top. In which direction should you decide to walk? Your intuition probably tells you to choose the direction in which the 
-terrain rises most rapidly. And this intuition makes sense: without knowledge about the overall landscape, the immediate d. irection of steepest
+but not the mountain top. In which direction do you decide to walk? Your intuition probably tells you to choose the direction in which the 
+terrain rises most rapidly. And this intuition makes sense: without knowledge about the overall landscape, the immediate direction of steepest
 ascent is the most promising[^1]. 
 
 [^1]: According to my partner, who is Swiss, hiking in foggy mountains can actually be dangerous. So you should probably head home rather than up.
