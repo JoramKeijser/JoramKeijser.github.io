@@ -8,8 +8,8 @@ I'm a PhD student in computational neuroscience supervised by Prof. [Henning Spr
   [[bioRxiv]](https://doi.org/10.1101/2022.02.07.479360) [[Twitter]](https://twitter.com/anna_schroed/status/1490986047186288643?s=20&t=9szqPmtJHnibb7hc3OgJUw)
 - Invariant neural subspaces maintained by feedback modulation\
   Naumann, **Keijser**. Sprekeler
-  [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.10.29.466453v1) [[Twitter]](https://twitter.com/sprekeler/status/1455256882155773952?s=20&t=mTEadfKIlJjh6b3N7Or6_Q), [[Cosyne talk]](https://youtu.be/lG1Rn4AwmY8?t=9825)
+  [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2021.10.29.466453v1) [[Twitter]](https://twitter.com/sprekeler/status/1455256882155773952?s=20&t=mTEadfKIlJjh6b3N7Or6_Q) [[Cosyne talk]](https://youtu.be/lG1Rn4AwmY8?t=9825)
 - Optimizing interneuron circuits for compartment-specific feedback inhibition\
   **Keijser** & Sprekeler 
-  [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2020.11.17.386920v2) [[Twitter]](https://twitter.com/sprekeler/status/1329388530808877057?s=20&t=mTEadfKIlJjh6b3N7Or6_Q)
+  [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2020.11.17.386920v2) [[Twitter]](https://twitter.com/sprekeler/status/1329388530808877057?s=20&t=mTEadfKIlJjh6b3N7Or6_Q) [[World Wide Neuro talk]](https://youtu.be/xU-fNLfY3gY)
 
