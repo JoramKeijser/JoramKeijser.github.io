@@ -38,7 +38,9 @@ in the evolutionary process.
 
 Since the start of the COVID pandemic, the world has been confronted with a steady stream of new virus variants, each spreading more rapidly than its predecessors. Where do these new variants come from? Mutations - mistakes in the copying of DNA - introduce changes in the viral genome. Some of these changes give the virus a fitness advantage, for example by making it more transmissible. If this advantage is big enough, the changed genome will come to dominate. 
 
+<p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Mutation_and_selection_diagram.svg" style="background:none; border:none; box-shadow:none;">
+</p>
 <span class="caption" STYLE="font-size:85%"> Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Mutation_and_selection_diagram.svg). </span>
 
 
@@ -46,7 +48,24 @@ The example of COVID evolution highlights the key steps that underlie evolution 
 
 But here’s the catch: most mutations decrease an organism’s fitness. Intuitively, this is because organisms are very complex machines that have been optimised by evolution over a long period of time. And most changes to a complex, highly optimised machine diminish rather than improve its functioning. This seems to imply that mutations should occur at a very low rather than a high rate. And indeed, mutation rates are extremely low. In humans and other vertebrates, for example, on average only 1 base pair in every 100.000.000 (100 million) is replicated incorrectly. This means that the replication machinery could copy the Kandel & Schwartz textbook 40 times without making a mistake! 
 
+
+
+<p align="center">
+<img src="https://pbs.twimg.com/media/ExsPTtQWUAIbHUt?format=jpg&name=large" style="background:none; border:none; box-shadow:none;">
+</p>
+<span class="caption" STYLE="font-size:85%"> Source: [@LecyEmily](https://twitter.com/LecyEmily/status/1376710949239975939?s=20&t=yedkQIMZNGSM9oMcMT2_Xg). </span>
+
+
 Mutations therefore play a paradoxical role in evolution: they are necessary for adaptation, yet should generally be prevented. A solution to this paradox could come in the form of gene-specific mutation rates. Mutation rates should be low for essential genes such as those involved in metabolism, but they should be high for genes with an environmentally- dependent function, or for DNA that is not part of a gene at all. The potential advantages of gene-specific mutation rates provide a strong theoretical argument why mutation rates should be biassed across the genome. But having a compelling theory is of course not enough - we also need to test it.  
+
+## Testing for directed mutations is hard 
+Unfortunately, testing for biassed mutation rates is hard. The ideal experiment would reveal that certain parts of the genome mutate more than others, and that this difference is adaptive. And many studies have shown that certain parts of the human genome indeed show less variation than other parts. But a lack of variation in a certain gene doesn't necessarily result from a lack of mutations. Instead, the gene could mutate just as often as other genes, but when it does, this mutation is eliminated by natural selection because it decreases fitness. 
+
+Since natural variation is the outcome of both mutations and selection, detecting biassed mutations requires observing mutations as they happen. But this is hard, because, as we’ve seen, mutations are very rare. And even if we did find that certain mutations occur more often than others - we still might not know their fitness effect, and therefore wouldn’t be able to tell if the mutational bias is aligned with the fitness gradient. 
+
+Testing for directed mutations therefore requires a model organism that has a fast reproductive cycle, a mutation with clear fitness effects, and a way to determine if the mutation arose when it was beneficial. 
+
+
 
 
 
