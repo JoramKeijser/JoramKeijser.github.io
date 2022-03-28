@@ -51,7 +51,7 @@ The example of COVID evolution highlights the key steps that underlie evolution 
 But here’s the catch: most mutations decrease an organism’s fitness. Intuitively, this is because organisms are very complex machines that have been optimised by evolution over a long period of time. And most changes to a complex, highly optimised machine diminish rather than improve its functioning. This seems to imply that mutations should occur at a very low rather than a high rate. And indeed, mutation rates are extremely low. In humans and other vertebrates, for example, on average only 1 base pair in every 100.000.000 (100 million) is replicated incorrectly. This means that the replication machinery could copy the Kandel & Schwartz textbook almost 40 times without making a mistake![^2]
 
 [^2]: Here I assumed an error rate of 1 in 10^8 basepairs or characters, and 2,536,716 characters per book. This translates to an error rate
-of about 1 in 40 books. But the replication machinery isn't just very accurate, it is also very fast, with a speed of about 100 basepairs per second. This means it could copy the Kandel textbook in around 7 minutes! 
+of about 1 in 40 books - impressively accurate. But the replication machinery isn't just accurate, it is also very fast, with a speed on the order of 1000 basepairs per second. This means the machinery could copy the Kandel textbook in around 7 minutes! 
 
 <p align="center">
 <img src="/images/kandel.jpg" style="background:none; border:none; box-shadow:none;" width="400"/>
