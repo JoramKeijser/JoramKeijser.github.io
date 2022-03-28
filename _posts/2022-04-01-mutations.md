@@ -52,9 +52,9 @@ But here’s the catch: most mutations decrease an organism’s fitness. Intuiti
 
 
 <p align="center">
-<img src="https://pbs.twimg.com/media/ExsPTtQWUAIbHUt?format=jpg&name=large" style="background:none; border:none; box-shadow:none;" width="400"/>
+<img src="/images/kandel.jpg" style="background:none; border:none; box-shadow:none;" width="400"/>
 </p>
-<span class="caption" STYLE="font-size:85%"> Source: [@LecyEmily](https://twitter.com/LecyEmily/status/1376710949239975939?s=20&t=yedkQIMZNGSM9oMcMT2_Xg). </span>
+<span class="caption" STYLE="font-size:85%"> Copying this textbook woulnd't be a problem for the DNA replication machinery.  </span>
 
 Mutations therefore play a paradoxical role in evolution: they are necessary for adaptation, yet should generally be prevented. A solution to this paradox could come in the form of gene-specific mutation rates. Mutation rates should be low for essential genes such as those involved in metabolism, but they should be high for genes with an environmentally- dependent function, or for DNA that is not part of a gene at all. The potential advantages of gene-specific mutation rates provide a strong theoretical argument why mutation rates should be biassed across the genome. But having a compelling theory is of course not enough - we also need to test it.  
 
