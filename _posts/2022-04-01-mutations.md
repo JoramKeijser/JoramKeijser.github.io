@@ -104,17 +104,38 @@ But like the original work from Luria and Delbruck, the follow-up studies findin
 
 ## Genomic clues of non-random mutation rates
 
+In the public perception, the postgenomic era began with the completion of the human genome project, around 20 years ago. But by then, the postgenomic era was already in full swing for certain bacterial species. One of them is E. coli, whose genome was sequenced in 1997. In 2012, [Martincorena et al.](https://doi.org/10.1038/nature10995) compared E. coli genomes to test for biassed mutation rates. They couldn’t simply compare the diversity across genes, since this is shaped by both mutations and selection. They therefore focused on synonymous diversity: variations in DNA that do not affect the gene product. Whereas genes with smaller diversity across organisms might simply be under stronger purifying selection, genes with smaller *synonymous* diversity actually must have a smaller mutation rate.
+
+The authors found that the synonymous diversity varies 20-fold across the E. coli genome, with certain genes showing much less diversity than expected from a uniform mutation rate, and others showing much more. And this pattern correlated with function: the diversity was smallest for essential genes (those critical for healthy function) and those under strong purifying selection. Martincorena et al. therefore concluded that the mutation rate varies across the genome, and that this might constitute an “evolutionary risk management strategy”. 
+
 <p align="center">
 <img src="/images/martincorena.svg" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> (a) Mutation rates (estimated using the synonymous diversity across different strains), vary along the E. coli genome. Red bars indicate 95% confidence interval under a uniform mutation rate. (b) Genes with lower mutation rates are more often essential From [Martincorena et al.](https://doi.org/10.1038/nature10995). </span>
 
+This finding made a splash in the world of evolutionary biology, but soon researchers started to point to several potential problems. One problem was theoretical: mutations to individual genes occur so rarely that the advantage of an even lower and gene-specific mutation rate is too small to evolve, especially since mutations to individual genes typically only have a modest fitness effect.  Other problems with the findings from Martincorena were empirical. For example, Martincorena et al. suggested but did not provide direct evidence for the mechanism underlying non-random mutations. Finally, they aimed to eliminate the effect of selection by analysing only synonymous genetic diversity, but might have failed to account for all fitness effects. Definitive evidence for biassed mutations would therefore require controlling for selection in an even stronger, experimental rather than statistical, way. 
+
 ## Planting the seeds of a revolution
+
+<p align="center">
+<img src="/images/mutation_accumulation.svg" style="background:none; border:none; box-shadow:none;"/>
+</p>
+<span class="caption" STYLE="font-size:85%"> A typical mutation accumulation (MA) experiment, in which n lines are randomly bred for t generations. </span>
+
+A rigorous but time-consuming approach to experimentally minimise the effect of selection is a so-called mutation accumulation experiment. In such an experiment, the experimenter randomly selects the organism that will give rise to the next generation, making reproductive success independent of fitness. Repeating this process for many generations results in the accumulation of mutations untouched by selection. Doing this in parallel for several lines allows us to see if certain mutations arise more frequently than others. 
+
+Recently, [Monroe et al.](https://doi.org/10.1038/s41586-021-04269-6) used mutation accumulation lines to investigate the randomness of mutations in Arabidopsis thaliana (the primary model for plant genetics). They found that genetic variability across mutation accumulation lines greatly varied across the genome, being reduced by a half in gene bodies. Because of the experimental approach,  this reduction can only be explained by a smaller mutation rate, not by selection. 
+
 
 <p align="center">
 <img src="/images/monroe.svg" style="background:none; border:none; box-shadow:none;"/>
 </p>
-<span class="caption" STYLE="font-size:85%"> Left: Arabidopsis thaliana. Middle: mutations are lower for bases within gene bodies. TSS: transcription start sites, TTS:  transcription termination sites.  Right: the mutation rate varies with gene function. </span>
+<span class="caption" STYLE="font-size:85%"> (a): Arabidopsis thaliana. (b): mutations are lower for bases within gene bodies. TSS: transcription start sites, TTS:  transcription termination sites.  (c): the mutation rate varies with gene function. Adapted from [Monroe et al.](https://doi.org/10.1038/s41586-021-04269-6) </span>
+
+This addresses the first objection to earlier reports of biassed mutation rates, but it still leaves open the mechanism through which this bias could occur. Monroe et al. also address this question, by showing that the mutation rate of a genomic region can be predicted from several of its features. Some of these features are epigenomic, i.e. they affect gene expression without changing the DNA itself, for example by changing the histone proteins that package DNA. This change can increase or decrease the genes’ expression by making it more or less accessible to transcription factors. Interestingly, such a change in a gene’s packaging can also increase the accuracy of its replication (see e.g. [Chong et al.](https://doi.org/10.1038/s41467-020-14595-4)). This suggests that natural selection could tune a gene’s mutation rate by shaping DNA packaging around important genes. 
+
+So far, this shows that mutation rates can vary across the genome. Importantly, the authors also show evidence that this variation is adaptive: essential genes, critical for healthy function such as metabolism, mutate less than genes with an environmentally-dependent function. This means that the variation in mutation rate reduces the occurrence of deleterious mutations, and could direct the course of evolution just as well as natural selection. 
+
 
 ## Reconciling Luria-Delbruck with genomic data
 
