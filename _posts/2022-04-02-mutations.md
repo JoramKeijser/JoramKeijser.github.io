@@ -125,7 +125,7 @@ The authors found that the synonymous diversity varies 20-fold across the *E. co
 </p>
 <span class="caption" STYLE="font-size:85%"> (a) Mutation rates (estimated using the synonymous diversity across different strains) vary along the E. coli genome. Red bars indicate 95% confidence interval under a uniform mutation rate. (b) Genes with lower mutation rates are more often essential From [Martincorena et al.](https://doi.org/10.1038/nature10995). </span>
 
-This finding made a splash in the world of evolutionary biology, but soon researchers started to point to several potential problems. One problem was theoretical: mutations to individual genes occur so rarely that the advantage of an even lower and gene-specific mutation rate is too small to evolve, especially since mutations to individual genes typically only have a modest fitness effect. Other challenges were empirical in nature. For example, Martincorena et al. suggested but did not provide evidence for the mechanism underlying non-random mutations. Finally, they aimed to eliminate the effect of selection by analysing only synonymous genetic diversity, but might have failed to account for all fitness effects. 
+This finding made a splash in the world of evolutionary biology, but soon researchers started to point to several potential problems. One problem was theoretical: mutations to individual genes occur so rarely that the advantage of an even lower and gene-specific mutation rate is too small to evolve, especially since mutations to individual genes typically only have a modest fitness effect (see [Chen & Zhang](https://doi.org/10.1093/molbev/mst060), more on this later). Other challenges were empirical in nature (see, e.g. [Maddamsetti et al.](https://doi.org/10.1093/molbev/msv161)). For example, Martincorena et al. suggested but did not provide evidence for the mechanism underlying non-random mutations. Finally, they aimed to eliminate the effect of selection by analysing only synonymous genetic diversity, but might have failed to account for all fitness effects. 
 
 Definitive evidence for biased mutations therefore required a stronger, experimental rather than statistical, control for selection. 
 
@@ -151,8 +151,12 @@ That still leaves open the mechanism through which the bias could occur. Monroe 
 Finally, the authors also show evidence that the mutation rate bias is adaptive: essential genes, critical for healthy function such as metabolism, mutate less than genes with an environmentally-dependent function. This means that the variation in mutation rate reduces the occurrence of deleterious mutations, and could direct the course of evolution just as well as natural selection. 
 
 
-## Reconciling Luria-Delbruck with genomic data
+## Synthesis: how specific are mutation rates? 
+The recent findings from Martincorena and Monroe provide, I think, strong evidence that evolution can tune local mutation rates. So why didn't Luria and Delbruck find that T1 presence didn't increase the likelihood of mutations, when this clearly would have been adaptive? Did they and other classic experiments overlook something? [Perhaps](), but several alternative explanations seem more likely. 
 
 ## Conclusion
+
+## Acknowledgements
+
 
 
