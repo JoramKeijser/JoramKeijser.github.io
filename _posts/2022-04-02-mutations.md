@@ -152,7 +152,7 @@ Finally, the authors also show evidence that the mutation rate bias is adaptive:
 
 
 ## Synthesis: how specific are mutation rates? 
-The recent findings from Martincorena and Monroe provide, I think, strong evidence that evolution can tune local mutation rates. So why didn't Luria and Delbruck find that T1 presence didn't increase the likelihood of mutations, when this clearly would have been adaptive? Did they and other classic experiments overlook something? [Perhaps](), but several alternative explanations seem more likely. 
+The recent findings from Martincorena and Monroe provide, I think, strong evidence that evolution can tune local mutation rates. So why didn't Luria and Delbruck find that T1 presence didn't increase the likelihood of mutations, when this clearly would have been adaptive? Did they and all these other classic experiments overlook something? Did they simply look at the wrong genes? [Perhaps](https://doi.org/10.1088/1478-3975/aa8230), but several alternative explanations seem more likely. 
 
 ## Conclusion
 
