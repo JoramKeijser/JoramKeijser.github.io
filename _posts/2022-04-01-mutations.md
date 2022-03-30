@@ -82,7 +82,7 @@ The solution came to Salvador Luria one evening in 1943, as he was watching a co
 Luria had already overcome the first challenge by choosing the bacterium *Escherichia coli* as a model organism. Most of his colleagues did not consider lowly bacteria relevant for answering deep evolutionary questions. But Luria, a relative newcomer in the field, suspected something we now know to be true: many molecular mechanisms of evolution are shared across the tree of life, all the way from humans to bacteria. On top of this, *E. coli’s* 20 minute replication cycle allows a scientist to go from a single bacterium to millions in less than a day. That’s enough replication cycles for at least some mutations to occur. 
 
 <p align="center">
-<img src="/images/genomes.svg"  width="700" style="background:none; border:none; box-shadow:none;"/>
+<img src="/images/genomes.svg" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> The *E.coli* bacterium, the *methanococcus* archean, and the human eukaryotes are separated by 
   hundreds of millions of years of evolution (top), yet share conserved genetic information. Source: Alberts et al. *Molecular Biology of the Cell*
