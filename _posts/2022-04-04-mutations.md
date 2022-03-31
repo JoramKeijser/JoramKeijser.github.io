@@ -33,7 +33,6 @@ The randomness of mutations can come as a surprise to anyone familiar with gradi
 As Yann LeCun (not exactly just anyone when it comes to gradient descent) recently [wrote on Twitter](https://twitter.com/ylecun/status/1463140027517517824?s=20&t=SHbHtaUJuXu5LNQquuTsSA): 
 
 > People who think evolution works through random mutations and selection need to explain how intelligent life appeared using nothing else. 
-> 
 > Clearly, any optimization process is more efficient if it uses some sort of gradient estimation.
 
 Here, we will investigate why textbooks still teach that evolution works through random mutations, but also why this might change in the light of recent experiments. We will start by reviewing the general role of mutations in the evolutionary process. 
