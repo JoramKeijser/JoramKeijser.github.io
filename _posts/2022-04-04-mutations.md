@@ -5,7 +5,7 @@ title: "Does evolution estimate the fitness gradient?"
 ## Does evolution estimate the fitness gradient?
 
 <p align="center">
-<img src="/images/evo_double.gif" style="background:none; border:none; box-shadow:none;">
+<img src="/images/mutations/evo_double.gif" style="background:none; border:none; box-shadow:none;">
 </p>
 <span class="caption" STYLE="font-size:85%"> Gradient-based optimization is more efficient than gradient-free optimization, yet evolution by natural selection might be gradient free. </span>
 
@@ -70,7 +70,7 @@ Testing for directed mutations therefore requires a model organism that has a fa
 ## Bacteria lead the way
 
 <p align="center">
-<img src="/images/luria.svg" style="background:none; border:none; box-shadow:none; "/>
+<img src="/images/mutations/luria.svg" style="background:none; border:none; box-shadow:none; "/>
 </p>
 <span class="caption" STYLE="font-size:85%"> Salvador Luria ([source](https://www.nobelprize.org/prizes/medicine/1969/luria/facts/
 )), bacteriophages attacking an *E. coli* bacterium ([source](https://www.newyorker.com/tech/annals-of-technology/phage-killer-viral-dark-matter). </span>
@@ -80,7 +80,7 @@ The solution came to Salvador Luria one evening in 1943, as he was watching a co
 Luria had already overcome the first challenge by choosing the bacterium *Escherichia coli* as a model organism. Most of his colleagues did not consider lowly bacteria relevant for answering deep evolutionary questions. But Luria, a relative newcomer in the field, suspected something we now know to be true: many molecular mechanisms of evolution are shared across the tree of life, all the way from humans to bacteria. On top of this, *E. coli’s* 20 minute replication cycle allows a scientist to go from a single bacterium to millions in less than a day. That’s enough replication cycles for at least some mutations to occur. 
 
 <p align="center">
-<img src="/images/genomes.svg" style="background:none; border:none; box-shadow:none;"/>
+<img src="/images/mutations/genomes.svg" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> The *E.coli* bacterium, the *methanococcus* archean, and the human eukaryotes are separated by 
   hundreds of millions of years of evolution (top), yet share conserved genetic information (bottom). Source: Alberts et al. *Molecular Biology of the Cell*. </span>
@@ -92,7 +92,7 @@ Luria therefore decided to investigate if *E. coli’s* T1 resistance occurred s
 ## A Nobel-prize winning experiment 
 
 <p align="center">
-<img src="/images/fluctuation_test.svg"  width="700" style="background:none; border:none; box-shadow:none;"/>
+<img src="/images/mutations/fluctuation_test.svg"  width="700" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> The Luria-Delbruck experiment, for which the competing hypotheses of induced and spontaneous mutations predict different numbers of surviving bacteria. Source: [Wikipedia](https://en.wikipedia.org/wiki/Luria%E2%80%93Delbr%C3%BCck_experiment#/media/File:Luria-delbruck_diagram.svg
 ). </span>
@@ -114,10 +114,10 @@ But like the original work from Luria and Delbruck, the follow-up studies findin
 
 In the public perception, the postgenomic era began with the completion of the human genome project around 20 years ago. But by then, the postgenomic era was already in full swing for certain bacterial species. One of them is *E. coli*, whose genome was sequenced in 1997. In 2012, [Martincorena et al.](https://doi.org/10.1038/nature10995) used this data by comparing *E. coli* genomes to test for biased mutation rates. They couldn’t simply compare the diversity across genes, since this is shaped by both mutations and selection. So instead, they focused on synonymous diversity: those variations in DNA that do not affect the gene product[^4]. Whereas genes with smaller diversity across organisms might simply be under stronger purifying selection, genes with smaller *synonymous* diversity actually must have a smaller mutation rate.
 
-[^4]: The technical definition of synonymous definition is slightly different, but conceptually similar. See the accessibly written original paper from [Martincorena et al.](https://doi.org/10.1038/nature10995). 
+[^4]: The technical definition of synonymous definition is different, but supposed to measure the same thing. See the original paper from [Martincorena et al.](https://doi.org/10.1038/nature10995). 
 
 <p align="center">
-<img src="/images/martincorena.svg" style="background:none; border:none; box-shadow:none;"/>
+<img src="/images/mutations/martincorena.svg" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> (a) Mutation rates (estimated using the synonymous diversity across different strains) vary along the E. coli genome. Red bars indicate the 95% confidence interval under a uniform mutation rate. MB: megabases, or 1000 base pairs. (b) Genes with lower mutation rates are often essential. From [Martincorena et al.](https://doi.org/10.1038/nature10995). </span>
 
@@ -131,7 +131,7 @@ Definitive evidence for biased mutations therefore required a stronger, experime
 ## Planting the seeds of a revolution
 
 <p align="center">
-<img src="/images/mutation_accumulation.svg" style="background:none; border:none; box-shadow:none;"/>
+<img src="/images/mutations/mutation_accumulation.svg" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> A typical mutation accumulation (MA) experiment, in which n lines are randomly bred for t generations. Source: [Halligan & Keightley](http://www.homepages.ed.ac.uk/pkeightl//publications/halligan-keightley-2009.pdf). </span>
 
@@ -143,7 +143,7 @@ Recently, [Grey Monroe](https://doi.org/10.1038/s41586-021-04269-6), working in 
 
 
 <p align="center">
-<img src="/images/monroe.svg" style="background:none; border:none; box-shadow:none;"/>
+<img src="/images/mutations/monroe.svg" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> (a): Arabidopsis thaliana. (b): mutations are lower for bases within gene bodies. TSS: transcription start sites, TTS:  transcription termination sites.  (c): the mutation rate varies with gene function. Adapted from [Monroe et al.](https://doi.org/10.1038/s41586-021-04269-6) </span>
 
