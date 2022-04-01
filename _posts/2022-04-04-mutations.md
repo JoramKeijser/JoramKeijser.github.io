@@ -79,12 +79,6 @@ The solution came to Salvador Luria one evening in 1943, as he was watching a co
 
 Luria had already overcome the first challenge by choosing the bacterium *Escherichia coli* as a model organism. Most of his colleagues did not consider lowly bacteria relevant for answering deep evolutionary questions. But Luria, a relative newcomer in the field, suspected something we now know to be true: many molecular mechanisms of evolution are shared across the tree of life, all the way from humans to bacteria. On top of this, *E. coli’s* 20 minute replication cycle allows a scientist to go from a single bacterium to millions in less than a day. That’s enough replication cycles for at least some mutations to occur. 
 
-<p align="center">
-<img src="/images/mutations/genomes.svg" style="background:none; border:none; box-shadow:none;"/>
-</p>
-<span class="caption" STYLE="font-size:85%"> The *E.coli* bacterium, the *methanococcus* archean, and the human eukaryotes are separated by 
-  hundreds of millions of years of evolution (top), yet share conserved genetic information (bottom). Source: Alberts et al. *Molecular Biology of the Cell*. </span>
-
 Luria had also determined which of *E. coli’s* traits to study. Like other bacteria, *E. coli* is involved in a perpetual and intense arms race with bacteriophages (viruses that infect bacteria). One such virus is the T1 phage, which kills most *E. coli* bacteria. Most, but not all, because *E. coli* can gain resistance to T1 by a mutation that changes the receptor protein to which T1 attaches itself. Luria knew that *E.coli* could become T1 resistant, and that this resistance meant life or death during a T1 invasion - a clear fitness readout of the mutation!
 
 Luria therefore decided to investigate if *E. coli’s* T1 resistance occurred spontaneously, or if it was induced by the presence of T1. If resistance was induced by T1, this would be consistent with directed mutations. But a key challenge still remained: how to tell the competing hypotheses apart? This is when Luria had his epiphany watching the slot machine. He realised that, like the slot machine, the outcome of his resistance experiments also followed the laws of probability theory. 
