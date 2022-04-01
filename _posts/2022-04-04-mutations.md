@@ -7,7 +7,7 @@ title: "Does evolution estimate the fitness gradient?"
 <p align="center">
 <img src="/images/mutations/evo_double.gif" style="background:none; border:none; box-shadow:none;">
 </p>
-<span class="caption" STYLE="font-size:85%"> Gradient-based optimization is more efficient than gradient-free optimization, yet evolution by natural selection might be gradient free. </span>
+<span class="caption" STYLE="font-size:85%"> Gradient-based optimization is more efficient than gradient-free optimization, yet evolution by natural selection might be gradient free. Color indicates performance or (inverse) fitness </span>
 
 
 Imagine you’re on a hike, trying to work your way up a mountain. Unfortunately, it is foggy, so you can see your immediate surroundings 
