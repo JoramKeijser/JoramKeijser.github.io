@@ -54,9 +54,9 @@ But here’s the catch: most mutations actually decrease an organism’s fitness
 [^2]: Here I assumed an error rate of 1 in $10^8$ base pairs or characters, and 2,536,716 characters per book (estimated from the page count). This translates to an error rate of about 1 in 40 books - impressively accurate. But the replication machinery isn't just accurate, it is also very fast, with a speed on the order of 1000 base pairs per second. This means the machinery could copy the entire Kandel textbook in just over 7 minutes! 
 
 <p align="center">
-<img src="/images/kandel.svg" style="background:none; border:none; box-shadow:none;"/>
+<img src="/images/mutations/kandel.svg"  width="800" style="background:none; border:none; box-shadow:none;"/>
 </p>
-<span class="caption" STYLE="font-size:85%"> Mutation rates are larger for organisms with a large genome, but even the mammalian replication machinery is so accurate that it could copy the Kandel textbook without any errors. (a) From Futuyma & Kirkpatrick, *Evolution*, 4th edition. </span>
+<span class="caption" STYLE="font-size:85%"> Mutation rates are larger for organisms with a large genome, but even the mammalian replication machinery is so accurate that it could copy the Kandel textbook without any errors. Bp: base pair. (a) From Futuyma & Kirkpatrick, *Evolution*, 4th edition. </span>
 
 Mutations therefore play a paradoxical role in evolution: they are necessary for adaptation, yet should generally be prevented. A solution to this paradox could come in the form of gene-specific mutation rates. Mutation rates should be low for essential genes such as those involved in metabolism, but they should be high for genes with an environmentally- dependent function, or for DNA that is not part of a gene at all. The potential advantage provides a strong theoretical argument why mutation rates should be biased across the genome. But having a compelling theory is of course not enough - we also need to test it.  
 
