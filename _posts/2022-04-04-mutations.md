@@ -158,6 +158,11 @@ The second difference between classical and recent experiments is in the length 
 
 Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but typically not on a gene-by-gene basis. This is an important point because it addresses a major theoretical argument against the existence of biased mutation rates, namely: the selective advantage of mutation rates that vary on a per-gene basis is too small to evolve. This argument, and why it doesn’t apply to the recent findings, can be made more precise using concepts from the field of population genetics (see the [Addendum](#addendum-quantifying-the-selective-advantage-of-mutational-bia) below).
 
+## Mathematical excursion: Variance of gradient estimation
+
+Without access to analytical gradients or automatic differentiation, evolution would need to estimate fitness gradients using a sampling-based approach.
+The goal here is to estimate the expected gradient... 
+
 
 ## Conclusion: are mutations directed along the fitness gradient?
 In sum, recent data suggests that mutations do not arise independently of their fitness effect, but that selection has simultaneously decreased the mutation rates of essential genes. This is, I think, quite revolutionary, and deserves to be added to the textbooks. Moving forward, it will be exciting to look for mutational bias in different species, and to causally test the molecular mechanisms proposed by Monroe and others. 
