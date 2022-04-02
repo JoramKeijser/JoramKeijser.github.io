@@ -162,9 +162,13 @@ Both Luria & Delbruck and the genomic data are therefore consistent with the ide
 ## Conclusion: are mutations directed along the fitness gradient?
 In sum, recent data suggests that mutations do not arise independently of their fitness effect, but that selection has simultaneously decreased the mutation rates of essential genes. This is, I think, quite revolutionary, and deserves to be added to the textbooks. Moving forward, it will be exciting to look for mutational bias in different species, and to causally test the molecular mechanisms proposed by Monroe and others. 
 
-All this intellectual upheaval does not, in my understanding, imply that evolution “estimates the fitness gradient”.  A key reason was laid out in the previous section: the selective advantage of a gene-specific mutation rate (that follows the gradient) is typically too small to evolve, because individual genes mutate very rarely and when they do, this often has only a weak fitness effect. 
+All this intellectual upheaval does not, in my understanding, constitute sufficient evidence to conclude that evolution “estimates the fitness gradient”. Perhaps future evidence will, but we’ve several reasons why it might not. Genetic drift limits the efficiency of natural selection, such that only those traits can evolve that offer a sufficiently strong fitness benefit. A gene-specific mutation rate might not make this cut, because its advantage is not as large as we initially might have thought. 
 
-The idea that evolution does not estimate the fitness gradient runs counter to the intuition of what it “should” do. The broader lesson, therefore, is that not everything that should evolve also can and will evolve. 
+This conclusion runs counter to our departing point that evolution "should" estimate the fitness gradient. This contradiction doesn’t, of course, imply that biology should dispose of normative theory altogether. It does, however, show that normative theory should be kept in check by data, and more generally, that interdisciplinary interactions should start with an open and curious mind. 
+
+Here, we have considered the possibility that genetic mutations shape the course of evolution. I might use a future blog post to explore how a similar role could be played by processes above the single gene level, such as [development](https://en.wikipedia.org/wiki/Evolutionary_developmental_biology) and [ecology](https://en.wikipedia.org/wiki/Evolutionary_ecology). 
+
+
 
 ## Acknowledgements
 
