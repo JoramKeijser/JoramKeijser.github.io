@@ -2,7 +2,7 @@
 title: "Does evolution estimate the fitness gradient?"
 ---
 
-## Does evolution estimate the fitness gradient?
+## Does evolution estimate gradients?
 
 <p align="center">
 <img src="/images/mutations/evo_double.gif" style="background:none; border:none; box-shadow:none;">
