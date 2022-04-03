@@ -51,7 +51,7 @@ The example of COVID evolution highlights the key steps that underlie evolution 
 
 But here’s the catch: most mutations actually decrease an organism’s fitness. Intuitively, this is because organisms are very complex machines that have been optimised by evolution over a long period of time. And most changes to a complex, highly optimised machine diminish rather than improve its functioning. This seems to imply that mutations should occur at a very low rather than a high rate. And indeed, mutation rates *are* extremely low. In humans and other vertebrates, for example, on average only 1 base pair in every $10^8$ (hundred million) is replicated incorrectly. This means that the replication machinery could copy the famous Kandel, Schwartz & Jessel textbook almost 40 times without making a mistake![^2]
 
-[^2]: Here I assumed an error rate of 1 in 10^8 base pairs or characters, and 2,536,716 characters per book (estimated from the page count). This translates to an error rate of about 1 in 40 books - impressively accurate. But the replication machinery isn't just accurate, it is also very fast, with a speed on the order of 1000 base pairs per second. This means the machinery could copy the entire Kandel textbook in just over 7 minutes! 
+[^2]: Here I assumed an error rate of 1 in $10^8$ base pairs or characters, and 2,536,716 characters per book (estimated from the page count). This translates to an error rate of about 1 in 40 books - impressively accurate. But the replication machinery isn't just accurate, it is also very fast, with a speed on the order of 1000 base pairs per second. This means the machinery could copy the entire Kandel textbook in just over 7 minutes! 
 
 <p align="center">
 <img src="/images/mutations/kandel.svg"  width="800" style="background:none; border:none; box-shadow:none;"/>
@@ -167,13 +167,13 @@ Let's start with a simple case: the fitness effect of a decreased mutation rate 
 
 In general, therefore, the advantage of a mutational bias is smaller for a low baseline mutation rate, and it becomes bigger with the strength of the mutational bias and the fitness effect of mutations. Given the data, the increase in fitness from a mutational bias is therefore equal to
 
-<center> U x f x s = 10^(-8) x  0.9 x 0.01 =  9 x 10^(-11). </center>
+<center> $U x f x s = 10^{-8} x  0.9 x 0.01 =  9 x 10^(-11).$ </center>
 
 That sounds small, but is it too small? In general, only those traits can evolve by natural selection if their selective advantage is strong enough to overcome other evolutionary forces, in particular [genetic drift](https://en.wikipedia.org/wiki/Genetic_drift) (evolution by chance). The strength of genetic drift is typically measured by the inverse of the [effective population size](https://en.wikipedia.org/wiki/Effective_population_size), because chance plays a bigger role in smaller populations. The effective population size of *Arabidopsis* is $300,000$, such that genetic drift has a strength of $1/300000 = 3.33 x 10^{-6}$ -- several orders of magnitude above the selective advantage. Selection is therefore overwhelmed by drift, and it cannot create a base pair specific mutation rate. 
 
 Things look very different, however, if we consider a mutation rate that varies across *multiple base pairs*, because this has a fitness advantage proportional to 
 
-<center> 9 x 10^(-11) x L, </center>
+<center> $9 x 10^(-11) x L$, </center>
 
 with *L* the number of bases that share the same mutation rate modification. The advantage is strong enough to overcome genetic drift if, roughly, *L* is at least 200,000 base pairs, or 1.5% of the Arabidopsis genome - much smaller than the region with strong epigenetic marks observed by Monroe[^6].
 
