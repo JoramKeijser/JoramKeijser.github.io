@@ -156,12 +156,28 @@ An explanation might be that decreased mutation rates in essential genes have pr
 
 The second difference between classical and recent experiments is in the length of the genomic region across which mutation rates might vary. Luria & Delbruck found that the mutation rate of a single gene (that for the receptor protein) did not increase under positive selection. Martincorena & Monroe, on the other hand, found that mutation rates vary across many genes at once. One of the key epigenetic marks that might decrease mutation rates, for example, is shared by at least 15% of the Arabidopsis genome. 
 
-Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but typically not on a gene-by-gene basis. This is an important point because it addresses a major theoretical argument against the existence of biased mutation rates, namely: the selective advantage of mutation rates that vary on a per-gene basis is too small to evolve. This argument, and why it doesn’t apply to the recent findings, can be made more precise using concepts from the field of population genetics (see the [Addendum](#addendum-quantifying-the-selective-advantage-of-mutational-bia) below).
+Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but typically not on a gene-by-gene basis. This is an important point because it addresses a major theoretical argument against the existence of biased mutation rates, namely: the selective advantage of mutation rates that vary on a per-gene basis is too small to evolve. This argument, and why it doesn’t apply to the recent findings, can be made more precise using concepts from the field of population genetics.
 
-## Mathematical excursion: Variance of gradient estimation
+## Quantifying the advantage of mutational bias
 
-Without access to analytical gradients or automatic differentiation, evolution would need to estimate fitness gradients using a sampling-based approach.
-The goal here is to estimate the expected gradient... 
+Let's start with a simple case: the fitness effect of a decreased mutation rate in a *single base pair*. Let's also assume this base pair typical in the sense that it is under purifying selection, i.e. a mutation decreases fitness, so a decreased mutation rate increases fitness. This increase is then the product of two factors: the change in the mutation rate and the average fitness effect of a mutation: 
+
+* The change in the mutation rate, in turn, is the product of the original mutation rate *U* and the fractional change in mutation rate *f*. Here *U* =  10^-8^, and *f* = 0.9 (a two-thirds decrease for essential genes). 
+* The change in fitness is quantified using the so-called selection coefficient](https://en.wikipedia.org/wiki/Selection_coefficient), which is the average decrease in offspring from a mutation. From the data: *s* = 0.01; a point-mutation leads, on average, to average decrease in offspring of 1%. 
+
+In general, therefore, the advantage of a mutational bias is smaller for a low baseline mutation rate, and it becomes bigger with the strength of the mutational bias and the fitness effect of mutations. Given the data, the increase in fitness from a mutational bias is therefore equal to
+
+<center>*U x f x s =* 10^(-8) x  0.9 x 0.01 =  9 x 10^(-11). </center>
+
+That sounds small, but is it too small? In general, only those traits can evolve by natural selection if their selective advantage is strong enough to overcome other evolutionary forces, in particular [genetic drift](https://en.wikipedia.org/wiki/Genetic_drift) (evolution by chance). The strength of genetic drift is typically measured by the inverse of the [effective population size](https://en.wikipedia.org/wiki/Effective_population_size), because chance plays a bigger role in smaller populations. The effective population size of *Arabidopsis* is 300,000, such that genetic drift has a strength of 1/300000 = 3.33 x 10^(-6) -- several orders of magnitude above the selective advantage. Selection is therefore overwhelmed by drift, and it cannot create a base pair specific mutation rate. 
+
+Things look very different, however, if we consider a mutation rate that varies across *multiple base pairs*, because this has a fitness advantage proportional to 
+
+<center> 9 x 10^(-11) x L, </center>
+
+with *L* the number of bases that share the same mutation rate modification. The advantage is strong enough to overcome genetic drift if, roughly, *L* is at least 200,000 base pairs, or 1.5% of the Arabidopsis genome - much smaller than the region with strong epigenetic marks observed by Monroe.  
+
+The upshot is that genetic drift limits the efficiency of natural selection, such that traits can only be selected for if their fitness advantage is large enough. The advantage of a base- or even gene-specific mutation rate is not large enough, at least not for most genes. 
 
 
 ## Conclusion: are mutations directed along the fitness gradient?
@@ -176,12 +192,4 @@ Here, we have considered the possibility that genetic mutations shape the course
 
 
 ## Acknowledgements
-
-## Addendum: quantifying the selective advantage of mutational bias
-The goal here is to determine the conditions under which the selective advantage of mutational bias is strong enough for it to evolve. Here, I summarise my understanding of the argument. See the papers from [Lynch et al.](https://www.nature.com/articles/nrg.2016.104), [Chen & Zhang](https://doi.org/10.1093/molbev/mst060), and Extended Data Fig. 10 from [Monroe et al.](https://doi.org/10.1038/s41586-021-04269-6) for a more detailed explanation. 
-
-Briefly, the idea is that the selective advantage of a change in the local mutation rate is proportional to $u \times \Delta u \times s$, with $u$ is the original mutation rate, $\Delta u$ the fractional change in the mutation rate, and $s$ the [selection coefficient](https://en.wikipedia.org/wiki/Selection_coefficient) of a mutation (its average fitness effect). Based on the literature, $U = 10^(-8), \Delta U = 0.9$, and $s = 0.01$, such that the selective effect of a change in the mutation rate equals $9\times 10^{-11}$. That sounds small, but is it too small? In general, only those traits can evolve by natural selection if their selective advantage is strong enough to overcome other evolutionary forces, in particular genetic drift (evolution by chance). The strength of genetic drift is typically measured by the inverse of the [effective population size](https://en.wikipedia.org/wiki/Effective_population_size), because chance plays a bigger role in smaller populations. The effective population size of *Arabidopsis* is 300,000, such that genetic drift has strength $1/300000 = 3.33 \times 10^(-6)$ -- several orders of magnitude above the selective advantage. Selection is therefore overwhelmed by drift. Things look very different, however, if we consider a mutation rate that varies across many base pairs, because this has a fitness advantage proportional to  $9\times 10^{-11} \times L$, with L the number of bases that share the same mutation rate modification. The advantage is strong enough to overcome genetic drift if, roughly, L is at least 200,000 base pairs, or 1.5% of the Arabidopsis genome - much smaller than the region with strong epigenetic marks observed by Monroe.  
-
-The upshot is that genetic drift limits the efficiency of natural selection, such that traits can only be selected for if their fitness advantage is large enough. The advantage of a base- or even gene-specific mutation rate is not large enough, at least not for most genes. 
-
 
