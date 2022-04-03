@@ -149,7 +149,7 @@ That still leaves open the mechanism through which the bias could occur. Monroe 
 Finally, the authors also show evidence that the mutation rate bias is adaptive: essential genes mutate less than genes with an environmentally-dependent function. This means that the variation in mutation rate reduces the occurrence of deleterious mutations, and could direct the course of evolution just as well as natural selection. 
 
 
-## Reconciling the textbook and recent data
+## Reconciling the textbook with genomics data
 The genomic data from Martincorena and Monroe provide strong evidence that natural selection can tune local mutation rates. So why didn't Luria and Delbruck find that T1 presence increased the likelihood of mutations when this clearly would have been adaptive? 
 Did they and all these other classic experiments overlook something? Perhaps, but several alternative explanations seem more pertinent. 
 
