@@ -37,6 +37,8 @@ As Yann LeCun (not exactly just anyone when it comes to gradient descent) recent
 
 Here, we will investigate why textbooks still teach that evolution works through random mutations, but also why this might change in the light of recent experiments. We will start by reviewing the general role of mutations in the evolutionary process. 
 
+{:toc}
+
 ## Mutations are the fuel for evolution
 
 Since the start of the COVID pandemic, the world has been confronted with a steady stream of new virus variants, each spreading more rapidly than its predecessors. Where do these new variants come from? Mutations - mistakes in the copying of DNA - introduce changes in the viral genome. Some of these changes give the virus a fitness advantage, for example by making it more transmissible. If this advantage is big enough, the changed genome will come to dominate. 
