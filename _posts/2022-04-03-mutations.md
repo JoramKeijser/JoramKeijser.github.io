@@ -37,6 +37,7 @@ As Yann LeCun (not exactly just anyone when it comes to gradient descent) recent
 
 Here, we will investigate why textbooks still teach that evolution works through random mutations, but also why this might change in the light of recent experiments. We will start by reviewing the general role of mutations in the evolutionary process. 
 
+1. TOC
 {:toc}
 
 ## Mutations are the fuel for evolution
@@ -75,7 +76,7 @@ Testing for directed mutations therefore requires a model organism that has a fa
 <img src="/images/mutations/luria.svg" style="background:none; border:none; box-shadow:none; "/>
 </p>
 <span class="caption" STYLE="font-size:85%"> Salvador Luria ([source](https://www.nobelprize.org/prizes/medicine/1969/luria/facts/
-)), bacteriophages attacking an *E. coli* bacterium ([source](https://www.newyorker.com/tech/annals-of-technology/phage-killer-viral-dark-matter). </span>
+)), bacteriophages attacking an *E. coli* bacterium ([source](https://www.newyorker.com/tech/annals-of-technology/phage-killer-viral-dark-matter)). </span>
 
 The solution came to Salvador Luria one evening in 1943, as he was watching a colleague try their luck at a slot machine. Only three years ago, the Jewish Luria had fled France after the Nazi’s invaded the country, riding 800 kilometers from Paris to Marseille on his bicycle before obtaining a visa to the US. Since then, the 30 year old Luria had become obsessed with the origin of mutations. The issue had attracted many scientists before him, but progress had been slow due to the challenge of finding mutations and linking them to fitness. 
 
