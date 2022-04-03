@@ -131,7 +131,7 @@ Definitive evidence for biased mutations therefore required a stronger, experime
 
 A rigorous but time-consuming approach to experimentally minimise the effect of selection is a so-called mutation accumulation experiment. In such an experiment, the experimenter randomly selects the organism that will give rise to the next generation, making reproductive success independent of fitness[^5]. Repeating this process for many generations results in the accumulation of mutations untouched by selection. Doing this in parallel for several lines allows us to see if certain mutations arise more frequently than others. 
 
-[^5]: Note that this only workds for asexually reproducing organisms. 
+[^5]: Note that this only works for asexually reproducing organisms. 
 
 Recently, [Grey Monroe](https://doi.org/10.1038/s41586-021-04269-6), working in the lab of [Detlev Wiegel](https://weigelworld.org/), used mutation accumulation lines to investigate the randomness of mutations in *Arabidopsis thaliana* (the primary model for plant genetics). The authors found that genetic variability across mutation accumulation lines greatly varied across the genome, being reduced by a half in gene bodies. This time around, the reduced variability really could not be due to selection, and therefore had to be attributed to bias in the mutation rate. 
 
@@ -175,7 +175,9 @@ Things look very different, however, if we consider a mutation rate that varies 
 
 <center> 9 x 10^(-11) x L, </center>
 
-with *L* the number of bases that share the same mutation rate modification. The advantage is strong enough to overcome genetic drift if, roughly, *L* is at least 200,000 base pairs, or 1.5% of the Arabidopsis genome - much smaller than the region with strong epigenetic marks observed by Monroe.  
+with *L* the number of bases that share the same mutation rate modification. The advantage is strong enough to overcome genetic drift if, roughly, *L* is at least 200,000 base pairs, or 1.5% of the Arabidopsis genome - much smaller than the region with strong epigenetic marks observed by Monroe[^6].
+
+[^6]: One of the aspects I glossed over is the fact that only a fraction of a genomic region is under (purifying) selection. To account for this, the minimum length has to be increased proportionally, see [Monroe et al.]() I also ignored the fact that the advantage of a mutational bias is smaller in sexually reproducing species. This can be modeled by the "average persistance time" as another factor in the equation for the fitness advantage, see [Lynch et al](https://doi.org/10.1038/nrg.2016.104). 
 
 The upshot is that genetic drift limits the efficiency of natural selection, such that traits can only be selected for if their fitness advantage is large enough. The advantage of a base- or even gene-specific mutation rate is not large enough, at least not single base pairs or even single genes. But the advantage of a mutational bias that covers many base pairs at once is large enough to evolve, consistent with the data from Monroe et al. 
 
