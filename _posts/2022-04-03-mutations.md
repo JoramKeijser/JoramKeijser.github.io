@@ -187,10 +187,7 @@ In sum, recent data suggests that mutations do not arise independently of their 
 
 All this intellectual upheaval does not, in my understanding, constitute sufficient evidence to conclude that evolution “estimates the fitness gradient”. Perhaps future evidence will, but we’ve several reasons why it might not. Genetic drift limits the efficiency of natural selection, such that only those traits can evolve that offer a sufficiently strong fitness benefit. A gene-specific mutation rate might not make this cut, because its advantage is not as large as we initially might have thought. 
 
-This conclusion runs counter to our departing point that evolution "should" estimate the fitness gradient. This contradiction doesn’t, of course, imply that biology should dispose of normative theory altogether. It does, however, show that normative theory should be kept in check by data, and more generally, that interdisciplinary interactions should start with an open and curious mind. 
-
-Here, we have considered the possibility that genetic mutations shape the course of evolution. I might use a future blog post to explore how a similar role could be played by processes above the single gene level, such as [development](https://en.wikipedia.org/wiki/Evolutionary_developmental_biology) and [ecology](https://en.wikipedia.org/wiki/Evolutionary_ecology). 
-
+In this blog post, we have considered why genetic mutations shape the course of evolution. I might use a future blog post to explore how a similar role could be played by processes above the single gene level, such as [development](https://en.wikipedia.org/wiki/Evolutionary_developmental_biology) and [ecology](https://en.wikipedia.org/wiki/Evolutionary_ecology). 
 
 
 ## Acknowledgements
