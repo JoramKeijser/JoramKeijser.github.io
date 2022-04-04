@@ -5,7 +5,7 @@ title: "Does evolution estimate the fitness gradient?"
 ## Does evolution estimate gradients?
 
 <p align="center">
-<img src="/images/mutations/evo_double.gif" style="background:none; border:none; box-shadow:none;">
+<img src="/images/mutations/evo_double.gif"  style="background:none; border:none; box-shadow:none;">
 </p>
 <span class="caption" STYLE="font-size:85%"> Gradient-based optimization is more efficient than gradient-free optimization. Both optimization algorithms minimise the same quadratic loss function. Color indicates performance or (inverse) fitness </span>
 
