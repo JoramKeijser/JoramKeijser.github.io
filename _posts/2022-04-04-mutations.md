@@ -55,7 +55,7 @@ But here’s the catch: most mutations actually decrease an organism’s fitness
 [^2]: Here I assumed an error rate of 1 in $10^8$ base pairs or characters, and 2,536,716 characters per book (estimated from the page count). This translates to an error rate of about 1 in 40 books - impressively accurate. But the replication machinery isn't just accurate, it is also very fast, with a speed on the order of 1000 base pairs per second. This means the machinery could copy the entire Kandel textbook in just over 7 minutes! 
 
 <p align="center">
-<img src="/images/mutations/kandel.svg"  width="800" style="background:none; border:none; box-shadow:none;"/>
+<img src="/images/mutations/kandel.svg"  width="700" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> Mutation rates are larger for organisms with a large genome, but even the mammalian replication machinery is so accurate that it could copy the Kandel textbook without any errors. Bp: base pair. (a) From Futuyma & Kirkpatrick, *Evolution*, 4th edition. </span>
 
@@ -71,7 +71,7 @@ Testing for directed mutations therefore requires a model organism that has a fa
 ## Bacteria lead the way
 
 <p align="center">
-<img src="/images/mutations/luria.svg" style="background:none; border:none; box-shadow:none; "/>
+<img src="/images/mutations/luria.svg"  width="700" style="background:none; border:none; box-shadow:none; "/>
 </p>
 <span class="caption" STYLE="font-size:85%"> Salvador Luria ([source](https://www.nobelprize.org/prizes/medicine/1969/luria/facts/
 )), bacteriophages attacking an *E. coli* bacterium ([source](https://www.newyorker.com/tech/annals-of-technology/phage-killer-viral-dark-matter)). </span>
@@ -87,7 +87,7 @@ Luria therefore decided to investigate if *E. coli’s* T1 resistance occurred s
 ## A Nobel-prize winning experiment 
 
 <p align="center">
-<img src="/images/mutations/fluctuation_test.svg"  width="700" style="background:none; border:none; box-shadow:none;"/>
+<img src="/images/mutations/fluctuation_test.svg"  width="600" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> The Luria-Delbruck experiment, for which the competing hypotheses of induced and spontaneous mutations predict different numbers of surviving bacteria. Source: [Wikipedia](https://en.wikipedia.org/wiki/Luria%E2%80%93Delbr%C3%BCck_experiment#/media/File:Luria-delbruck_diagram.svg
 ). </span>
@@ -124,7 +124,7 @@ Definitive evidence for biased mutations therefore required a stronger, experime
 ## Planting the seeds of a revolution
 
 <p align="center">
-<img src="/images/mutations/mutation_accumulation.svg" style="background:none; border:none; box-shadow:none;"/>
+<img src="/images/mutations/mutation_accumulation.svg"  width="700" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> A typical mutation accumulation (MA) experiment, in which n lines are randomly bred for t generations. Source: [Halligan & Keightley](http://www.homepages.ed.ac.uk/pkeightl//publications/halligan-keightley-2009.pdf). </span>
 
