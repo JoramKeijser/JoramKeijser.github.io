@@ -37,8 +37,6 @@ As Yann LeCun (not exactly just anyone when it comes to gradient descent) recent
 
 Here, we will investigate why textbooks still teach that evolution works through random mutations, but also why this might change in the light of recent experiments. We will start by reviewing the general role of mutations in the evolutionary process. 
 
-1. TOC
-{:toc}
 
 ## Mutations are the fuel for evolution
 
