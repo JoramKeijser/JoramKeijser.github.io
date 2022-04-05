@@ -18,8 +18,8 @@ ascent is the most promising[^1].
 [^1]: According to my partner, who is Swiss, hiking in foggy mountains can actually be dangerous. So you should actually try to head home rather than up.
 
 The same intuition underlies many optimisation algorithms, including those that power deep neural networks. 
-Instead of choosing a hiking direction, the algorithm chooses network parameters,  and instead of trying to get up a mountain, 
-it tries to improve the network’s performance. But the basic idea is the same: make a change in the direction of steepest improvement. 
+Instead of choosing a hiking direction, these algorithms choose network parameters, and instead of trying to get up a mountain, 
+they try to improve the network’s performance. But the basic idea is the same: make a change in the direction of steepest improvement. 
 Mathematically, this direction is known as the gradient of the objective function, and the overall approach is known as gradient ascent 
 (or descent, if we’re dealing with an objective like a cost that should be minimised). Optimization algorithms that don’t use the gradient are 
 typically less efficient than algorithms that do, and deep learning would not enjoy its current success without it. 
