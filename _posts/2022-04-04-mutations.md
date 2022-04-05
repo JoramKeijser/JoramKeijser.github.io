@@ -15,7 +15,7 @@ but not the mountain top. In which direction do you decide to walk? Your intuiti
 terrain around you rises most rapidly. And this intuition makes sense: without knowledge about the overall landscape, the immediate direction of steepest
 ascent is the most promising[^1]. 
 
-[^1]: According to my partner, who is Swiss, hiking in foggy mountains can actually be dangerous. So you should probably head home rather than up.
+[^1]: According to my partner, who is Swiss, hiking in foggy mountains can actually be dangerous. So you should actually try to head home rather than up.
 
 The same intuition underlies many optimisation algorithms, including those that power deep neural networks. 
 Instead of choosing a hiking direction, the algorithm chooses network parameters,  and instead of trying to get up a mountain, 
