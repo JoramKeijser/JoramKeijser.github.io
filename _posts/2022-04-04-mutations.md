@@ -25,7 +25,7 @@ Mathematically, this direction is known as the gradient of the objective functio
 typically less efficient than algorithms that do, and deep learning would not enjoy its current success without it. 
 
 Yet, evolution by natural selection – arguably the most impressive optimisation algorithm we know – does not exploit this powerful principle. 
-At least it doesn’t according to conventional wisdom in the field of evolutionary biology. For example, Futuyma and Kirkpatrick write in their authoritative textbook *Evolution*: 
+At least it doesn’t according to conventional wisdom, which says that evolution starts by random genetic changes (mutations). Futuyma and Kirkpatrick write in their authoritative textbook *Evolution*: 
 
 > Mutations are random with respect to what will improve survival and reproduction. New conditions do not increase the frequency of mutations that are beneficial in those conditions.
 
