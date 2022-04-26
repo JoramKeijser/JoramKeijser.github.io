@@ -174,4 +174,4 @@ In this blog post, we have considered how genetic mutations might influence the 
 
 ## Acknowledgements
 
-Thanks to Wesley Clawson and Inigo Martincorena for comments. 
+Thanks to [Wesley Clawson](https://www.wesleyclawson.com/) and [Inigo Martincorena](https://www.sanger.ac.uk/person/martincorena-inigo/) for comments. 
