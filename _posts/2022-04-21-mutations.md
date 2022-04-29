@@ -169,7 +169,8 @@ Genetic drift is stronger in small populations, just like chance plays a larger 
 	<span style="color:red"> Genetic drift = 1/population size. </span>	 
 </p>
 
-[^7]: More precisely, the inverse [effective population size](https://en.wikipedia.org/wiki/Effective_population_size), which accounts for, e.g., the size of past populations, and is typically much smaller than actual population size. Humans, for example, have only an effective population size of about 13,000 individuals. 
+[^7]: More precisely, the inverse [effective population size](https://en.wikipedia.org/wiki/Effective_population_size), which accounts for, e.g., the size of past populations. It is typically much smaller than actual population size; humans have a effective population size of only about 13,000 individuals. 
+This means that genetic drift plays are relatively large role in us compared to, for example, _E. coli_, which has an effective population size of about 13 _million_ individuals. 
 
 The expected fitness advantage can be decomposed into three terms: 
 <p align="center">
