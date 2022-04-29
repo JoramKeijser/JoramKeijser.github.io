@@ -7,8 +7,7 @@ title: "Does evolution estimate the fitness gradient?"
 <p align="center">
 <img src="/images/mutations/evo_double.gif"  style="background:none; border:none; box-shadow:none;">
 </p>
-<span class="caption" STYLE="font-size:85%"> Gradient-based optimization is more efficient than gradient-free optimization. Both optimization algorithms minimise the same quadratic loss function. Color indicates performance or (inverse) fitness </span>
-
+<span class="caption" STYLE="font-size:85%"> A gradient-based (left) and a gradient-free (right) algorithm that minimise the same noisy quadratic loss function. Color indicates performance. </span>
 
 Imagine you’re on a hike, trying to work your way up a mountain. Unfortunately, it's a foggy day, so you can see your immediate surroundings 
 but not the mountain top. In which direction do you decide to walk? Your intuition probably tells you to choose the direction in which the 
