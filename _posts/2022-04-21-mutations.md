@@ -10,7 +10,7 @@ title: "Does evolution estimate the fitness gradient?"
 <span class="caption" STYLE="font-size:85%"> Gradient-based optimization is more efficient than gradient-free optimization. Both optimization algorithms minimise the same quadratic loss function. Color indicates performance or (inverse) fitness </span>
 
 
-Imagine you’re on a hike, trying to work your way up a mountain. Unfortunately, it's foggy, so you can see your immediate surroundings 
+Imagine you’re on a hike, trying to work your way up a mountain. Unfortunately, it's a foggy day, so you can see your immediate surroundings 
 but not the mountain top. In which direction do you decide to walk? Your intuition probably tells you to choose the direction in which the 
 terrain around you rises most rapidly. And this intuition makes sense: without knowledge about the overall landscape, the immediate direction of steepest
 ascent is the most promising[^1]. 
@@ -158,7 +158,33 @@ The third difference between classical and recent experiments is in the length o
 
 Finally, the genomic studies did not specifically look for, or find, evidence for environmentally induced variations in the mutation rate. 
 
-Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but typically not on a gene-by-gene basis. This is an important point because it addresses a major theoretical argument against the existence of biased mutation rates, namely: the selective advantage of mutation rates that vary on a per-gene basis is too small to evolve. This argument, and why it doesn’t apply to the recent findings, can be made more precise using concepts from the field of population genetics (see Fig. S10 from Monroe et al.). The upshot: Genetic drift (evolution by chance) limits the efficiency of natural selection, such that traits can only evolve if their fitness advantage is large enough. A change in the mutation rate only meets this bar if the change is shared by many genes at once. This point was already made by Martincorena in [an essay](https://doi.org/10.1002/bies.201200150) following their 2012 Nature paper, but was largely lost in the ensuing debate. 
+Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a gene-by-gene basis. This is important, because it addresses a major concern: selection is too weak to tune the mutation rates of individual genes. 
+
+In general, a trait will only be selected for (or against) if its fitness advantage overcomes other evolutionary forces, in particular genetic drift (evolution due to chance). We need:
+<p align="center">
+    selective advantage > genetic drift. 
+</p>
+Genetic drift is stronger in small populations, just like chance plays a smaller role in determining the average outcome of, say, 1000 versus 10 coin tosses. Specifically, the strength of genetic drift is assumed to be proportional to the inverse population size:
+<p align="center">
+			Genetic drift = 1/population size. 
+</p>
+For selection to tune the mutation rate of a single gene, this tuning would therefore have to increase fitness by at least 1/N. The expected fitness advantage can be decomposed into three terms: 
+<p align="center">
+      Fitness advantage = mutation rate * change in mutation rate * effect of mutation. 
+</p>
+Selection is therefore strong enough to tune mutation rates of a single gene if 
+<p align="center">
+          mutation rate * change in mutation rate * effect of mutation > 1/population size. 
+</p>
+Now here’s the problem: As we’ve seen, mutation rates are extremely low, and the fitness effect of most mutations is small. Selection on a gene-specific mutation rate is therefore overwhelmed by genetic drift, especially in species with small population sizes such as humans. 
+
+But this dramatically changes when considering the tuning of mutation rates of many genes at once, because the fitness advantage scales with the size L of the genomic segment that is affected together (Martincorena & Luscombe 2013):
+<p align="center">
+mutation rate * change in mutation rate * effect of mutation * L > 1/population size. 
+</p>
+Monroe et al. do the maths and show that, in arabidopsis, the minimum length L  would have to be at least 200,000 base pairs. This is much smaller than the region of the genome affected by the mechanisms thought to do the tuning. 
+
+
 
 ## Conclusion
 
