@@ -157,30 +157,29 @@ A reason might be that decreased mutation rates in essential genes have proven a
 The third difference between classical and recent experiments is in the length of the genomic region across which mutation rates might vary. Luria & Delbruck found that the mutation rate of a single gene (that for the receptor protein) did not increase under positive selection. Martincorena & Monroe, on the other hand, found that mutation rates vary across many genes at once. One of the key epigenetic marks that might decrease mutation rates, for example, is shared by at least 15% of the Arabidopsis genome. 
 
 ## Selection tunes the mutation rate of many genes at once
-Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a gene-by-gene basis. This is important, because it addresses the theoretical concern that selection would be too weak to tune the mutation rates of individual genes. In general, a trait will only be selected for (or against) if its fitness advantage overcomes other evolutionary forces, in particular genetic drift (evolution due to chance). We need:
+Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a gene-by-gene basis. This is important, because it addresses the theoretical concern that selection would be too weak to tune the mutation rates of individual genes. In general, a trait will only be selected for (or against) if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces, in particular <span style="color:red">genetic drift </span> (evolution due to chance). We need:
 <p align="center">
 	<span style="color:green">advantage</span>  > <span style="color:red"> genetic drift</span>
 </p>
 Genetic drift is stronger in small populations, just like chance plays a smaller role in determining the average outcome of, say, 1000 versus 10 coin tosses. Specifically, the strength of genetic drift is assumed to be proportional to the inverse population size:
 <p align="center">
-			Genetic drift = 1/population size. 
+	<span style="color:red"> Genetic drift = 1/population size. </span>	 
 </p>
 For selection to tune the mutation rate of a single gene, this tuning would therefore have to increase fitness by at least 1/N. The expected fitness advantage can be decomposed into three terms: 
 <p align="center">
-      Fitness advantage = mutation rate * change in mutation rate * effect of mutation. 
+	<span style="color:green"> Advantage = mutation rate * change in mutation rate * effect of mutation.</span>
 </p>
 Selection is therefore strong enough to tune mutation rates of a single gene if 
 <p align="center">
-          mutation rate * change in mutation rate * effect of mutation > 1/population size. 
+ <span style="color:green"> mutation rate * change in mutation rate * effect of mutation </span> > <span style="color:red"> 1/population size. </span>
 </p>
 Now here’s the problem: As we’ve seen, mutation rates are extremely low, and the fitness effect of most mutations is small. Selection on a gene-specific mutation rate is therefore overwhelmed by genetic drift, especially in species with small population sizes such as humans. 
 
-But this dramatically changes when considering the tuning of mutation rates of many genes at once, because the fitness advantage scales with the size L of the genomic segment that is affected together (Martincorena & Luscombe 2013):
+This dramatically changes when considering the tuning of mutation rates of many genes at once, because the fitness advantage scales with the size *L* of the genomic segment that is affected together (Martincorena & Luscombe 2013):
 <p align="center">
-mutation rate * change in mutation rate * effect of mutation * L > 1/population size. 
+ <span style="color:green"> mutation rate * change in mutation rate * effect of mutation * L </span> > <span style="color:red"> 1/population size. </span>
 </p>
 Monroe et al. do the maths and show that, in arabidopsis, the minimum length L  would have to be at least 200,000 base pairs. This is much smaller than the region of the genome affected by the mechanisms thought to do the tuning. 
-
 
 
 ## Conclusion
