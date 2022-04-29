@@ -158,21 +158,21 @@ The third difference between classical and recent experiments is in the length o
 
 ## Tuning the mutation rate of many genes at once
 Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a gene-by-gene basis. This is important, because it addresses the theoretical concern that selection is too weak to tune the mutation rates of individual genes. 
-Why is selection "too weak"? In general, a trait will only be selected for (or against) if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces[^4], in particular <span style="color:red">[genetic drift](https://en.wikipedia.org/wiki/Genetic_drift)</span> (evolution due to chance):
+Why is selection "too weak"? In general, a trait will only be selected for (or against) if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces[^6], in particular <span style="color:red">[genetic drift](https://en.wikipedia.org/wiki/Genetic_drift)</span> (evolution due to chance):
 <p align="center">
 	<span style="color:green">advantage</span>  > <span style="color:red"> genetic drift</span>
 </p>
  
-[^4]: That's right, natural selection is not the only cause of evolution. Genetic drift is real, and it limits the efficiency of natural selection. 
+[^6]: That's right, natural selection is not the only cause of evolution. Genetic drift is real, and it limits the efficiency of natural selection. 
 Think: machine learning with noisy labels or rewards. The noise can limit and even completely stall learning, 
 especially for parameters that only have a smal influence on performance. 
 
-Genetic drift is stronger in small populations, just like chance plays a larger role in determining the average outcome of, say, 10 versus 10000 coin tosses. Specifically, the strength of genetic drift is assumed to be proportional to the inverse population size[^5]:
+Genetic drift is stronger in small populations, just like chance plays a larger role in determining the average outcome of, say, 10 versus 10000 coin tosses. Specifically, the strength of genetic drift is assumed to be proportional to the inverse population size[^7]:
 <p align="center">
 	<span style="color:red"> Genetic drift = 1/population size. </span>	 
 </p>
 
-[^5]: More precisely, the [effective population size](https://en.wikipedia.org/wiki/Effective_population_size), which accounts for, e.g., the size of past populations, and is typically much smaller than actual population size. Humans, for example, have only an effective population size of about 13,000 individuals. 
+[^7]: More precisely, the [effective population size](https://en.wikipedia.org/wiki/Effective_population_size), which accounts for, e.g., the size of past populations, and is typically much smaller than actual population size. Humans, for example, have only an effective population size of about 13,000 individuals. 
 
 The expected fitness advantage can be decomposed into three terms: 
 <p align="center">
