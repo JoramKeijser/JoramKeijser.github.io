@@ -183,13 +183,9 @@ Monroe et al. do the maths and show that, in _arabidopsis_, the minimum length L
 
 ## Conclusion
 
-In sum, recent data suggests that mutations do not arise independently of their fitness effect, but that selection has simultaneously decreased the mutation rates of many genes. This is, I think, quite revolutionary, and deserves to be added to the textbooks. Moving forward, it will be exciting to 
-causally test the molecular mechanisms proposed by Martincorena and Monroe, and search for their presence in different species. 
-
-Decreasing the occurence of deleterious mutations automatically increases the similarity with the fitness gradient. But I don't think this warrants the conclusion that evolution “estimates the fitness gradient”. What would? Increased mutation rates of genes under positive selection could be a start. A more direct and complete test might simultaneously need to map the fitness landscape and detect mutations. 
+In sum, recent data suggests that mutations do not arise independently of their fitness effect, but that selection has simultaneously decreased the mutation rates of many genes. This is, I think, quite revolutionary, and deserves to be added to the textbooks. Although decreasing the occurence of deleterious mutations automatically increases the similarity with the fitness gradient, I don't think this warrants the conclusion that evolution “estimates the fitness gradient”. What would? Increased mutation rates of genes under positive selection could be a start. A more direct and complete test might simultaneously need to map the fitness landscape and detect mutations. 
 
 Awaiting future experiments, the current data suggests a rather nuanced situation in which mutations are neither the directionless force they once were thought to be nor the ruthlessly optimal gradients favoured by engineers. Since selection seems to tune the rate of many genes at once, mutations could at best will follow a low-rank approximation of the fitness gradient. 
-
 
 IHere, we have considered how genetic mutations might influence the course of evolution. But evolution cannot be understood by just looking at  individual genes in isolation; many higher-level phenomena play an important role, too. I might write a future blog post on such processes above the single gene level that can help explain "how intelligent life appeared using nothing else". 
 
