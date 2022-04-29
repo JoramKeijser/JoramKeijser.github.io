@@ -156,13 +156,10 @@ A reason might be that decreased mutation rates in essential genes have proven a
 
 The third difference between classical and recent experiments is in the length of the genomic region across which mutation rates might vary. Luria & Delbruck found that the mutation rate of a single gene (that for the receptor protein) did not increase under positive selection. Martincorena & Monroe, on the other hand, found that mutation rates vary across many genes at once. One of the key epigenetic marks that might decrease mutation rates, for example, is shared by at least 15% of the Arabidopsis genome. 
 
-Finally, the genomic studies did not specifically look for, or find, evidence for environmentally induced variations in the mutation rate. 
-
-Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a gene-by-gene basis. This is important, because it addresses a major concern: selection is too weak to tune the mutation rates of individual genes. 
-
-In general, a trait will only be selected for (or against) if its fitness advantage overcomes other evolutionary forces, in particular genetic drift (evolution due to chance). We need:
+## Selection tunes the mutation rate of many genes at once
+Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a gene-by-gene basis. This is important, because it addresses the theoretical concern that selection would be too weak to tune the mutation rates of individual genes. In general, a trait will only be selected for (or against) if its fitness advantage overcomes other evolutionary forces, in particular genetic drift (evolution due to chance). We need:
 <p align="center">
-    selective advantage > genetic drift. 
+	<span style="color:green">advantage</span>  > <span style="color:red"> genetic drift</span>
 </p>
 Genetic drift is stronger in small populations, just like chance plays a smaller role in determining the average outcome of, say, 1000 versus 10 coin tosses. Specifically, the strength of genetic drift is assumed to be proportional to the inverse population size:
 <p align="center">
