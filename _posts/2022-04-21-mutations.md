@@ -41,7 +41,7 @@ Here, we will investigate why textbooks do teach that evolution works through ra
 
 ## Mutations are the fuel for evolution
 
-Since the start of the COVID pandemic, the world has been confronted with a steady stream of new virus variants, each spreading more rapidly than its predecessors. Where do these new variants come from? Mutations - mistakes in the copying of DNA - introduce changes in the viral genome. Some of these changes incrrease the virus' fitness, for example by increasing its transmissability. If the fitness increase is big enough, the changed genome will come to dominate. 
+Since the start of the COVID pandemic, the world has been confronted with a steady stream of new virus variants, each spreading more rapidly than its predecessors. Where do these new variants come from? Mutations --- mistakes in the copying of DNA --- introduce changes in the viral genome. Some of these changes incrrease the virus' fitness, for example by increasing its transmissability. If the fitness increase is big enough, the changed genome will come to dominate. 
 
 <p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Mutation_and_selection_diagram.svg" style="background:none; border:none; box-shadow:none;">
@@ -195,7 +195,7 @@ Although the mutational bias seems adaptive, it does not, I think, warrant the c
 
 Awaiting future experiments, the current data suggests a rather nuanced situation in which mutations are neither the directionless force they once were thought to be nor the ruthlessly optimal gradients favoured by engineers. Since selection seems to tune the rate of many genes at once, mutations could at best will follow a low-rank approximation of the fitness gradient. 
 
-IHere, we have considered how genetic mutations might influence the course of evolution. But evolution cannot be understood by just looking at  individual genes in isolation; many higher-level phenomena play an important role, too. I might write a future blog post on such processes above the single gene level that can help explain "how intelligent life appeared using nothing else". 
+Here, we have considered how genetic mutations might influence the course of evolution. But evolution cannot be understood by just looking at  individual genes in isolation; many higher-level phenomena play an important role, too. I might write a future blog post on such processes above the single gene level that can help explain "how intelligent life appeared using nothing else". 
 
 ## Acknowledgements
 
