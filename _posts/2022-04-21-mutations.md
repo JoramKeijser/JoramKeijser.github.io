@@ -194,8 +194,7 @@ Although the mutational bias seems adaptive, it does not, in my mind, warrant th
 
 Awaiting future experiments, the current data suggests a rather nuanced situation in which mutations are neither the directionless force they once were thought to be nor the ruthlessly optimal gradients favoured by engineers. Since selection seems to tune the rate of many genes at once, mutations could at best will follow a low-rank approximation of the fitness gradient. 
 
-In this blog post, we have considered how genetic mutations influence the course of evolution. But evolution cannot be understood by looking at just the genes; many higher-level phenomena play an important role, too. I might write a future blog post on those phenomena above the gene level that 
-influence the course of evolution, and help explain "how intelligent life appeared using nothing else". 
+In this blog post, we have considered how genetic mutations influence the course of evolution. But evolution cannot be understood by looking at just the genes; many higher-level phenomena play an important role, too. I might write a future blog post on these phenomena above the single-gene level that influence the course of evolution, and thereby help explain "how intelligent life appeared using nothing else". 
 
 ## Acknowledgements
 
