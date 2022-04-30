@@ -191,7 +191,7 @@ Monroe et al. do the maths and show that, in _arabidopsis_, the minimum length L
 
 In sum, recent data suggests that mutations do not arise independently of their fitness effect, but that selection has simultaneously decreased the mutation rates of many genes. This is, I think, quite revolutionary, and deserves to be added to the textbooks. 
 
-Although the mutational bias seems adaptive, it does not, I think, warrant the conclusion that evolution “estimates the fitness gradient”. What would? Increased mutation rates of genes under positive selection could be a start. A more direct and complete test might simultaneously need to map the fitness landscape and detect mutations. 
+Although the mutational bias seems adaptive, it does not, in my mind, warrant the conclusion that evolution “estimates the fitness gradient”. What would? Increased mutation rates of genes under positive selection could be a start. A more direct and complete test might simultaneously need to map the fitness landscape and detect mutations. 
 
 Awaiting future experiments, the current data suggests a rather nuanced situation in which mutations are neither the directionless force they once were thought to be nor the ruthlessly optimal gradients favoured by engineers. Since selection seems to tune the rate of many genes at once, mutations could at best will follow a low-rank approximation of the fitness gradient. 
 
