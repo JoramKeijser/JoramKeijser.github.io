@@ -146,7 +146,7 @@ Monroe et al. also proposed a potential mechanism, by finding that the mutation 
 Finally, the authors also provide evidence that the mutation rate bias is adaptive: essential genes mutate less than genes with an environmentally-dependent function. The variation in mutation rates therefore reduces the number of deleterious mutations, potentially directing the course of evolution. 
 
 
-## Reconciling the sequencer and the the petri dish
+## Reconciling the sequencer and the petri dish
 The genomic data from Martincorena and Monroe provide strong evidence that natural selection can tune local mutation rates. So why didn't Luria and Delbruck find that T1 presence increased the likelihood of mutations when this clearly would have been adaptive? Did they and all these other classic experiments overlook something?  
 
 First, Luria & Delbruck tested for an increased mutation rate in a gene under positive selection. The genomic data, by contrast, provide evidence for decreased mutation rates in genes under negative selection. In fact, Martincorena specifically looked for --- but failed to find --- increased mutation rates in genes under positive selection. The difference between decreasing the mutation rate of some genes and increasing the rate of others is not merely semantic. Increased mutation rates, on one hand, would indicate selection for more change in the right direction. But the current data don’t strongly support this idea. Instead, they indicate that natural selection mainly tries to prevent rather than elicit change. 
