@@ -157,7 +157,7 @@ The second difference between classical and recent experiments is the length of 
 
 ## Tuning the mutation rate of many genes at once
 Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a gene-by-gene basis. This is important, because it addresses the theoretical concern that selection is too weak to tune the mutation rates of individual genes. 
-Why is selection "too weak"? In general, a trait will only be selected for (or against) if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces[^6], in particular <span style="color:red">genetic drift</span> (evolution by chance):
+In general, selection is strong enough to establish a trait if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces[^6], in particular <span style="color:red">genetic drift</span> (evolution by chance):
 <p align="center">
 	<span style="color:green">advantage</span>  > <span style="color:red"> genetic drift</span>
 </p>
