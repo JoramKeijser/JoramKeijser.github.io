@@ -34,7 +34,7 @@ As Yann LeCun recently [wrote on Twitter](https://twitter.com/ylecun/status/1463
 > People who think evolution works through random mutations and selection need to explain how intelligent life appeared using nothing else. 
 > Clearly, any optimization process is more efficient if it uses some sort of gradient estimation.
 
-The nature of mutations — random or not — touches upon fundamental questions of evolution: What explains biological diversity, and what explains the often exquisite adaptation of this diversity to an organism's needs? For example: The different beaks of Darwin’s finches, each adapted to the local food sources — are they just attributable to selection, or also to well-targeted mutations? 
+The nature of mutations — random or not — touches upon the fundamental mechanisms of evolution: What explains biological diversity, and what explains the often exquisite adaptation of this diversity to an organism's needs? For example: The different beaks of Darwin’s finches, each adapted to the local food sources — are they just attributable to selection, or also to well-targeted mutations? 
 
 Here, we will investigate why textbooks do teach that evolution works through random mutations, but also why this might change in the light of recent experiments. We will start by reviewing the textbook view and its evidence. 
 
