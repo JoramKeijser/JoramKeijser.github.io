@@ -34,7 +34,9 @@ As Yann LeCun recently [wrote on Twitter](https://twitter.com/ylecun/status/1463
 > People who think evolution works through random mutations and selection need to explain how intelligent life appeared using nothing else. 
 > Clearly, any optimization process is more efficient if it uses some sort of gradient estimation.
 
-Here, we will investigate why textbooks still teach that evolution works through random mutations, but also why this might change in the light of recent experiments. We will start by reviewing the general role of mutations in the evolutionary process. 
+The nature of mutations — random or not — touches upon fundamental questions of evolution: What explains biological diversity, and what explains the often exquisite adaptation of this diversity to an organism's needs? For example: The different beaks of Darwin’s finches, each adapted to the local food sources — are they just attributable to selection, or also to well-targeted mutations? 
+
+Here, we will investigate why textbooks do teach that evolution works through random mutations, but also why this might change in the light of recent experiments. We will start by reviewing the textbook view and its evidence. 
 
 
 ## Mutations are the fuel for evolution
@@ -47,7 +49,7 @@ Since the start of the COVID pandemic, the world has been confronted with a stea
 <span class="caption" STYLE="font-size:85%"> Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Mutation_and_selection_diagram.svg). </span>
 
 
-The COVID highlights two key mechanisms of evolution by natural selection. First, mutations introduce variation, next, natural selection picks out the variation best suited to the current environment. If natural selection is a car driving up a fitness hill, then mutations are the car’s fuel. But like a car’s fuel doesn’t influence its driving direction, mutations seem to arise independently of their fitness effect. The result is clear separation between the two steps of evolution: improvements in fitness only arise from selection, not mutations. We might therefore hope for lots of mutations, giving natural selection enough variability to choose from. 
+The COVID highlights two key mechanisms of evolution by natural selection. First, mutations introduce variation; next, natural selection picks out the variation best suited to the current environment. If natural selection is a car driving up a fitness hill, then mutations are the car’s fuel. But like a car’s fuel doesn’t influence its driving direction, mutations seem to arise independently of their fitness effect. The result is clear separation between the two steps of evolution: improvements in fitness only arise from selection, not mutations. We might therefore hope for lots of mutations, giving natural selection enough variability to choose from. 
 
 But here’s the catch: most mutations actually decrease an organism’s fitness. The reason: organisms are very complex machines, optimised by evolution over a long period of time. And most changes to a complex, highly optimised machine diminish rather than improve its functioning---suggesting mutations should occur at a very low rather than a high rate. And indeed, mutation rates *are* extremely low. In humans and other vertebrates, for example, on average only 1 base pair in every $10^8$ (hundred million) is replicated incorrectly. The replication machinery could therefore copy the famous Kandel, Schwartz & Jessel textbook almost 40 times without making a mistake![^2]
 
@@ -58,7 +60,7 @@ But here’s the catch: most mutations actually decrease an organism’s fitness
 </p>
 <span class="caption" STYLE="font-size:85%"> Mutation rates are larger for organisms with a large genome, but even the mammalian replication machinery is so accurate it could copy the Kandel textbook without any errors. Bp: base pair. (a) From Futuyma & Kirkpatrick, *Evolution*, 4th edition. </span>
 
-Mutations therefore play a paradoxical role in evolution: they are necessary for adaptation, yet should generally be prevented. A solution to this paradox could come in the form of gene-specific mutation rates. Mutation rates should be low for essential genes such as those involved in metabolism, but high for genes with an environmentally- dependent function. The potential advantage provides a strong theoretical argument why mutation rates should be biased across the genome. But a compelling theory is of course not enough - we also need to test it.  
+Mutations therefore play a paradoxical role in evolution: they are necessary for adaptation, yet should generally be prevented. A solution to this paradox could come in the form of gene-specific mutation rates. Mutation rates should be low for essential genes such as those involved in metabolism, but high for genes with an environmentally- dependent function. The potential advantage provides a strong theoretical argument why mutation rates should vary across the genome. But a compelling theory is of course not enough --- we also need to test it.  
 
 ## The challenge of finding directed mutations
 Unfortunately, testing for biased mutation rates is hard. The ideal experiment would reveal (1) more mutations in certain parts of the genome  than in others, and (2) this difference in mutation rates increases fitness. Although many studies have found less variability in some genes than in others, this doesn't imply a lack of mutations. Instead, a less variable gene could mutate just as often as other genes, but whenever it does, the mutation is 
