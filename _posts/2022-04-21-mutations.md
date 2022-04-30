@@ -156,7 +156,7 @@ A reason might be that decreased mutation rates in essential genes have proven a
 The second difference between classical and recent experiments is the length of the genomic region across which mutation rates might vary. Luria & Delbruck found that the mutation rate of a single gene (that for a receptor protein) did not increase under positive selection. Martincorena & Monroe, on the other hand, found that mutation rates vary across many genes at once. One of the key epigenetic marks that could decrease mutation rates, for example, is shared by at least 15% of the Arabidopsis genome. 
 
 ## Tuning the mutation rate of many genes at once
-Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a gene-by-gene basis. This is important, because it addresses the earlier theoretical concern that selection is too weak to tune the mutation rates of individual genes. 
+Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a gene-by-gene basis. This is important, because it addresses the earlier concern that selection is too weak to tune the mutation rates of individual genes. 
 In general, selection is strong enough to establish a trait if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces[^6], in particular <span style="color:red">genetic drift</span> (evolution by chance). We need:
 <p align="center">
 	<span style="color:green">advantage</span>  > <span style="color:red"> genetic drift</span>
