@@ -132,12 +132,12 @@ The second difference between classical and recent experiments is the length of 
 
 ## Tuning the mutation rate of many genes at once
 Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a gene-by-gene basis. This is important, because it addresses the earlier concern that selection is too weak to tune the mutation rates of individual genes. 
-In general, selection is strong enough to establish a trait if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces[^6], in particular <span style="color:red">genetic drift</span> (evolution by chance). We need:
+In general, selection is strong enough to establish a trait if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces[^6], in particular <span style="color:red">genetic drift</span> ([evolution by chance[((https://en.wikipedia.org/wiki/Genetic_drift))). We need:
 <p align="center">
 	<span style="color:green">advantage</span>  > <span style="color:red"> genetic drift</span>
 </p>
  
-[^6]: That's right, natural selection is not the only cause of evolution. [Genetic drift](https://en.wikipedia.org/wiki/Genetic_drift) is real, and it limits the efficiency of natural selection. 
+[^6]: That's right, natural selection is not the only cause of evolution. Genetic drift is real, and it limits the efficiency of natural selection. 
 
 Genetic drift is stronger in small populations, just like chance plays a larger role in determining the average outcome of, say, 10 versus 10000 coin tosses. Specifically, the strength of genetic drift is assumed to be proportional to the inverse population size[^7]:
 <p align="center">
@@ -165,11 +165,10 @@ Monroe et al. do the maths and show that, in _arabidopsis_, the minimum length L
 
 In sum, recent data suggests that mutations do not arise independently of their fitness effect. This is, I think, quite revolutionary, and deserves to be added to the textbooks. 
 
-Although the mutational bias seems adaptive, it does not warrant the conclusion that evolution “estimates the fitness gradient”. What would? First, evidence that selection can not just selective decrease but also increase mutation rates. Second, that it does so in a more specific way than across, say, 15% of the enome. 
+Although the mutational bias seems adaptive, it does not warrant the conclusion that evolution “estimates the fitness gradient”. What would? First, evidence that selection can not just selective decrease but also increase mutation rates. Second, that it does so in a more specific way than across, say, 15% of the genome. 
 
 Awaiting future experiments, the present data suggests a rather nuanced situation in which mutations are neither the directionless force they once were thought to be nor the ruthlessly optimal gradients favoured by engineers. Since selection seems to tune the rate of many genes at once, mutations could at best will follow a low-rank approximation of the fitness gradient. 
 
- 
 ## Acknowledgements
 
 Many thanks to [Wesley Clawson](https://www.wesleyclawson.com/), [Rob Lange](https://roberttlange.github.io/), and [Inigo Martincorena](https://www.sanger.ac.uk/person/martincorena-inigo/) for comments. 
