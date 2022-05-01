@@ -45,7 +45,7 @@ Many studies have indeed found less variability in some genes than in others. Un
 
 To find non-random mutations, we therefore need to catch mutagenesis in the act, detecting mutations as they happen. But this is hard, because mutations are rare[^3]. And even if we did find certain mutations to occur more often than others --- we still would not know their fitness effect, and wouldn’t be able to tell if the mutational bias was adaptive. The ideal experiment would use a fast-growing model organism to allow for sufficient mutations, and a  mutation with clear fitness effects to test for adaptation. 
 
-[^3]: In humans and other vertebrates, for example, on average only 1 base pair in every $10^8$ (hundred million) is replicated incorrectly. The replication machinery could therefore copy the famous Kandel textbook (1760 pages, or approximately 2,536,716 characters) almost 40 times over without a mistake!
+[^3]: In humans and other vertebrates, for example, on average only 1 base pair in every $10^8$ (hundred million) is replicated incorrectly. The replication machinery could therefore copy the famous [Kandel textbook](https://twitter.com/LecyEmily/status/1376710949239975939?s=20&t=rMjo-_fm763bipRDn8rUwA) (1760 pages, or approximately 2,536,716 characters) almost 40 times over without a mistake!
 
 ## Bacteria lead the way
 
