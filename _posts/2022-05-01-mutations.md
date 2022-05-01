@@ -21,8 +21,7 @@ The same intuition underlies many optimisation algorithms, including those that 
 Instead of changing hiking directions, these algorithms change network parameters, and instead of getting up a mountain, 
 they improve the network’s performance. But the basic idea is the same: Make a change in the direction of steepest improvement. 
 
-Mathematically, the direction of steepest improvement is known as the gradient of the objective function, and the overall approach is known as gradient ascent (or descent, if we’re dealing with an objective like a cost that should be minimised). Optimization algorithms that don’t use gradients are 
-typically less sample efficient than algorithms that do, and deep learning would not enjoy its current success without them[^2].
+Mathematically, the direction of steepest improvement is known as the gradient of the objective function, and the overall approach is known as gradient ascent (or descent). Optimization algorithms that don’t use gradients are typically less sample efficient than algorithms that do, and deep learning would not enjoy its current success without them[^2].
 
 [^2]: Perhaps the relative sample complexity of gradient-free vs. gradient-based algorithms could indicate whether evolution's results would require gradient estimates. 
 
@@ -73,7 +72,7 @@ First, suppose resistance was induced by the presence of T1. If we expose many e
 The spontaneous resistance model, on the other hand, predicts that the number of survivors should fluctuate across populations. 
 If mutations occurred absent T1, this could have happened any time during the growth of the population. Had it occurred at the very start, most of the population should have inherited the resistance, and would have survived. But had it occurred at the very end, only a few members would have survived. 
 
-So here’s the experiment Luria conducted. He let individual bacteria replicate until each had generated a large population. Thanks to *E. coli’s* fast replication times, this took only a day. Then, he added T1 phages to the populations, invariably killing. many bacteria. Some surived, though, and the number of survivors varied by several orders of magnitude across different populations. In those with many survivors, T1 resistance must have occurred long before the T1 exposure, rather than in response to the T1 presence. 
+So here’s the experiment Luria conducted. He let individual bacteria replicate until each had generated a large population. Thanks to *E. coli’s* fast replication times, this took only a day. Then, he added T1 phages to the populations, invariably killing. many bacteria. Some survived, though, and the number of survivors varied by several orders of magnitude across different populations. In those with many survivors, T1 resistance must have occurred long before the T1 exposure, rather than in response to the T1 presence. 
 
 Their findings earned Luria (along with Max Delbruck and Alfred Hershey) the 1969 Nobel prize in Physiology or Medicine. By then, other experiments had supported their conclusion that mutations occur independently of their fitness effects, establishing it as a central principle of evolutionary genetics[^4].
 
@@ -83,7 +82,7 @@ But like the original work from Luria and Delbruck, the follow-up reports of ran
 
 ## Genomic clues of non-random mutation rates
 
-In 2012, [Martincorena et al.](https://doi.org/10.1038/nature10995) conducated such an unbiased test by comparing 34 *E. coli* genomes. They couldn’t simply compare the diversity across genes, since this is shaped by both mutations and selection. The authors therefore focused on the so-called synonymous diversity between the same genes in different E. coli strains, and statistically accounted for factors other than mutation rate. Whereas genes with smaller diversity across organisms might simply experience stronger purifying selection, genes with smaller *synonymous* diversity are actually thought to have a smaller mutation rate.
+In 2012, [Martincorena et al.](https://doi.org/10.1038/nature10995) conducted such an unbiased test by comparing 34 *E. coli* genomes. They couldn’t simply compare the diversity across genes, since this is shaped by both mutations and selection. The authors therefore focused on the so-called synonymous diversity between the same genes in different E. coli strains, and statistically accounted for factors other than mutation rate. Whereas genes with smaller diversity across organisms might simply experience stronger purifying selection, genes with smaller *synonymous* diversity are actually thought to have a smaller mutation rate.
 
 <p align="center">
 <img src="/images/mutations/martincorena.svg" style="background:none; border:none; box-shadow:none;"/>
@@ -98,14 +97,15 @@ Definitive evidence for biased mutations therefore required a stronger, experime
 
 ## Planting the seeds of a revolution
 
-<p align="center">
-<img src="/images/mutations/mutation_accumulation.svg"  width="700" style="background:none; border:none; box-shadow:none;"/>
-</p>
-<span class="caption" STYLE="font-size:85%"> A typical mutation accumulation (MA) experiment, in which n lines are bred for t generations. In the main dataset from from Monroe et al., $n=107$ and $t = 25$. Source: [Halligan & Keightley](http://www.homepages.ed.ac.uk/pkeightl//publications/halligan-keightley-2009.pt=df). </span>
-
 A rigorous but time-consuming approach to experimentally minimise the effect of selection is a so-called mutation accumulation experiment in which one randomly selects the organism that will give rise to the next generation[^5]. Random selection rules out natural selection by making reproductive success independent of fitness. Repeating the process for multiple generations results in the accumulation of mutations untouched by selection; repeating it in parallel reveals if certain mutations arise more frequently than others (see figure). 
 
 [^5]: Mutation accumulation experiments only work for asexually reproducing organisms. 
+
+<p align="center">
+<img src="/images/mutations/mutation_accumulation.svg"  width="700" style="background:none; border:none; box-shadow:none;"/>
+</p>
+<span class="caption" STYLE="font-size:85%"> A typical mutation accumulation (MA) experiment, in which n lines are bred for t generations. In the main dataset from Monroe et al., $n=107$ and $t = 25$. Source: [Halligan & Keightley](http://www.homepages.ed.ac.uk/pkeightl//publications/halligan-keightley-2009.pt=df). </span>
+
 
 Recently, [Grey Monroe](https://doi.org/10.1038/s41586-021-04269-6) et al. used mutation accumulation lines to investigate the randomness of mutations in *Arabidopsis thaliana* (the primary model for plant genetics, see figure a). The authors found that genetic diversity across mutation accumulation lines greatly varied across the genome, being reduced by a half in gene bodies (figure b). This time around, the reduced variability really could not be due to selection, and therefore had to be attributed to variability in mutation rates. 
 
@@ -123,7 +123,7 @@ Finally, the authors also provide evidence that the mutation rate variability is
 ## Reconciling the sequencer and the petri dish
 The genomic data from Martincorena and Monroe provide strong evidence that natural selection can tune local mutation rates. So why didn't Luria and Delbruck find that T1 presence increased the likelihood of mutations when this clearly would have been adaptive? 
 
-First, Luria & Delbruck tested for an increased mutation rate in a gene under positive selection. The genomic data, by contrast, provide evidence for decreased mutation rates in genes under negative selection. In fact, Martincorena specifically looked for --- but failed to find --- increased mutation rates in genes under positive selection. The difference between decreasing the mutation rate of some genes and increasing the rate of others is not merely semantic. Increased mutation rates, on one hand, would indicate selection for more change in the right direction. But the current data don’t strongly support this idea. Instead, they indicate that natural selection mainly tries to prevent rather than elicit change[^7]. 
+First, Luria & Delbruck tested for an increased mutation rate in a gene under positive selection. The genomic data, by contrast, provide evidence for _decreased_ mutation rates in genes under _negative_ selection. In fact, Martincorena specifically looked for --- but failed to find --- increased mutation rates in genes under positive selection. The difference between decreasing the mutation rate of some genes and increasing the rate of others is not merely semantic. Increased mutation rates, on one hand, would indicate selection for more change in the right direction. But the current data don’t strongly support this idea. Instead, they indicate that natural selection mainly tries to prevent rather than elicit change[^7]. 
 
 [^7]: A reason might be that decreased mutation rates in essential genes have proven advantageous for many millions of years, because their function is highly conserved across species and environments. The importance of non-essential genes, on the other hand, varies on much shorter time scales. Selection might therefore only be able to upregulate mutation rates for genes under strong and recurring positive selection. 
 
@@ -154,7 +154,7 @@ Selection is therefore strong enough to tune the mutation rate of a particular g
 <p align="center">
  <span style="color:green"> mutation rate * change in mutation rate * effect of mutation </span> > <span style="color:red"> 1/population size. </span>
 </p>
-As we’ve seen, mutation rates are extremely low, and the fitness effect of most mutations is small. The inequality is therefore not satisfied---selection on a gene-specific mutation rate is overwhelmed by genetic drift. But this changes when considering tuning mutation rates of many genes at once ([Martincorena & Luscombe](https://doi.org/10.1002/bies.201200150)). The the fitness advantage scales with the size *L* of the genomic segment that is affected together:
+As we’ve seen, mutation rates are extremely low, and the fitness effect of most mutations is small. The inequality is therefore not satisfied---selection on a gene-specific mutation rate is overwhelmed by genetic drift. But this changes when considering tuning mutation rates of many genes at once ([Martincorena & Luscombe](https://doi.org/10.1002/bies.201200150)). The fitness advantage scales with the size *L* of the genomic segment that is affected together:
 <p align="center">
  <span style="color:green"> mutation rate * change in mutation rate * effect of mutation * L </span> > <span style="color:red"> 1/population size. </span>
 </p>
@@ -165,7 +165,7 @@ Monroe et al. do the maths and show that, in _arabidopsis_, the minimum length L
 
 In sum, recent data suggests that mutations do not arise independently of their fitness effect. This is, I think, quite revolutionary, and deserves to be added to the textbooks. 
 
-Although the mutational bias seems adaptive, it does not warrant the conclusion that evolution “estimates the fitness gradient”. What would? First, evidence that selection can not just selective decrease but also increase mutation rates. Second, that it does so in a more specific way than across, say, 15% of the genome. 
+Although the mutational bias seems adaptive, it does not warrant the conclusion that evolution “estimates the fitness gradient”. What would? First, evidence that selection can not just selectively decrease but also increase mutation rates. Second, that it does so in a more specific way than across, say, 15% of the genome. 
 
 Awaiting future experiments, the present data suggests a rather nuanced situation in which mutations are neither the directionless force they once were thought to be nor the ruthlessly optimal gradients favoured by engineers. Since selection seems to tune the rate of many genes at once, mutations could at best follow a low-rank approximation of the fitness gradient. 
 
