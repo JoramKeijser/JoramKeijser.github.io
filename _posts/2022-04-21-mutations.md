@@ -24,7 +24,7 @@ they improve the network’s performance. But the basic idea is the same: make a
 Mathematically, the direction of steepest improvement is known as the gradient of the objective function, and the overall approach is known as gradient ascent (or descent, if we’re dealing with an objective like a cost that should be minimised). Optimization algorithms that don’t use gradients are 
 typically less sample efficient than algorithms that do, and deep learning would not enjoy its current success without them[^2].
 
-[^2]: The relative sample complexity of gradient-free vs. gradient-based algorithms might indicate if evolution could only produce the results it does if it used gradient-estimates. Unfortunately, such calculations would probably need to make a lot of simplifying assumptions (regarding, e.g., the distribution of mutations) and leave out many features of biological evolution (e.g., development) that could influence its efficiency. 
+[^2]: The relative sample complexity of gradient-free vs. gradient-based algorithms might indicate if evolution could only produce the results it used gradient estimates. 
 
 Yet, evolution by natural selection --- arguably the most impressive optimisation algorithm we know --- does not exploit this powerful principle. 
 At least it doesn’t according to conventional wisdom, which says evolution relies on random genetic changes (mutations). Futuyma and Kirkpatrick write in their authoritative textbook *Evolution*: 
