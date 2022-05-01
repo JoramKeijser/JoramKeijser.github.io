@@ -154,7 +154,7 @@ Selection is therefore strong enough to tune the mutation rates of a particular 
 <p align="center">
  <span style="color:green"> mutation rate * change in mutation rate * effect of mutation </span> > <span style="color:red"> 1/population size. </span>
 </p>
-As we’ve seen, mutation rates are extremely low, and the fitness effect of most mutations is small. The inequality is therefore not satisfied---selection on a gene-specific mutation rate is overwhelmed by genetic drift. But this changes when considering tuning mutation rates of many genes at once. Then, the the fitness advantage scales with the size *L* of the genomic segment that is affected together (Martincorena & Luscombe 2013):
+As we’ve seen, mutation rates are extremely low, and the fitness effect of most mutations is small. The inequality is therefore not satisfied---selection on a gene-specific mutation rate is overwhelmed by genetic drift. But this changes when considering tuning mutation rates of many genes at once. Then, the the fitness advantage scales with the size *L* of the genomic segment that is affected together ([Martincorena & Luscombe](https://doi.org/10.1002/bies.201200150)):
 <p align="center">
  <span style="color:green"> mutation rate * change in mutation rate * effect of mutation * L </span> > <span style="color:red"> 1/population size. </span>
 </p>
