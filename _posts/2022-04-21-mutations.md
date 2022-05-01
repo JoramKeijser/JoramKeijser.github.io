@@ -15,7 +15,7 @@ but not the mountain top. In which direction do you decide to walk? Your intuiti
 terrain around you rises most rapidly. And this intuition makes sense: without knowledge about the overall landscape, the immediate direction of steepest
 ascent is the most promising[^1]. 
 
-[^1]: According to my partner, who is Swiss, hiking in foggy mountains can actually be dangerous. So you should actually try to head home rather than up.
+[^1]: According to my partner, who is Swiss, hiking in foggy mountains can be dangerous. So you should actually try to head home rather than up.
 
 The same intuition underlies many optimisation algorithms, including those that power deep neural networks. 
 Instead of changing hiking directions, these algorithms change network parameters, and instead of getting up a mountain, 
@@ -24,7 +24,7 @@ they improve the network’s performance. But the basic idea is the same: make a
 Mathematically, the direction of steepest improvement is known as the gradient of the objective function, and the overall approach is known as gradient ascent (or descent, if we’re dealing with an objective like a cost that should be minimised). Optimization algorithms that don’t use gradients are 
 typically less sample efficient than algorithms that do, and deep learning would not enjoy its current success without them[^2].
 
-[^2]: The relative sample complexity of gradient-free vs. gradient-based algorithms might indicate if evolution could only produce the results it used gradient estimates. 
+[^2]: The relative sample complexity of gradient-free vs. gradient-based algorithms might indicate whether evolution could only produce the results it used gradient estimates.
 
 Yet, evolution by natural selection --- arguably the most impressive optimisation algorithm we know --- does not exploit this powerful principle. 
 At least it doesn’t according to conventional wisdom, which says evolution relies on random genetic changes (mutations). Futuyma and Kirkpatrick write in their authoritative textbook *Evolution*: 
@@ -44,7 +44,7 @@ Many studies have indeed found less variability in some genes than in others. Un
 
 To find non-random mutations, we therefore need to catch mutagenesis in the act, detecting mutations as they happen. This is hard, because mutations are rare[^3],  and even if we did find certain mutations to occur more often than others --- we still would not know their fitness effect, and wouldn’t be able to tell if the mutational bias was adaptive. An experimental test for non-random mutations experiment should therefore use a fast-growing model organism to allow for sufficient mutations, and a mutation with clear fitness effects to test for adaptation. 
 
-[^3]: In humans and other vertebrates, for example, on average only 1 base pair in every $10^8$ (hundred million) is replicated incorrectly. The replication machinery could therefore copy the famous [Kandel textbook](https://twitter.com/LecyEmily/status/1376710949239975939?s=20&t=rMjo-_fm763bipRDn8rUwA) (1760 pages, or approximately 2,536,716 characters) almost 40 times over without a mistake!
+[^3]: In humans and other vertebrates, for example, on average only 1 base pair in every $10^8$ (hundred million) is replicated incorrectly. The replication machinery could therefore copy the famous [Kandel textbook](https://twitter.com/LecyEmily/status/1376710949239975939?s=20&t=rMjo-_fm763bipRDn8rUwA) (1760 pages, or approximately 2.5 million characters) 40 times over without a mistake!
 
 ## Bacteria lead the way
 
