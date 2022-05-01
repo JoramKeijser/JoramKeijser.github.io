@@ -43,7 +43,7 @@ Many studies have indeed found less variability in some genes than in others. Un
 
 To find non-random mutations, we therefore need to catch mutagenesis in the act, detecting mutations as they happen. But this is hard, because mutations are rare[^2]. And even if we did find certain mutations to occur more often than others --- we still might not know their fitness effect, and wouldn’t be able to tell if the mutational bias was adaptive. The ideal experiment would therefore need an fast-growing model organism to allow for many mutations in a short time, and a genetic mutation with clear fitness effects to test for adaptation. 
 
-[^2] In humans and other vertebrates, for example, on average only 1 base pair in every $10^8$ (hundred million) is replicated incorrectly. The replication machinery could therefore copy the famous Kandel, Schwartz & Jessel textbook almost 40 times without making a mistake!
+[^2]: In humans and other vertebrates, for example, on average only 1 base pair in every $10^8$ (hundred million) is replicated incorrectly. The replication machinery could therefore copy the famous Kandel, Schwartz & Jessel textbook almost 40 times without making a mistake!
 
 ## Bacteria lead the way
 
@@ -59,7 +59,7 @@ Luria had already overcome the first challenge by choosing the bacterium *Escher
 
 Luria had also determined a *E. coli* mutation with a clear fitness effect. Like other bacteria, *E. coli* is involved in an intense arms race with bacteriophages (viruses that infect bacteria). One such virus is the T1 phage, which kills most *E. coli* bacteria. Most, but not all, because *E. coli* can gain resistance to T1 by a mutation in the receptor protein to which T1 attaches itself. Luria reasonsed that this mutation determined life or death during a T1 invasion --- a clear fitness readout. 
 
-Luria decided to investigate if *E. coli’s* T1 resistance occurred spontaneously, or in response to the T1 threat. Resistance induced by T1 would be consistent with non-random mutations. But a key challenge still remained: how to tell the competing hypotheses apart? This is when Luria had his epiphany watching the slot machine. He realised that, like the slot machine, the outcome of his experiment followed the laws of probability. 
+Luria decided to investigate if *E. coli’s* T1 resistance occurred spontaneously, or in response to the T1 threat. Resistance induced by T1 would be consistent with non-random and adaptive mutations. But a key challenge still remained: how to tell the competing hypotheses apart? This is when Luria had his epiphany watching the slot machine. He realised that, like the slot machine, the outcome of his experiment followed the laws of probability. 
 
 ## A Nobel-prize winning experiment 
 
