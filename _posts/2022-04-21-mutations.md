@@ -30,12 +30,9 @@ At least it doesn’t according to conventional wisdom, which says evolution rel
 > Mutations are random with respect to what will improve survival and reproduction. New conditions do not increase the frequency of mutations that are beneficial in those conditions.
 
 The only non-random part of evolution, the part responsible for improvements in fitness, is therefore natural selection acting upon mutations. The randomness of mutations can come as a surprise to anyone familiar with gradient descent and its benefits. Even gradient-free algorithms [inspired
-by evolution](https://en.wikipedia.org/wiki/Evolutionary_algorithm) often sample "mutations" based on _estimates_ of the gradient. How, then, could biological evolution produce its astonishing results based on random mutations? As Yann LeCun recently [wrote on Twitter](https://twitter.com/ylecun/status/1463140027517517824?s=20&t=SHbHtaUJuXu5LNQquuTsSA): 
+by evolution](https://en.wikipedia.org/wiki/Evolutionary_algorithm) often sample "mutations" based on _estimates_ of the gradient. How, then, could biological evolution produce its astonishing results based on random mutations? 
 
-> People who think evolution works through random mutations and selection need to explain how intelligent life appeared using nothing else. 
-> Clearly, any optimization process is more efficient if it uses some sort of gradient estimation.
-
-The nature of mutations --- random or not --- touches upon the fundamental mechanisms of evolution: What explains biological diversity, and what explains the often exquisite adaptation of this diversity to an organism's needs? For example: The different beaks of Darwin’s finches, each adapted to local food sources — are they just attributable to selection, or also to well-targeted mutations? 
+This question touches upon the fundamental mechanisms of evolution: What explains biological diversity, and what explains the often exquisite adaptation of this diversity to an organism's needs? For example: The different beaks of Darwin’s finches, each adapted to local food sources — are they just attributable to selection, or also to well-targeted mutations? 
 
 Here, we will investigate why textbooks teach that evolution works through random mutations, but also why this might change in the light of recent experiments. We will start by looking at what a realistic experimental test of non-random mutations would look like.  
 
