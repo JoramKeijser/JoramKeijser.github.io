@@ -121,17 +121,17 @@ Monroe et al. also investigated potential mechanisms, building on ideas from [Ma
 Finally, the authors also provide evidence that the mutation rate variability is adaptive: Essential genes mutate less than genes with an environmentally-dependent function (Fig c). The variation in mutation rates therefore reduces the number of deleterious mutations, allowing it to bias the course of evolution. 
 
 ## Reconciling the sequencer and the petri dish
-The genomic data from Martincorena and Monroe provide strong evidence that natural selection can tune local mutation rates. So why didn't Luria and Delbruck find that T1 presence increased the likelihood of mutations when this clearly would have been adaptive? Did they and all these other classic experiments overlook something?  
+The genomic data from Martincorena and Monroe provide strong evidence that natural selection can tune local mutation rates. So why didn't Luria and Delbruck find that T1 presence increased the likelihood of mutations when this clearly would have been adaptive? 
 
 First, Luria & Delbruck tested for an increased mutation rate in a gene under positive selection. The genomic data, by contrast, provide evidence for decreased mutation rates in genes under negative selection. In fact, Martincorena specifically looked for --- but failed to find --- increased mutation rates in genes under positive selection. The difference between decreasing the mutation rate of some genes and increasing the rate of others is not merely semantic. Increased mutation rates, on one hand, would indicate selection for more change in the right direction. But the current data don’t strongly support this idea. Instead, they indicate that natural selection mainly tries to prevent rather than elicit change[^7]. 
 
 [^7]: A reason might be that decreased mutation rates in essential genes have proven advantageous for many millions of years, because their function is highly conserved across species and environments. The importance of non-essential genes, on the other hand, varies on much shorter time scales. Selection might therefore only be able to upregulate mutation rates for genes under strong and recurring positive selection. 
 
-The second difference between classical and recent experiments is the length of the genomic region across which mutation rates might vary. Luria & Delbruck found that the mutation rate of a single gene (that for a receptor protein) did not increase under positive selection. Martincorena & Monroe, on the other hand, found that mutation rates vary across many genes at once. One of the key epigenetic marks that could decrease mutation rates, for example, is shared by at least 15% of the Arabidopsis genome. 
+The second difference between classical and recent experiments is the length of the genomic region across which mutation rates might vary. Luria & Delbruck found that the mutation rate of a single gene (that for a receptor protein) did not increase under positive selection. Martincorena & Monroe, on the other hand, found that mutation rates vary across many genes at once. One of the key epigenetic marks that could decrease mutation rates is shared by about 15% of the _arabidopsis_ genome. 
 
 ## Tuning the mutation rate of many genes at once
-Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a gene-by-gene basis. This is important, because it addresses the earlier concern that selection is too weak to tune the mutation rates of individual genes. 
-In general, selection is strong enough to establish a trait if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces[^8], in particular <span style="color:red">genetic drift</span> ([evolution by chance[((https://en.wikipedia.org/wiki/Genetic_drift))). We need:
+Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a per-gene basis. This is important, because it addresses the earlier concern that selection is too weak to tune mutation rates of individual genes. 
+In general, selection is strong enough to establish a trait if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces[^8], in particular <span style="color:red">genetic drift</span> ([evolution by chance]((https://en.wikipedia.org/wiki/Genetic_drift))). We need:
 <p align="center">
 	<span style="color:green">advantage</span>  > <span style="color:red"> genetic drift</span>
 </p>
@@ -145,19 +145,19 @@ Genetic drift is stronger in small populations, just like chance plays a larger 
 
 [^9]: More precisely, the inverse [effective population size](https://en.wikipedia.org/wiki/Effective_population_size), which accounts for, e.g., the size of past populations. It is typically much smaller than actual population size; humans have a effective population size of only about 13,000 individuals. This means that genetic drift plays are relatively large role in us compared to, for example, _E. coli_, which has an effective population size of about 13 _million_ individuals. 
 
-The expected fitness advantage can be decomposed into three terms: 
+The expected fitness advantage, on the other hand, can be decomposed into three terms: 
 <p align="center">
 	<span style="color:green"> Advantage = mutation rate * change in mutation rate * effect of mutation.</span>
 </p>
-Selection is therefore strong enough to tune the mutation rates of a particular gene if 
+Selection is therefore strong enough to tune the mutation rate of a particular gene if 
 <p align="center">
  <span style="color:green"> mutation rate * change in mutation rate * effect of mutation </span> > <span style="color:red"> 1/population size. </span>
 </p>
-As we’ve seen, mutation rates are extremely low, and the fitness effect of most mutations is small. The inequality is therefore not satisfied---selection on a gene-specific mutation rate is overwhelmed by genetic drift. But this changes when considering tuning mutation rates of many genes at once. Then, the the fitness advantage scales with the size *L* of the genomic segment that is affected together ([Martincorena & Luscombe](https://doi.org/10.1002/bies.201200150)):
+As we’ve seen, mutation rates are extremely low, and the fitness effect of most mutations is small. The inequality is therefore not satisfied---selection on a gene-specific mutation rate is overwhelmed by genetic drift. But this changes when considering tuning mutation rates of many genes at once ([Martincorena & Luscombe](https://doi.org/10.1002/bies.201200150)). The the fitness advantage scales with the size *L* of the genomic segment that is affected together:
 <p align="center">
  <span style="color:green"> mutation rate * change in mutation rate * effect of mutation * L </span> > <span style="color:red"> 1/population size. </span>
 </p>
-Monroe et al. do the maths and show that, in _arabidopsis_, the minimum length L  would have to be at least 200,000 base pairs. This is much smaller than the region of the genome affected by the mechanisms thought to do the tuning. 
+Monroe et al. do the maths and show that, in _arabidopsis_, the minimum length L is much smaller than the 15% of the genome affected by the mechanisms thought to tune mutation rates. These mechanisms therefore could have been shaped by selection.  
 
 
 ## Conclusion
