@@ -104,7 +104,7 @@ Definitive evidence for biased mutations therefore required a stronger, experime
 </p>
 <span class="caption" STYLE="font-size:85%"> A typical mutation accumulation (MA) experiment, in which n lines are bred for t generations. In the main dataset from from Monroe et al., $n=107$ and $t = 25$. Source: [Halligan & Keightley](http://www.homepages.ed.ac.uk/pkeightl//publications/halligan-keightley-2009.pt=df). </span>
 
-A rigorous but time-consuming approach to experimentally minimise the effect of selection is a so-called mutation accumulation experiment in which the experimenter randomly selects the organism that will give rise to the next generation[^4]. This makes reproductive success independent of fitness. Repeating the process for multiple generations results in the accumulation of mutations untouched by selection. Repeating it in parallel reveals if certain mutations arise more frequently than others. 
+A rigorous but time-consuming approach to experimentally minimise the effect of selection is a so-called mutation accumulation experiment in which one randomly selects the organism that will give rise to the next generation[^4]. The random selection rules out natural selection by making reproductive success independent of fitness. Repeating the process for multiple generations results in the accumulation of mutations untouched by selection; repeating it in parallel reveals if certain mutations arise more frequently than others (see Figure). 
 
 [^4]: Mutation accumulation experiments only work for asexually reproducing organisms. 
 
