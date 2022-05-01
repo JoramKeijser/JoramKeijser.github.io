@@ -137,7 +137,7 @@ In general, selection is strong enough to establish a trait if its <span style="
 	<span style="color:green">advantage</span>  > <span style="color:red"> genetic drift</span>
 </p>
  
-[^6]: That's right, natural selection is not the only cause of evolution. [Genetic drift](https://en.wikipedia.org/wiki/Genetic_drift) is real, and it limits the efficiency of natural selection. Think of machine learning with noisy labels or rewards. The noise can limit and even completely stall learning, especially for parameters that, ---like most genes--- only have a smal influence on performance. 
+[^6]: That's right, natural selection is not the only cause of evolution. [Genetic drift](https://en.wikipedia.org/wiki/Genetic_drift) is real, and it limits the efficiency of natural selection. 
 
 Genetic drift is stronger in small populations, just like chance plays a larger role in determining the average outcome of, say, 10 versus 10000 coin tosses. Specifically, the strength of genetic drift is assumed to be proportional to the inverse population size[^7]:
 <p align="center">
