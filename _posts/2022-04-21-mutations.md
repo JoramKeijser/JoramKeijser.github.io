@@ -12,22 +12,22 @@ image: /images/mutations/evo_double.gif
 
 Imagine you’re on a hike, trying to work your way up a mountain. Unfortunately, it's a foggy day, so you can see your immediate surroundings 
 but not the mountain top. In which direction do you decide to walk? Your intuition probably tells you to choose the direction in which the 
-terrain around you rises most rapidly. And this intuition makes sense: without knowledge about the overall landscape, the immediate direction of steepest
+terrain around you rises most rapidly. And this intuition makes sense: Without knowledge about the overall landscape, the immediate direction of steepest
 ascent is the most promising[^1]. 
 
 [^1]: According to my partner, who is Swiss, hiking in foggy mountains can be dangerous. So you should actually try to head home rather than up.
 
 The same intuition underlies many optimisation algorithms, including those that power deep neural networks. 
 Instead of changing hiking directions, these algorithms change network parameters, and instead of getting up a mountain, 
-they improve the network’s performance. But the basic idea is the same: make a change in the direction of steepest improvement. 
+they improve the network’s performance. But the basic idea is the same: Make a change in the direction of steepest improvement. 
 
 Mathematically, the direction of steepest improvement is known as the gradient of the objective function, and the overall approach is known as gradient ascent (or descent, if we’re dealing with an objective like a cost that should be minimised). Optimization algorithms that don’t use gradients are 
 typically less sample efficient than algorithms that do, and deep learning would not enjoy its current success without them[^2].
 
-[^2]: The relative sample complexity of gradient-free vs. gradient-based algorithms might indicate whether evolution could only produce the results it used gradient estimates.
+[^2]: Perhaps the relative sample complexity of gradient-free vs. gradient-based algorithms could indicate whether evolution's results would require gradient estimates. 
 
 Yet, evolution by natural selection --- arguably the most impressive optimisation algorithm we know --- does not exploit this powerful principle. 
-At least it doesn’t according to conventional wisdom, which says evolution relies on random genetic changes (mutations). Futuyma and Kirkpatrick write in their authoritative textbook *Evolution*: 
+At least it doesn’t according to conventional wisdom, which says that evolution relies on random genetic changes (mutations). Futuyma and Kirkpatrick write in their authoritative textbook *Evolution*: 
 
 > Mutations are random with respect to what will improve survival and reproduction. New conditions do not increase the frequency of mutations that are beneficial in those conditions.
 
@@ -35,7 +35,7 @@ The only non-random part of evolution, the part responsible for improvements in 
 
 This question touches upon the fundamental mechanisms of evolution: What explains biological diversity, and what explains the often exquisite adaptation of this diversity to an organism's needs? For example: The different beaks of Darwin’s finches, each adapted to local food sources — are they just attributable to selection, or also to well-targeted mutations? 
 
-In tihs blog post I investigate why textbooks teach that evolution works through random mutations, and to what extent this might change in the light of recent experiments. Let's start by determining what a realistic experimental test of non-random mutations would look like.  
+In this blog post I investigate why textbooks teach that evolution works through random mutations, and to what extent this might change in the light of recent experiments. Let's start by determining what a realistic experimental test of non-random mutations would look like.  
 
 ## Testing for non-random mutations is hard
 Experimental evidence for non-random mutations would need to show that (1) certain genes mutate more than others, and (2) this difference in mutation rates is adaptive, i.e. increases fitness. It might be a stretch to conclude from this that “evolution estimates gradients”, but adaptive variability in mutation rates would at least imply that mutations are more aligned with the gradient than expected by chance. 
@@ -54,9 +54,9 @@ To find non-random mutations, we therefore need to catch mutagenesis in the act,
 <span class="caption" STYLE="font-size:85%"> Salvador Luria ([source](https://www.nobelprize.org/prizes/medicine/1969/luria/facts/
 )), bacteriophages attacking an *E. coli* bacterium ([source](https://www.newyorker.com/tech/annals-of-technology/phage-killer-viral-dark-matter)). </span>
 
-The biologist Salvador Luria would be the first to crack this challenge. Luria chose the bacterium *Escherichia coli* as a model organism. Most of his colleagues did not consider lowly bacteria relevant for answering deep evolutionary problems. But Luria, a relative newcomer in the field, suspected something we now know to be true: Many molecular mechanisms of evolution are shared across the tree of life, all the way from humans to bacteria. *E. coli’s* 20 minute replication cycle allowed Luria to go from a single bacterium to millions in less than a day: Enough replication cycles for many mutations to occur. 
+The biologist Salvador Luria would be the first to crack this challenge. Luria chose the bacterium *Escherichia coli* as a model organism. Most of his colleagues did not consider lowly bacteria relevant for answering deep evolutionary problems. But Luria, a relative newcomer in the field, suspected something we now know to be true: Many molecular mechanisms of evolution are shared across the tree of life, all the way from humans to bacteria. *E. coli’s* 20 minute replication cycle allowed Luria to go from a single bacterium to millions in less than a day. Enough replication cycles for many mutations to occur. 
 
-Luria had also determined an *E. coli* mutation with a clear fitness effect. Like other bacteria, *E. coli* is involved in an intense arms race with bacteriophages (viruses that infect bacteria). One such virus is the T1 phage, which kills most *E. coli* bacteria. Most, but not all, because *E. coli* can gain resistance to T1 by a mutation in the receptor protein to which T1 attaches itself. Luria reasonsed that this mutation determined life or death during a T1 invasion --- a clear fitness readout. 
+Luria had also determined an *E. coli* mutation with a clear fitness effect. Like other bacteria, *E. coli* is involved in an intense arms race with bacteriophages (viruses that infect bacteria). One such virus is the T1 phage, which kills *E. coli* bacteria. But some bacteria are resistant to T1, because of a mutation in the receptor protein to which T1 attaches itself. Luria reasonsed that this mutation determined life or death during a T1 invasion --- a clear fitness readout. 
 
 Luria decided to investigate if *E. coli’s* T1 resistance occurred spontaneously, or in response to the T1 threat. Only the second outcome would be consistent with non-random and adaptive mutations. But a key challenge still remained: how to tell the two hypotheses apart?
 
@@ -68,12 +68,12 @@ Luria decided to investigate if *E. coli’s* T1 resistance occurred spontaneous
 <span class="caption" STYLE="font-size:85%"> The Luria-Delbruck experiment, for which the competing hypotheses of induced and spontaneous mutations predict different numbers of surviving bacteria. Source: [Wikipedia](https://en.wikipedia.org/wiki/Luria%E2%80%93Delbr%C3%BCck_experiment#/media/File:Luria-delbruck_diagram.svg
 ). </span>
 
-First, suppose resistance was induced by the presence of T1, and assume each bacterium has a similar probability of gaining resistance. If we expose many equally sized *E. coli* populations to T1, the law of large numbers predicts we can expect each population to have similar numbers of survivors. 
+First, suppose resistance was induced by the presence of T1. If we expose many equally sized *E. coli* populations to T1, the law of large numbers predicts that each population has similar numbers of survivors. 
 
-The spontaneous resistance model, on the other hand, predicts large fluctuations in the number of survivors from different populations. 
+The spontaneous resistance model, on the other hand, predicts that the number of survivors should fluctuate across populations. 
 If mutations occurred absent T1, this could have happened any time during the growth of the population. Had it occurred at the very start, most of the population should have inherited the resistance, and would have survived. But had it occurred at the very end, only a few members would have survived. 
 
-So here’s the experiment Luria conducted. He started by putting single *E. coli* in tubes, and let them replicate until they had grown to large populations. Thanks to *E. coli’s* fast replication times, this took only a day. Then, he added T1 phages to the population which invariably killed many bacteria, although some survived. Crucially, the number of survivors varied by several orders of magnitude across different populations. In those with many survivors, T1 resistance must have occurred long before the T1 exposure, rather than in response to the T1 presence. 
+So here’s the experiment Luria conducted. He let individual bacteria replicate until each had generated a large population. Thanks to *E. coli’s* fast replication times, this took only a day. Then, he added T1 phages to the populations, invariably killing. many bacteria. Some surived, though, and the number of survivors varied by several orders of magnitude across different populations. In those with many survivors, T1 resistance must have occurred long before the T1 exposure, rather than in response to the T1 presence. 
 
 Their findings earned Luria (along with Max Delbruck and Alfred Hershey) the 1969 Nobel prize in Physiology or Medicine. By then, other experiments had supported their conclusion that mutations occur independently of their fitness effects, establishing it as a central principle of evolutionary genetics[^4].
 
@@ -83,14 +83,14 @@ But like the original work from Luria and Delbruck, the follow-up reports of ran
 
 ## Genomic clues of non-random mutation rates
 
-In 2012, [Martincorena et al.](https://doi.org/10.1038/nature10995) compared 34 *E. coli* genomes to test for biased mutation rates. They couldn’t simply compare the diversity across genes, since this is shaped by both mutations and selection. The authors therefore focused on the so-called synonymous diversity between the same genes in different E. coli strains, and statistically accounted for factors other than mutation rate. Whereas genes with smaller diversity across organisms might simply experience stronger purifying selection, genes with smaller *synonymous* diversity are actually thought to have a smaller mutation rate.
+In 2012, [Martincorena et al.](https://doi.org/10.1038/nature10995) conducated such an unbiased test by comparing 34 *E. coli* genomes. They couldn’t simply compare the diversity across genes, since this is shaped by both mutations and selection. The authors therefore focused on the so-called synonymous diversity between the same genes in different E. coli strains, and statistically accounted for factors other than mutation rate. Whereas genes with smaller diversity across organisms might simply experience stronger purifying selection, genes with smaller *synonymous* diversity are actually thought to have a smaller mutation rate.
 
 <p align="center">
 <img src="/images/mutations/martincorena.svg" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> (a) Mutation rates (estimated using the synonymous diversity across different strains) vary along the E. coli genome. Red bars indicate the 95% confidence interval under a uniform mutation rate. MB: megabases, or 1000 base pairs. (b) Genes with lower mutation rates are often essential. From [Martincorena et al.](https://doi.org/10.1038/nature10995). </span>
 
-The authors found the synonymous diversity to vary 20-fold across the *E. coli* genome, with certain genes showing much less diversity than expected from a uniform mutation rate, and others showing much more (figure, panel a). This pattern correlated with function: the diversity was smallest for essential genes (those critical for healthy function) and those under strong purifying selection (panel b). Martincorena et al. therefore concluded that the mutation rate varies across the genome, and that this might be a “risk management strategy” to minimise the probability of bad mutations.  
+The authors found the synonymous diversity to vary 20-fold across the *E. coli* genome, with certain genes showing much less diversity than expected from a uniform mutation rate, and others showing much more (figure, panel a). This pattern correlated with function: Diversity was smallest for essential genes (those critical for healthy function) and those under strong purifying selection (panel b). Martincorena et al. therefore concluded that the mutation rate varies across the genome, and that this might be a “risk management strategy” to minimise the probability of bad mutations.  
 
 The finding made a splash in the world of evolutionary biology, but soon other biologists started to point at potential problems ([Chen & Zhang](https://doi.org/10.1093/molbev/mst060), [Maddamsetti et al.](https://doi.org/10.1093/molbev/msv161)). One problem was theoretical: Mutations to individual genes occur so rarely that the advantage of an even lower and gene-specific mutation rate is too small to evolve (more on this later). Other challenges were empirical in nature. For example, Martincorena et al. aimed to eliminate the effect of selection by analysing only synonymous genetic diversity, but might have failed to account for all confounding factors. 
 
@@ -116,7 +116,7 @@ Recently, [Grey Monroe](https://doi.org/10.1038/s41586-021-04269-6) et al. used 
 
 Monroe et al. also investigated potential mechanisms, building on ideas from [Martincorena & Luscombe](https://doi.org/10.1002/bies.201200150) and others. The authors showed that the mutation rate of a genomic region can be predicted from several of its features. Some of these are epigenomic, i.e. they affect gene expression without changing the DNA itself[^6], for example by changing the [histone proteins](https://en.wikipedia.org/wiki/Histone) that package DNA. This change in packaging can increase or decrease the genes’ expression by making it more or less accessible to transcription factors. Interestingly, such a change in a gene’s packaging can also increase the accuracy of its replication (see e.g. [Chong et al.](https://doi.org/10.1038/s41467-020-14595-4)). Natural selection could thus tune mutation rates by shaping DNA packaging around important genes. 
 
-[^6]: Note, epigenetics is not equivalent to [epigenetic inheritance](https://en.wikipedia.org/wiki/Transgenerational_epigenetic_inheritance), and is not necessarily environmentally induced. Epigenetically-variable mutation rates are more likely a by-product of gene expression than a consequence of environmental factors. 
+[^6]: Note, epigenetics is not equivalent to [epigenetic inheritance](https://en.wikipedia.org/wiki/Transgenerational_epigenetic_inheritance), and is not necessarily environmentally induced either. Epigenetically-determined mutation rates are more likely a by-product of gene expression than a consequence of environmental factors. 
 
 Finally, the authors also provide evidence that the mutation rate variability is adaptive: Essential genes mutate less than genes with an environmentally-dependent function (Fig c). The variation in mutation rates therefore reduces the number of deleterious mutations, allowing it to bias the course of evolution. 
 
@@ -130,7 +130,8 @@ First, Luria & Delbruck tested for an increased mutation rate in a gene under po
 The second difference between classical and recent experiments is the length of the genomic region across which mutation rates might vary. Luria & Delbruck found that the mutation rate of a single gene (that for a receptor protein) did not increase under positive selection. Martincorena & Monroe, on the other hand, found that mutation rates vary across many genes at once. One of the key epigenetic marks that could decrease mutation rates is shared by about 15% of the _arabidopsis_ genome. 
 
 ## Tuning the mutation rate of many genes at once
-Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a per-gene basis. This is important, because it addresses the earlier concern that selection is too weak to tune mutation rates of individual genes. 
+Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a per-gene basis. This bolsters the case for non-random mutation rates by addressing the earlier concern that selection is too weak to tune mutation rates of individual genes. 
+
 In general, selection is strong enough to establish a trait if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces[^8], in particular <span style="color:red">genetic drift</span> ([evolution by chance]((https://en.wikipedia.org/wiki/Genetic_drift))). We need:
 <p align="center">
 	<span style="color:green">advantage</span>  > <span style="color:red"> genetic drift</span>
