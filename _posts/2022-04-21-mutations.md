@@ -31,8 +31,7 @@ At least it doesn’t according to conventional wisdom, which says evolution rel
 
 > Mutations are random with respect to what will improve survival and reproduction. New conditions do not increase the frequency of mutations that are beneficial in those conditions.
 
-The only non-random part of evolution, the part responsible for improvements in fitness, is therefore natural selection acting upon mutations --- not the mutations themselves. This can come as a surprise to anyone familiar with gradient descent and its benefits. Even gradient-free algorithms [inspired
-by evolution](https://en.wikipedia.org/wiki/Evolutionary_algorithm) often sample "mutations" based on gradient _estimates_. How, then, could biological evolution produce its astonishing results based on random mutations? 
+The only non-random part of evolution, the part responsible for improvements in fitness, is therefore natural selection acting upon mutations --- not the mutations themselves. This can come as [a surprise](https://twitter.com/ylecun/status/1463140027517517824) to anyone familiar with gradient descent and its benefits. Even gradient-free algorithms [inspired by evolution](https://en.wikipedia.org/wiki/Evolutionary_algorithm) often sample "mutations" based on gradient _estimates_. How, then, could biological evolution produce its astonishing results based on random mutations? 
 
 This question touches upon the fundamental mechanisms of evolution: What explains biological diversity, and what explains the often exquisite adaptation of this diversity to an organism's needs? For example: The different beaks of Darwin’s finches, each adapted to local food sources — are they just attributable to selection, or also to well-targeted mutations? 
 
