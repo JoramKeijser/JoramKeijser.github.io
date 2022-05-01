@@ -34,7 +34,7 @@ by evolution](https://en.wikipedia.org/wiki/Evolutionary_algorithm) often sample
 
 This question touches upon the fundamental mechanisms of evolution: What explains biological diversity, and what explains the often exquisite adaptation of this diversity to an organism's needs? For example: The different beaks of Darwin’s finches, each adapted to local food sources — are they just attributable to selection, or also to well-targeted mutations? 
 
-Here, we will investigate why textbooks teach that evolution works through random mutations, but also why this might change in the light of recent experiments. We will start by looking at what a realistic experimental test of non-random mutations would look like.  
+In tihs blog post I investigate why textbooks teach that evolution works through random mutations, and why this might change in the light of recent experiments. Let's start by determining what an realistic experimental test of non-random mutations would look like.  
 
 ## The challenge of finding non-random mutations
 The ideal experimental test of non-random mutations would reveal that (1) certain genes mutate more than others, and (2) this difference in mutation rates is adaptive, i.e. increases fitness. It might be a stretch to conclude from this that “evolution estimates gradients”, but adaptive variability in mutation rates would at least imply that mutations are more aligned with the gradient than expected by chance. 
