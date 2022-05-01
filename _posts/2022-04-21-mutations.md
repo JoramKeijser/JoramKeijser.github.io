@@ -108,7 +108,7 @@ A rigorous but time-consuming approach to experimentally minimise the effect of 
 
 [^5]: Mutation accumulation experiments only work for asexually reproducing organisms. 
 
-Recently, [Grey Monroe](https://doi.org/10.1038/s41586-021-04269-6), working in the lab of [Detlev Wiegel](https://weigelworld.org/), used mutation accumulation lines to investigate the randomness of mutations in *Arabidopsis thaliana* (the primary model for plant genetics, see Fig a below). The authors found that genetic diversity across mutation accumulation lines greatly varied across the genome, being reduced by a half in gene bodies (Fig b). This time around, the reduced variability really could not be due to selection, and therefore had to be attributed to variability in mutation rates. 
+Recently, [Grey Monroe](https://doi.org/10.1038/s41586-021-04269-6) et al. used mutation accumulation lines to investigate the randomness of mutations in *Arabidopsis thaliana* (the primary model for plant genetics, see figure a). The authors found that genetic diversity across mutation accumulation lines greatly varied across the genome, being reduced by a half in gene bodies (figure b). This time around, the reduced variability really could not be due to selection, and therefore had to be attributed to variability in mutation rates. 
 
 <p align="center">
 <img src="/images/mutations/monroe.svg" style="background:none; border:none; box-shadow:none;"/>
