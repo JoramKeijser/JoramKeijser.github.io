@@ -22,9 +22,9 @@ Instead of changing hiking directions, these algorithms change network parameter
 they improve the network’s performance. But the basic idea is the same: make a change in the direction of steepest improvement. 
 
 Mathematically, the direction of steepest improvement is known as the gradient of the objective function, and the overall approach is known as gradient ascent (or descent, if we’re dealing with an objective like a cost that should be minimised). Optimization algorithms that don’t use gradients are 
-typically less sample efficient than algorithms that do, and deep learning would not enjoy its current success without them[^7].
+typically less sample efficient than algorithms that do, and deep learning would not enjoy its current success without them[^2].
 
-[^7]: The relative sample complexity of gradient-free vs. gradient-based algorithms might indicate if evolution could only produce the results it does if it used gradient-estimates. Unfortunately, such calculations would probably need to make a lot of simplifying assumptions (regarding, e.g., the distribution of mutations) and leave out many features of biological evolution (e.g., development) that could influence its efficiency. 
+[^2]: The relative sample complexity of gradient-free vs. gradient-based algorithms might indicate if evolution could only produce the results it does if it used gradient-estimates. Unfortunately, such calculations would probably need to make a lot of simplifying assumptions (regarding, e.g., the distribution of mutations) and leave out many features of biological evolution (e.g., development) that could influence its efficiency. 
 
 Yet, evolution by natural selection –-- arguably the most impressive optimisation algorithm we know –-- does not exploit this powerful principle. 
 At least it doesn’t according to conventional wisdom, which says evolution relies on random genetic changes (mutations). Futuyma and Kirkpatrick write in their authoritative textbook *Evolution*: 
@@ -43,9 +43,9 @@ Experimental evidence for non-random mutations would need to show that (1) certa
 
 Many studies have indeed found less variability in some genes than in others. Unfortunately, this variability is the combined outcome of mutation _and_ selection, and therefore doesn’t necessarily arise from variability in mutation rates. A lack of variability in a certain gene, for example, doesn’t mean the gene never mutates. Instead, it might mutate just as often as other genes, but whenever it does, the mutation is eliminated by natural selection. 
 
-To find non-random mutations, we therefore need to catch mutagenesis in the act, detecting mutations as they happen. But this is hard, because mutations are rare[^2]. And even if we did find certain mutations to occur more often than others --- we still would not know their fitness effect, and wouldn’t be able to tell if the mutational bias was adaptive. The ideal experiment would use a fast-growing model organism to allow for sufficient mutations, and a  mutation with clear fitness effects to test for adaptation. 
+To find non-random mutations, we therefore need to catch mutagenesis in the act, detecting mutations as they happen. But this is hard, because mutations are rare[^3]. And even if we did find certain mutations to occur more often than others --- we still would not know their fitness effect, and wouldn’t be able to tell if the mutational bias was adaptive. The ideal experiment would use a fast-growing model organism to allow for sufficient mutations, and a  mutation with clear fitness effects to test for adaptation. 
 
-[^2]: In humans and other vertebrates, for example, on average only 1 base pair in every $10^8$ (hundred million) is replicated incorrectly. The replication machinery could therefore copy the famous Kandel textbook (1760 pages, or approximately 2,536,716 characters) almost 40 times over without a mistake!
+[^3]: In humans and other vertebrates, for example, on average only 1 base pair in every $10^8$ (hundred million) is replicated incorrectly. The replication machinery could therefore copy the famous Kandel textbook (1760 pages, or approximately 2,536,716 characters) almost 40 times over without a mistake!
 
 ## Bacteria lead the way
 
@@ -76,9 +76,9 @@ The reason: if the mutation occurred without T1, this could have happened any ti
 
 So here’s the experiment Luria conducted. He started by putting single *E. coli* in tubes, and let them replicate until they had grown to large populations. Thanks to *E. coli’s* fast replication times, this took only a day. Then, he added T1 phages to the population, which invariably killed some of the bacteria, while others survived. Crucially though, the number of bacteria that survived varied by several orders of magnitude across different populations. In those with many survivors, T1 resistance must have occurred long before the T1 exposure, rather than in response to the T1 presence. 
 
-Their findings earned Luria (along with Max Delbruck and Alfred Hershey) the 1969 Nobel prize in Physiology or Medicine. By then, other experiments had supported their conclusion that mutations occur independently of their fitness effects, establishing it as a central principle of evolutionary genetics[^3].
+Their findings earned Luria (along with Max Delbruck and Alfred Hershey) the 1969 Nobel prize in Physiology or Medicine. By then, other experiments had supported their conclusion that mutations occur independently of their fitness effects, establishing it as a central principle of evolutionary genetics[^4].
 
-[^3]: One of the first follow-up studies was the elegant replica plate experiment from Joshua and Esther Lederberg. You can read about it [here](https://evolution.berkeley.edu/the-lederberg-experiment/).  
+[^4]: One of the first follow-up studies was the elegant replica plate experiment from Joshua and Esther Lederberg. You can read about it [here](https://evolution.berkeley.edu/the-lederberg-experiment/).  
 
 But like the original work from Luria and Delbruck, the follow-up reports of random mutations were held back by a major technological limitation: They couldn’t detect mutations across multiple genes. At the time of their key experiment, Luria and Delbruck didn’t even know what a gene exactly was! This meant only those “genes” could be studied that had a clear fitness effect. But most genes, we know now, affect fitness in only a modest way. The unbiased study of mutation rates therefore had to wait until the post-genomic era. 
 
@@ -104,9 +104,9 @@ Definitive evidence for biased mutations therefore required a stronger, experime
 </p>
 <span class="caption" STYLE="font-size:85%"> A typical mutation accumulation (MA) experiment, in which n lines are bred for t generations. In the main dataset from from Monroe et al., $n=107$ and $t = 25$. Source: [Halligan & Keightley](http://www.homepages.ed.ac.uk/pkeightl//publications/halligan-keightley-2009.pt=df). </span>
 
-A rigorous but time-consuming approach to experimentally minimise the effect of selection is a so-called mutation accumulation experiment in which one randomly selects the organism that will give rise to the next generation[^4]. The random selection rules out natural selection by making reproductive success independent of fitness. Repeating the process for multiple generations results in the accumulation of mutations untouched by selection; repeating it in parallel reveals if certain mutations arise more frequently than others (see Figure). 
+A rigorous but time-consuming approach to experimentally minimise the effect of selection is a so-called mutation accumulation experiment in which one randomly selects the organism that will give rise to the next generation[^5]. The random selection rules out natural selection by making reproductive success independent of fitness. Repeating the process for multiple generations results in the accumulation of mutations untouched by selection; repeating it in parallel reveals if certain mutations arise more frequently than others (see Figure). 
 
-[^4]: Mutation accumulation experiments only work for asexually reproducing organisms. 
+[^5]: Mutation accumulation experiments only work for asexually reproducing organisms. 
 
 Recently, [Grey Monroe](https://doi.org/10.1038/s41586-021-04269-6), working in the lab of [Detlev Wiegel](https://weigelworld.org/), used mutation accumulation lines to investigate the randomness of mutations in *Arabidopsis thaliana* (the primary model for plant genetics, see Fig a below). The authors found that genetic diversity across mutation accumulation lines greatly varied across the genome, being reduced by a half in gene bodies (Fig b). This time around, the reduced variability really could not be due to selection, and therefore had to be attributed to variability in mutation rates. 
 
@@ -115,36 +115,36 @@ Recently, [Grey Monroe](https://doi.org/10.1038/s41586-021-04269-6), working in 
 </p>
 <span class="caption" STYLE="font-size:85%"> (a): Arabidopsis thaliana. (b): mutations are lower for bases within gene bodies. TSS: transcription start sites, TTS:  transcription termination sites.  (c): the mutation rate varies with gene function. Adapted from [Monroe et al.](https://doi.org/10.1038/s41586-021-04269-6). </span>
 
-Monroe et al. also investigated potential mechanisms, building on ideas from [Martincorena & Luscombe](https://doi.org/10.1002/bies.201200150) and others. The authors showed that the mutation rate of a genomic region can be predicted from several of its features. Some of these are epigenomic, i.e. they affect gene expression without changing the DNA itself[^5], for example by changing the [histone proteins](https://en.wikipedia.org/wiki/Histone) that package DNA. This change in packaging can increase or decrease the genes’ expression by making it more or less accessible to transcription factors. Interestingly, such a change in a gene’s packaging can also increase the accuracy of its replication (see e.g. [Chong et al.](https://doi.org/10.1038/s41467-020-14595-4)). Natural selection could thus tune mutation rates by shaping DNA packaging around important genes. 
+Monroe et al. also investigated potential mechanisms, building on ideas from [Martincorena & Luscombe](https://doi.org/10.1002/bies.201200150) and others. The authors showed that the mutation rate of a genomic region can be predicted from several of its features. Some of these are epigenomic, i.e. they affect gene expression without changing the DNA itself[^6], for example by changing the [histone proteins](https://en.wikipedia.org/wiki/Histone) that package DNA. This change in packaging can increase or decrease the genes’ expression by making it more or less accessible to transcription factors. Interestingly, such a change in a gene’s packaging can also increase the accuracy of its replication (see e.g. [Chong et al.](https://doi.org/10.1038/s41467-020-14595-4)). Natural selection could thus tune mutation rates by shaping DNA packaging around important genes. 
 
-[^5]: Note, epigenetics is not equivalent to [epigenetic inheritance](https://en.wikipedia.org/wiki/Transgenerational_epigenetic_inheritance), and is not necessarily environmentally induced. Epigenetically-variable mutation rates are more likely a by-product of gene expression than a consequence of environmental factors. 
+[^6]: Note, epigenetics is not equivalent to [epigenetic inheritance](https://en.wikipedia.org/wiki/Transgenerational_epigenetic_inheritance), and is not necessarily environmentally induced. Epigenetically-variable mutation rates are more likely a by-product of gene expression than a consequence of environmental factors. 
 
 Finally, the authors also provide evidence that the mutation rate variability is adaptive: Essential genes mutate less than genes with an environmentally-dependent function (Fig c). The variation in mutation rates therefore reduces the number of deleterious mutations, allowing it to bias the course of evolution. 
 
 ## Reconciling the sequencer and the petri dish
 The genomic data from Martincorena and Monroe provide strong evidence that natural selection can tune local mutation rates. So why didn't Luria and Delbruck find that T1 presence increased the likelihood of mutations when this clearly would have been adaptive? Did they and all these other classic experiments overlook something?  
 
-First, Luria & Delbruck tested for an increased mutation rate in a gene under positive selection. The genomic data, by contrast, provide evidence for decreased mutation rates in genes under negative selection. In fact, Martincorena specifically looked for --- but failed to find --- increased mutation rates in genes under positive selection. The difference between decreasing the mutation rate of some genes and increasing the rate of others is not merely semantic. Increased mutation rates, on one hand, would indicate selection for more change in the right direction. But the current data don’t strongly support this idea. Instead, they indicate that natural selection mainly tries to prevent rather than elicit change[^8]. 
+First, Luria & Delbruck tested for an increased mutation rate in a gene under positive selection. The genomic data, by contrast, provide evidence for decreased mutation rates in genes under negative selection. In fact, Martincorena specifically looked for --- but failed to find --- increased mutation rates in genes under positive selection. The difference between decreasing the mutation rate of some genes and increasing the rate of others is not merely semantic. Increased mutation rates, on one hand, would indicate selection for more change in the right direction. But the current data don’t strongly support this idea. Instead, they indicate that natural selection mainly tries to prevent rather than elicit change[^7]. 
 
-[^8]: A reason might be that decreased mutation rates in essential genes have proven advantageous for many millions of years, because their function is highly conserved across species and environments. The importance of non-essential genes, on the other hand, varies on much shorter time scales. Selection might therefore only be able to upregulate mutation rates for genes under strong and recurring positive selection. 
+[^7]: A reason might be that decreased mutation rates in essential genes have proven advantageous for many millions of years, because their function is highly conserved across species and environments. The importance of non-essential genes, on the other hand, varies on much shorter time scales. Selection might therefore only be able to upregulate mutation rates for genes under strong and recurring positive selection. 
 
 The second difference between classical and recent experiments is the length of the genomic region across which mutation rates might vary. Luria & Delbruck found that the mutation rate of a single gene (that for a receptor protein) did not increase under positive selection. Martincorena & Monroe, on the other hand, found that mutation rates vary across many genes at once. One of the key epigenetic marks that could decrease mutation rates, for example, is shared by at least 15% of the Arabidopsis genome. 
 
 ## Tuning the mutation rate of many genes at once
 Both Luria & Delbruck and the genomic data are therefore consistent with the idea that mutation rates vary across the genome, but not on a gene-by-gene basis. This is important, because it addresses the earlier concern that selection is too weak to tune the mutation rates of individual genes. 
-In general, selection is strong enough to establish a trait if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces[^6], in particular <span style="color:red">genetic drift</span> ([evolution by chance[((https://en.wikipedia.org/wiki/Genetic_drift))). We need:
+In general, selection is strong enough to establish a trait if its <span style="color:green">fitness advantage </span> overcomes other evolutionary forces[^8], in particular <span style="color:red">genetic drift</span> ([evolution by chance[((https://en.wikipedia.org/wiki/Genetic_drift))). We need:
 <p align="center">
 	<span style="color:green">advantage</span>  > <span style="color:red"> genetic drift</span>
 </p>
  
-[^6]: That's right, natural selection is not the only cause of evolution. Genetic drift is real, and it limits the efficiency of natural selection. 
+[^8]: That's right, natural selection is not the only cause of evolution. Genetic drift is real, and it limits the efficiency of natural selection. 
 
-Genetic drift is stronger in small populations, just like chance plays a larger role in determining the average outcome of, say, 10 versus 10000 coin tosses. Specifically, the strength of genetic drift is assumed to be proportional to the inverse population size[^7]:
+Genetic drift is stronger in small populations, just like chance plays a larger role in determining the average outcome of, say, 10 versus 10000 coin tosses. Specifically, the strength of genetic drift is assumed to be proportional to the inverse population size[^9]:
 <p align="center">
 	<span style="color:red"> Genetic drift = 1/population size. </span>	 
 </p>
 
-[^7]: More precisely, the inverse [effective population size](https://en.wikipedia.org/wiki/Effective_population_size), which accounts for, e.g., the size of past populations. It is typically much smaller than actual population size; humans have a effective population size of only about 13,000 individuals. This means that genetic drift plays are relatively large role in us compared to, for example, _E. coli_, which has an effective population size of about 13 _million_ individuals. 
+[^9]: More precisely, the inverse [effective population size](https://en.wikipedia.org/wiki/Effective_population_size), which accounts for, e.g., the size of past populations. It is typically much smaller than actual population size; humans have a effective population size of only about 13,000 individuals. This means that genetic drift plays are relatively large role in us compared to, for example, _E. coli_, which has an effective population size of about 13 _million_ individuals. 
 
 The expected fitness advantage can be decomposed into three terms: 
 <p align="center">
