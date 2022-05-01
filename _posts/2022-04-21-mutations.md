@@ -163,13 +163,13 @@ Monroe et al. do the maths and show that, in _arabidopsis_, the minimum length L
 
 ## Conclusion
 
-In sum, recent data suggests that mutations do not arise independently of their fitness effect, but that selection has simultaneously decreased the mutation rates of many genes. This is, I think, quite revolutionary, and deserves to be added to the textbooks. 
+In sum, recent data suggests that mutations do not arise independently of their fitness effect. This is, I think, quite revolutionary, and deserves to be added to the textbooks. 
 
-Although the mutational bias seems adaptive, it does not, in my mind, warrant the conclusion that evolution “estimates the fitness gradient”. This would require evidence for increased mutation rates of genes under positive selection, and a more-specific tuning of mutation rates (not across ~15% of the genome). A more direct test might simultaneously need to map the fitness landscape and detect mutations. 
+Although the mutational bias seems adaptive, it does not warrant the conclusion that evolution “estimates the fitness gradient”. What would? First, evidence that selection can not just selective decrease but also increase mutation rates. Second, that it does so in a more specific way than across, say, 15% of the enome. 
 
-Awaiting future experiments, the current data suggests a rather nuanced situation in which mutations are neither the directionless force they once were thought to be nor the ruthlessly optimal gradients favoured by engineers. Since selection seems to tune the rate of many genes at once, mutations could at best will follow a low-rank approximation of the fitness gradient. 
+Awaiting future experiments, the present data suggests a rather nuanced situation in which mutations are neither the directionless force they once were thought to be nor the ruthlessly optimal gradients favoured by engineers. Since selection seems to tune the rate of many genes at once, mutations could at best will follow a low-rank approximation of the fitness gradient. 
 
  
 ## Acknowledgements
 
-Thanks to [Wesley Clawson](https://www.wesleyclawson.com/), [Rob Lange](https://roberttlange.github.io/),  and [Inigo Martincorena](https://www.sanger.ac.uk/person/martincorena-inigo/) for comments. 
+Many thanks to [Wesley Clawson](https://www.wesleyclawson.com/), [Rob Lange](https://roberttlange.github.io/), and [Inigo Martincorena](https://www.sanger.ac.uk/person/martincorena-inigo/) for comments. 
