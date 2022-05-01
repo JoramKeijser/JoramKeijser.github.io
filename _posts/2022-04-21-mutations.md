@@ -24,15 +24,14 @@ they improve the network’s performance. But the basic idea is the same: make a
 Mathematically, the direction of steepest improvement is known as the gradient of the objective function, and the overall approach is known as gradient ascent (or descent, if we’re dealing with an objective like a cost that should be minimised). Optimization algorithms that don’t use gradients are 
 typically less sample efficient than algorithms that do, and deep learning would not enjoy its current success without them[^7].
 
-[^7]: The relative sample complexity of gradient-free vs. gradient-based algorithms might indicate if evolution could only produce the results it does
-if it used gradient-estimates. Unfortunately, such calculations would probably need to make a lot of simplifying assumptions (regarding, e.g., the distribution of mutations) and leave out many features of biological evolution (e.g., development) that could influence its efficiency. 
+[^7]: The relative sample complexity of gradient-free vs. gradient-based algorithms might indicate if evolution could only produce the results it does if it used gradient-estimates. Unfortunately, such calculations would probably need to make a lot of simplifying assumptions (regarding, e.g., the distribution of mutations) and leave out many features of biological evolution (e.g., development) that could influence its efficiency. 
 
 Yet, evolution by natural selection –-- arguably the most impressive optimisation algorithm we know –-- does not exploit this powerful principle. 
 At least it doesn’t according to conventional wisdom, which says evolution relies on random genetic changes (mutations). Futuyma and Kirkpatrick write in their authoritative textbook *Evolution*: 
 
 > Mutations are random with respect to what will improve survival and reproduction. New conditions do not increase the frequency of mutations that are beneficial in those conditions.
 
-The only non-random part of evolution, the part responsible for improvements in fitness, is therefore natural selection acting upon mutations. The randomness of mutations can come as a surprise to anyone familiar with gradient descent and its benefits. Even gradient-free algorithms [inspired
+The only non-random part of evolution, the part responsible for improvements in fitness, is therefore natural selection acting upon mutations --- not the mutations themselves. This can come as a surprise to anyone familiar with gradient descent and its benefits. Even gradient-free algorithms [inspired
 by evolution](https://en.wikipedia.org/wiki/Evolutionary_algorithm) often sample "mutations" based on gradient _estimates_. How, then, could biological evolution produce its astonishing results based on random mutations? 
 
 This question touches upon the fundamental mechanisms of evolution: What explains biological diversity, and what explains the often exquisite adaptation of this diversity to an organism's needs? For example: The different beaks of Darwin’s finches, each adapted to local food sources — are they just attributable to selection, or also to well-targeted mutations? 
