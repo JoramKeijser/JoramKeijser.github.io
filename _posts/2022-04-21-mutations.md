@@ -166,7 +166,7 @@ In sum, recent data suggests that mutations do not arise independently of their 
 
 Although the mutational bias seems adaptive, it does not warrant the conclusion that evolution “estimates the fitness gradient”. What would? First, evidence that selection can not just selective decrease but also increase mutation rates. Second, that it does so in a more specific way than across, say, 15% of the genome. 
 
-Awaiting future experiments, the present data suggests a rather nuanced situation in which mutations are neither the directionless force they once were thought to be nor the ruthlessly optimal gradients favoured by engineers. Since selection seems to tune the rate of many genes at once, mutations could at best will follow a low-rank approximation of the fitness gradient. 
+Awaiting future experiments, the present data suggests a rather nuanced situation in which mutations are neither the directionless force they once were thought to be nor the ruthlessly optimal gradients favoured by engineers. Since selection seems to tune the rate of many genes at once, mutations could at best follow a low-rank approximation of the fitness gradient. 
 
 ## Acknowledgements
 
