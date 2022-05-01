@@ -18,58 +18,33 @@ ascent is the most promising[^1].
 [^1]: According to my partner, who is Swiss, hiking in foggy mountains can actually be dangerous. So you should actually try to head home rather than up.
 
 The same intuition underlies many optimisation algorithms, including those that power deep neural networks. 
-Instead of choosing a hiking direction, these algorithms choose network parameters, and instead of getting up a mountain, 
+Instead of changing hiking directions, these algorithms change network parameters, and instead of getting up a mountain, 
 they improve the network’s performance. But the basic idea is the same: make a change in the direction of steepest improvement. 
 Mathematically, this direction is known as the gradient of the objective function, and the overall approach is known as gradient ascent 
 (or descent, if we’re dealing with an objective like a cost that should be minimised). Optimization algorithms that don’t use gradients are 
-typically less efficient than algorithms that do, and deep learning would not enjoy its current success without them. 
+typically less sample efficient than algorithms that do, and deep learning would not enjoy its current success without them. 
 
-Yet, evolution by natural selection – arguably the most impressive optimisation algorithm we know – does not exploit this powerful principle. 
+Yet, evolution by natural selection –-- arguably the most impressive optimisation algorithm we know –-- does not exploit this powerful principle. 
 At least it doesn’t according to conventional wisdom, which says evolution relies on random genetic changes (mutations). Futuyma and Kirkpatrick write in their authoritative textbook *Evolution*: 
 
 > Mutations are random with respect to what will improve survival and reproduction. New conditions do not increase the frequency of mutations that are beneficial in those conditions.
 
-The randomness of mutations can come as a surprise to anyone familiar with gradient descent and its benefits. 
-As Yann LeCun recently [wrote on Twitter](https://twitter.com/ylecun/status/1463140027517517824?s=20&t=SHbHtaUJuXu5LNQquuTsSA): 
+The only non-random part of evolution, the part responsible for improvements in fitness, is therefore natural selection acting upon mutations. The randomness of mutations can come as a surprise to anyone familiar with gradient descent and its benefits. Even gradient-free algorithms [inspired
+by evolution](https://en.wikipedia.org/wiki/Evolutionary_algorithm) often sample "mutations" based on _estimates_ of the gradient. How, then, could biological evolution produce its astonishing results based on random mutations? As Yann LeCun recently [wrote on Twitter](https://twitter.com/ylecun/status/1463140027517517824?s=20&t=SHbHtaUJuXu5LNQquuTsSA): 
 
 > People who think evolution works through random mutations and selection need to explain how intelligent life appeared using nothing else. 
 > Clearly, any optimization process is more efficient if it uses some sort of gradient estimation.
 
-The nature of mutations — random or not — touches upon the fundamental mechanisms of evolution: What explains biological diversity, and what explains the often exquisite adaptation of this diversity to an organism's needs? For example: The different beaks of Darwin’s finches, each adapted to the local food sources — are they just attributable to selection, or also to well-targeted mutations? 
+The nature of mutations --- random or not --- touches upon the fundamental mechanisms of evolution: What explains biological diversity, and what explains the often exquisite adaptation of this diversity to an organism's needs? For example: The different beaks of Darwin’s finches, each adapted to local food sources — are they just attributable to selection, or also to well-targeted mutations? 
 
-Here, we will investigate why textbooks do teach that evolution works through random mutations, but also why this might change in the light of recent experiments. We will start by reviewing the textbook view and its evidence. 
+Here, we will investigate why textbooks teach that evolution works through random mutations, but also why this might change in the light of recent experiments. We will start by looking at what a realistic experimental test of non-random mutations would look like.  
 
+## The challenge of finding non-random mutations
+The ideal experimental test of non-random mutations would reveal that (1) certain genes mutate more than others, and (2) this difference in mutation rates is adaptive, i.e. increases fitness. It might be a stretch to conclude from this that “evolution estimates gradients”, but adaptive variability in mutation rates would at least imply that mutations are more aligned with the gradient than expected by chance. 
 
-## Mutations are the fuel for evolution
+Many studies have indeed found less variability in some genes than in others. Unfortunately, this variability is the combined outcome of mutation _and_ selection, and therefore doesn’t necessarily arise from variability in mutation rates. A lack of variability in a certain gene, for example, doesn’t mean the gene never mutates. Instead, it might mutate just as often as other genes, but whenever it does, the mutation is eliminated by natural selection. 
 
-Since the start of the COVID pandemic, the world has been confronted with a steady stream of new virus variants, each spreading more rapidly than its predecessors. Where do these new variants come from? Mutations --- mistakes in the copying of DNA --- introduce changes in the viral genome. Some of these changes incrrease the virus' fitness, for example by increasing its transmissability. If the fitness increase is big enough, the changed genome will come to dominate. 
-
-<p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Mutation_and_selection_diagram.svg" style="background:none; border:none; box-shadow:none;">
-</p>
-<span class="caption" STYLE="font-size:85%"> Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:Mutation_and_selection_diagram.svg). </span>
-
-
-The COVID highlights two key mechanisms of evolution by natural selection. First, mutations introduce variation; next, natural selection picks out the variation best suited to the current environment. If natural selection is a car driving up a fitness hill, then mutations are the car’s fuel. But like a car’s fuel doesn’t influence its driving direction, mutations seem to arise independently of their fitness effect. The result is clear separation between the two steps of evolution: improvements in fitness only arise from selection, not mutations. We might therefore hope for lots of mutations, giving natural selection enough variability to choose from. 
-
-But here’s the catch: most mutations actually decrease an organism’s fitness. The reason: organisms are very complex machines, optimised by evolution over a long period of time. And most changes to a complex, highly optimised machine diminish rather than improve its functioning---suggesting mutations should occur at a very low rather than a high rate. And indeed, mutation rates *are* extremely low. In humans and other vertebrates, for example, on average only 1 base pair in every $10^8$ (hundred million) is replicated incorrectly. The replication machinery could therefore copy the famous Kandel, Schwartz & Jessel textbook almost 40 times without making a mistake![^2]
-
-[^2]: Here I assumed an error rate of 1 in $10^8$ base pairs or characters, and 2,536,716 characters per book (estimated from the page count). This translates to an error rate of about 1 in 40 books - impressively accurate. But the replication machinery isn't just accurate, it is also very fast, with a speed on the order of 1000 base pairs per second. That's so fast the machinery could copy the entire Kandel textbook in just over 7 minutes! 
-
-<p align="center">
-<img src="/images/mutations/kandel.svg"  width="700" style="background:none; border:none; box-shadow:none;"/>
-</p>
-<span class="caption" STYLE="font-size:85%"> Mutation rates are larger for organisms with a large genome, but even the mammalian replication machinery is so accurate it could copy the Kandel textbook without any errors. Bp: base pair. (a) From Futuyma & Kirkpatrick, *Evolution*, 4th edition. </span>
-
-Mutations therefore play a paradoxical role in evolution: they are necessary for adaptation, yet should generally be prevented. A solution to this paradox could come in the form of gene-specific mutation rates. Mutation rates should be low for essential genes such as those involved in metabolism, but high for genes with an environmentally- dependent function. The potential advantage provides a strong theoretical argument why mutation rates should vary across the genome. But a compelling theory is of course not enough --- we also need to test it.  
-
-## The challenge of finding directed mutations
-Unfortunately, testing for biased mutation rates is hard. The ideal experiment would reveal (1) more mutations in certain parts of the genome  than in others, and (2) this difference in mutation rates increases fitness. Although many studies have found less variability in some genes than in others, this doesn't imply a lack of mutations. Instead, a less variable gene could mutate just as often as other genes, but whenever it does, the mutation is 
-is eliminated by natural selection. 
-
-Since natural variation results from both mutations and selection, detecting biased mutations requires observing mutations as they happen. But detecting mutations is difficult because, as we’ve seen, mutations are very rare. And even if we did find certain mutations to occur more often than others - we still might not know their fitness effect, and wouldn’t be able to tell if the mutational bias aligned with the fitness gradient. 
-
-Testing for directed mutations therefore requires a model organism with a fast reproductive cycle and a mutation with clear fitness effects. 
+To find non-random mutations, we therefore need to catch mutagenesis in the act, detecting mutations as they happen. But this is hard, because mutations happen very rarely. And even if we did find certain mutations to occur more often than others --- we still might not know their fitness effect, and wouldn’t be able to tell if the mutational bias was adaptive. The ideal experiment would therefore need an fast-growing model organism to allow for many mutations in a short time, and a genetic mutation with clear fitness effects to test for adaptation. 
 
 ## Bacteria lead the way
 
@@ -79,13 +54,13 @@ Testing for directed mutations therefore requires a model organism with a fast r
 <span class="caption" STYLE="font-size:85%"> Salvador Luria ([source](https://www.nobelprize.org/prizes/medicine/1969/luria/facts/
 )), bacteriophages attacking an *E. coli* bacterium ([source](https://www.newyorker.com/tech/annals-of-technology/phage-killer-viral-dark-matter)). </span>
 
-The solution came to Salvador Luria one evening in 1943, as he watched a colleague try their luck at a slot machine. Only three years ago, the Jewish Luria had fled France when the Nazi’s invaded the country, riding 800 kilometers from Paris to Marseille on his bicycle before obtaining a visa to the US. Since then, the 30 year old Luria had become obsessed with the origin of mutations. The issue had attracted many scientists before him, but progress had been slow due to the challenge of finding mutations and linking them to fitness. 
+The solution came to Salvador Luria one evening in 1943, as he watched a colleague try their luck at a slot machine. Only three years ago, the Jewish Luria had fled France when the Nazi’s invaded the country, riding 800 kilometers from Paris to Marseille on his bicycle before obtaining a visa to the US. In the US, Luria had become obsessed with the origin of mutations. The issue had attracted many scientists before him, but progress had been slow due to the challenge of finding mutations and linking them to fitness. 
 
-Luria had already overcome the first challenge by choosing the bacterium *Escherichia coli* as a model organism. Most of his colleagues did not consider lowly bacteria relevant for answering deep evolutionary problems. But Luria, a relative newcomer in the field, suspected something we now know to be true: many molecular mechanisms of evolution are shared across the tree of life, all the way from humans to bacteria. *E. coli’s* 20 minute replication cycle allowed Luria to go from a single bacterium to millions in less than a day: Enough replication cycles for at least some mutations to occur. 
+Luria had already overcome the first challenge by choosing the bacterium *Escherichia coli* as a model organism. Most of his colleagues did not consider lowly bacteria relevant for answering deep evolutionary problems. But Luria, a relative newcomer in the field, suspected something we now know to be true: Many molecular mechanisms of evolution are shared across the tree of life, all the way from humans to bacteria. *E. coli’s* 20 minute replication cycle allowed Luria to go from a single bacterium to millions in less than a day: Enough replication cycles for many mutations to occur. 
 
-Luria had also determined which of *E. coli’s* traits to study. Like other bacteria, *E. coli* is involved in a perpetual and intense arms race with bacteriophages (viruses that infect bacteria). One such virus is the T1 phage, which kills most *E. coli* bacteria. Most, but not all, because *E. coli* can gain resistance to T1 by a mutation in the receptor protein to which T1 attaches itself. Luria knew *E.coli* could become T1 resistant, and that this resistance meant life or death during a T1 invasion --- a clear fitness readout of the mutation. 
+Luria had also determined a *E. coli* mutation with a clear fitness effect. Like other bacteria, *E. coli* is involved in an intense arms race with bacteriophages (viruses that infect bacteria). One such virus is the T1 phage, which kills most *E. coli* bacteria. Most, but not all, because *E. coli* can gain resistance to T1 by a mutation in the receptor protein to which T1 attaches itself. Luria knew a certain *E.coli* mutation could give it T1 resistance, and that this resistance meant life or death during a T1 invasion --- a clear fitness readout. 
 
-Luria decided to investigate if *E. coli’s* T1 resistance occurred spontaneously, or in response to the T1 threat. Resistance induced by T1 would be consistent with directed mutations. But a key challenge still remained: how to tell the competing hypotheses apart? This is when Luria had his epiphany watching the slot machine. He realised that, like the slot machine, the outcome of his resistance experiments also followed the laws of probability theory. 
+Luria decided to investigate if *E. coli’s* T1 resistance occurred spontaneously, or in response to the T1 threat. Resistance induced by T1 would be consistent with non-random mutations. But a key challenge still remained: how to tell the competing hypotheses apart? This is when Luria had his epiphany watching the slot machine. He realised that, like the slot machine, the outcome of his experiment followed the laws of probability. 
 
 ## A Nobel-prize winning experiment 
 
@@ -107,20 +82,20 @@ Their findings earned Luria (along with Max Delbruck and Alfred Hershey) the 196
 
 [^3]: One of the first follow-up studies was the elegant replica plate experiment from Joshua and Esther Lederberg. You can read about it [here](https://evolution.berkeley.edu/the-lederberg-experiment/).  
 
-But like the original work from Luria and Delbruck, the follow-up studies finding random mutations were held back by a major technological limitation: they couldn’t detect mutations across multiple genes. At the time of their key experiment, Luria and Delbruck didn’t even know what a gene exactly was! This meant only those “genes” could be studied that had a clear fitness effect. But most genes, we know now, affect fitness in only a very modest way. The unbiased study of mutation rates therefore had to wait until the postgenomic era. 
+But like the original work from Luria and Delbruck, the follow-up studies finding random mutations were held back by a major technological limitation: They couldn’t detect mutations across multiple genes. At the time of their key experiment, Luria and Delbruck didn’t even know what a gene exactly was! This meant only those “genes” could be studied that had a clear fitness effect. But most genes, we know now, affect fitness in only a very modest way. The unbiased study of mutation rates therefore had to wait until the post-genomic era. 
 
 ## Genomic clues of non-random mutation rates
 
-In the public perception, the postgenomic era began with the completion of the human genome project around 20 years ago. But by then, the postgenomic era was already in full swing for certain bacterial species, including *E. coli*. In 2012, [Martincorena et al.](https://doi.org/10.1038/nature10995) compared 34 *E. coli* genomes to test for biased mutation rates. They couldn’t simply compare the diversity across genes, since this is shaped by both mutations and selection. So instead, the authors focused on the so-called synonymous diversity between the same genes in different E. coli strains, and statistically accounted for factors other than mutation rate. Whereas genes with smaller diversity across organisms might simply experience stronger purifying selection, genes with smaller *synonymous* diversity are actually thought to have a smaller mutation rate.
+In the public perception, the postgenomic era began with the completion of the human genome project around 20 years ago. But by then, the postgenomic era was already in full swing for certain bacterial species, including *E. coli*. In 2012, [Martincorena et al.](https://doi.org/10.1038/nature10995) compared 34 *E. coli* genomes to test for biased mutation rates. They couldn’t simply compare the diversity across genes, since this is shaped by both mutations and selection. So instead, the authors focused on the so-called synonymous diversity between the same genes in different E. coli strains, and statistically accounted for factors other than mutation rate. Whereas genes with smaller diversity across organisms might simply experience stronger [purifying selection](https://en.wikipedia.org/wiki/Negative_selection_(natural_selection)), genes with smaller *synonymous* diversity are actually thought to have a smaller mutation rate.
 
 <p align="center">
 <img src="/images/mutations/martincorena.svg" style="background:none; border:none; box-shadow:none;"/>
 </p>
 <span class="caption" STYLE="font-size:85%"> (a) Mutation rates (estimated using the synonymous diversity across different strains) vary along the E. coli genome. Red bars indicate the 95% confidence interval under a uniform mutation rate. MB: megabases, or 1000 base pairs. (b) Genes with lower mutation rates are often essential. From [Martincorena et al.](https://doi.org/10.1038/nature10995). </span>
 
-The authors found the synonymous diversity to vary 20-fold across the *E. coli* genome, with certain genes showing much less diversity than expected from a uniform mutation rate, and others showing much more. This pattern correlated with function: the diversity was smallest for essential genes (those critical for healthy function) and those under strong [purifying selection](https://en.wikipedia.org/wiki/Negative_selection_(natural_selection)). Martincorena et al. therefore concluded that the mutation rate varies across the genome, and that this might be an “evolutionary risk management strategy”. 
+The authors found the synonymous diversity to vary 20-fold across the *E. coli* genome, with certain genes showing much less diversity than expected from a uniform mutation rate, and others showing much more. This pattern correlated with function: the diversity was smallest for essential genes (those critical for healthy function) and those under strong purifying selection. Martincorena et al. therefore concluded that the mutation rate varies across the genome, and that this might be a “risk management strategy” to minimize the probability of bad mutations.  
 
-This finding made a splash in the world of evolutionary biology, but soon other biologists started to point at potential problems ([Chen & Zhang](https://doi.org/10.1093/molbev/mst060),  [Maddamsetti et al.](https://doi.org/10.1093/molbev/msv161)). One problem was theoretical: mutations to individual genes occur so rarely that the advantage of an even lower and gene-specific mutation rate is too small to evolve (more on this later). Other challenges were empirical in nature. For example, Martincorena et al. aimed to eliminate the effect of selection by analysing only synonymous genetic diversity, but might have failed to account for all confounding factors. 
+The finding made a splash in the world of evolutionary biology, but soon other biologists started to point at potential problems ([Chen & Zhang](https://doi.org/10.1093/molbev/mst060), [Maddamsetti et al.](https://doi.org/10.1093/molbev/msv161)). One problem was theoretical: Mutations to individual genes occur so rarely that the advantage of an even lower and gene-specific mutation rate is too small to evolve (more on this later). Other challenges were empirical in nature. For example, Martincorena et al. aimed to eliminate the effect of selection by analysing only synonymous genetic diversity, but might have failed to account for all confounding factors. 
 
 Definitive evidence for biased mutations therefore required a stronger, experimental rather than statistical, control for selection. 
 
@@ -129,23 +104,25 @@ Definitive evidence for biased mutations therefore required a stronger, experime
 <p align="center">
 <img src="/images/mutations/mutation_accumulation.svg"  width="700" style="background:none; border:none; box-shadow:none;"/>
 </p>
-<span class="caption" STYLE="font-size:85%"> A typical mutation accumulation (MA) experiment, in which n lines are randomly bred for t generations. Source: [Halligan & Keightley](http://www.homepages.ed.ac.uk/pkeightl//publications/halligan-keightley-2009.pdf). </span>
+<span class="caption" STYLE="font-size:85%"> A typical mutation accumulation (MA) experiment, in which n lines are bred for t generations. In the main dataset from from Monroe et al., $n=107$ and $t = 25$. Source: [Halligan & Keightley](http://www.homepages.ed.ac.uk/pkeightl//publications/halligan-keightley-2009.pt=df). </span>
 
 A rigorous but time-consuming approach to experimentally minimise the effect of selection is a so-called mutation accumulation experiment. In such an experiment, the experimenter randomly selects the organism that will give rise to the next generation, making reproductive success independent of fitness[^5]. Repeating the process for many generations results in the accumulation of mutations untouched by selection. Running many experiments in parallel can reveal if certain mutations arise more frequently than others. 
 
-[^5]: Note, breeding the next generation, and therefore mutation accumulation experiments, only work for asexually reproducing organisms. 
+[^5]: Mutation accumulation experiments only work for asexually reproducing organisms. 
 
-Recently, [Grey Monroe](https://doi.org/10.1038/s41586-021-04269-6), working in the lab of [Detlev Wiegel](https://weigelworld.org/), used mutation accumulation lines to investigate the randomness of mutations in *Arabidopsis thaliana* (the primary model for plant genetics). The authors found that genetic diversity across mutation accumulation lines greatly varied across the genome, being reduced by a half in gene bodies. This time around, the reduced variability really could not be due to selection, and therefore had to be attributed to bias in the mutation rate. 
+Recently, [Grey Monroe](https://doi.org/10.1038/s41586-021-04269-6), working in the lab of [Detlev Wiegel](https://weigelworld.org/), used mutation accumulation lines to investigate the randomness of mutations in *Arabidopsis thaliana* (the primary model for plant genetics, see Fig a below). The authors found that genetic diversity across mutation accumulation lines greatly varied across the genome, being reduced by a half in gene bodies (Fig b). This time around, the reduced variability really could not be due to selection, and therefore had to be attributed to variability in mutation rates. 
 
 <p align="center">
 <img src="/images/mutations/monroe.svg" style="background:none; border:none; box-shadow:none;"/>
 </p>
-<span class="caption" STYLE="font-size:85%"> (a): Arabidopsis thaliana. (b): mutations are lower for bases within gene bodies. TSS: transcription start sites, TTS:  transcription termination sites.  (c): the mutation rate varies with gene function. Adapted from [Monroe et al.](https://doi.org/10.1038/s41586-021-04269-6) </span>
+<span class="caption" STYLE="font-size:85%"> (a): Arabidopsis thaliana. (b): mutations are lower for bases within gene bodies. TSS: transcription start sites, TTS:  transcription termination sites.  (c): the mutation rate varies with gene function. Adapted from [Monroe et al.](https://doi.org/10.1038/s41586-021-04269-6). </span>
 
-Monroe et al. also proposed a potential mechanism, by finding that the mutation rate of a genomic region can be predicted from several of its features. Some of these features are epigenomic, i.e. they affect gene expression without changing the DNA itself, for example by changing the [histone proteins](https://en.wikipedia.org/wiki/Histone) that package DNA. This change in packaging can increase or decrease the genes’ expression by making it more or less accessible to transcription factors. Interestingly, such a change in a gene’s packaging can also increase the accuracy of its replication (see e.g. [Chong et al.](https://doi.org/10.1038/s41467-020-14595-4)). Natural selection could thus tune mutation rates by shaping DNA packaging around important genes. 
+Monroe et al. also proposed a potential mechanism, by finding that the mutation rate of a genomic region can be predicted from several of its features. Some of these features are epigenomic, i.e. they affect gene expression without changing the DNA itself, for example by changing the [histone proteins](https://en.wikipedia.org/wiki/Histone) that package DNA[^8]. This change in packaging can increase or decrease the genes’ expression by making it more or less accessible to transcription factors. Interestingly, such a change in a gene’s packaging can also increase the accuracy of its replication (see e.g. [Chong et al.](https://doi.org/10.1038/s41467-020-14595-4)). Natural selection could thus tune mutation rates by shaping DNA packaging around important genes. 
 
-Finally, the authors also provide evidence that the mutation rate bias is adaptive: essential genes mutate less than genes with an environmentally-dependent function. The variation in mutation rates therefore reduces the number of deleterious mutations, potentially directing the course of evolution. 
+[^8] Note, epigenetics is not equivalent to the less-established phenomenon of [epigenetic inheritance](https://en.wikipedia.org/wiki/Transgenerational_epigenetic_inheritance), and it is not necessarily environmentally induced. During development, cells acquire a fixed identity based on the genes they express; this is the original meaning of the term epigenetics. But cellular identity is neither heritable, nor 
+environmentally induced. 
 
+Finally, the authors also provide evidence that the mutation rate bias is adaptive: Essential genes mutate less than genes with an environmentally-dependent function (Fig c). The variation in mutation rates therefore reduces the number of deleterious mutations, potentially directing the course of evolution. 
 
 ## Reconciling the sequencer and the petri dish
 The genomic data from Martincorena and Monroe provide strong evidence that natural selection can tune local mutation rates. So why didn't Luria and Delbruck find that T1 presence increased the likelihood of mutations when this clearly would have been adaptive? Did they and all these other classic experiments overlook something?  
@@ -191,12 +168,11 @@ Monroe et al. do the maths and show that, in _arabidopsis_, the minimum length L
 
 In sum, recent data suggests that mutations do not arise independently of their fitness effect, but that selection has simultaneously decreased the mutation rates of many genes. This is, I think, quite revolutionary, and deserves to be added to the textbooks. 
 
-Although the mutational bias seems adaptive, it does not, in my mind, warrant the conclusion that evolution “estimates the fitness gradient”. What would? Increased mutation rates of genes under positive selection could be a start. A more direct and complete test might simultaneously need to map the fitness landscape and detect mutations. 
+Although the mutational bias seems adaptive, it does not, in my mind, warrant the conclusion that evolution “estimates the fitness gradient”. This would require evidence for increased mutation rates of genes under positive selection, and a more-specific tuning of mutation rates (not across ~15% of the genome). A more direct test might simultaneously need to map the fitness landscape and detect mutations. 
 
 Awaiting future experiments, the current data suggests a rather nuanced situation in which mutations are neither the directionless force they once were thought to be nor the ruthlessly optimal gradients favoured by engineers. Since selection seems to tune the rate of many genes at once, mutations could at best will follow a low-rank approximation of the fitness gradient. 
 
-In this blog post, we have considered how genetic mutations influence the course of evolution. But evolution cannot be understood by looking at just the genes; many higher-level phenomena play an important role, too. I might write a future blog post on these phenomena above the single-gene level that influence the course of evolution, and thereby help explain "how intelligent life appeared using nothing else". 
-
+ 
 ## Acknowledgements
 
-Thanks to [Wesley Clawson](https://www.wesleyclawson.com/) and [Inigo Martincorena](https://www.sanger.ac.uk/person/martincorena-inigo/) for comments. 
+Thanks to [Wesley Clawson](https://www.wesleyclawson.com/), [Rob Lange](https://roberttlange.github.io/),  and [Inigo Martincorena](https://www.sanger.ac.uk/person/martincorena-inigo/) for comments. 
