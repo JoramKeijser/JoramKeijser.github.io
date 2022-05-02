@@ -5,10 +5,13 @@ image: /images/mutations/evo_double.gif
 
 ## Does evolution estimate gradients?
 
+Visual summary on [Twitter](https://twitter.com/JoramKeijser/status/1520808368914542592?s=20&t=4oSi_UhKAuKp98U4mlIpNg)
+
 <p align="center">
 <img src="/images/mutations/evo_double.gif"  style="background:none; border:none; box-shadow:none;">
 </p>
 <span class="caption" STYLE="font-size:85%"> A gradient-based (left) and a gradient-free (right) algorithm that minimise the same noisy quadratic loss function. Color indicates performance. </span>
+
 
 Imagine you’re on a hike, trying to work your way up a mountain. Unfortunately, it's a foggy day, so you can see your immediate surroundings 
 but not the mountain top. In which direction do you decide to walk? Your intuition probably tells you to choose the direction in which the 
