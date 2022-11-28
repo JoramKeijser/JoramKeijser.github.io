@@ -4,7 +4,7 @@ I'm a PhD student in computational neuroscience supervised by Prof. [Henning Spr
 
 ### Publications & Preprints 
 - Control of neocortical memory by long-range inhibition in layer 1\
-  Schroeder, Pardi, **Keijser**, Dalmay, Schuman, Sprekeler & Letzkus,  _Neuron_, in press \ 
+  Schroeder, Pardi, **Keijser**, Dalmay, Schuman, Sprekeler & Letzkus,  _Neuron_, in press\ 
   [[bioRxiv]](https://doi.org/10.1101/2022.02.07.479360) [[Twitter]](https://twitter.com/anna_schroed/status/1490986047186288643?s=20&t=9szqPmtJHnibb7hc3OgJUw)
 - [Optimizing interneuron circuits for compartment-specific feedback inhibition](https://doi.org/10.1371/journal.pcbi.1009933)\
   **Keijser** & Sprekeler, _PLOS Computational Biology_, 2022 \
