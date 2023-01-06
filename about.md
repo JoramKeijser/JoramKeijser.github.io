@@ -4,7 +4,7 @@ I'm a PhD student in computational neuroscience supervised by Prof. [Henning Spr
 I co-organize the [WWNeuRise seminar](https://neurise.github.io/) for early career researchers, and teach at BCCN Berlin's [Master Program Computational Neuroscience](https://www.bccn-berlin.de/master-program.html). Previously, I obtained a MSc in mathematics from [Leiden University](https://www.universiteitleiden.nl/). Outside of the lab, I'm a voracious reader and a less-than-voracious runner.  
 
 ### Publications & Preprints 
-- Control of neocortical memory by long-range inhibition in layer 1\
+- [Inhibitory top-down projections from zona incerta mediate neocortical memory](https://doi.org/10.1016/j.neuron.2022.12.010)\
   Schroeder, Pardi, **Keijser**, Dalmay, Schuman, Sprekeler & Letzkus,  _Neuron_, in press \
   [[bioRxiv]](https://doi.org/10.1101/2022.02.07.479360) [[Twitter]](https://twitter.com/anna_schroed/status/1490986047186288643?s=20&t=9szqPmtJHnibb7hc3OgJUw)
 - [Optimizing interneuron circuits for compartment-specific feedback inhibition](https://doi.org/10.1371/journal.pcbi.1009933)\
