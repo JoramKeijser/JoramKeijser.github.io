@@ -1,6 +1,6 @@
 ## Joram Keijser
 
-I am a PhD student in computational neuroscience supervised by Prof. [Henning Sprekeler](https://www.sprekelerlab.org/), funded by the [TU Berlin](https://www.tu.berlin/) and [ECN Berlin](https://www.ecn-berlin.de/). I am interested in many things, and currently work on the functions and evolution of cell types, in particular inhibitory interneurons. I use deep networks to find out which properties of interneurons can emerge from functional pressure alone, and compare the model's predictions by analyzing neural and transcriptomic data. \
+I am a PhD student in computational neuroscience supervised by Prof. [Henning Sprekeler](https://www.sprekelerlab.org/), funded by the [TU Berlin](https://www.tu.berlin/) and [ECN Berlin](https://www.ecn-berlin.de/). My PhD work focuses on the functions and evolution of cell types, in particular inhibitory interneurons. I use deep networks to find out which properties of interneurons can emerge from functional pressure alone, and compare the model's predictions by analyzing neural and transcriptomic data. \
 Besides doing research, I co-organize the [WWNeuRise seminar](https://neurise.github.io/) for early career researchers, and teach at BCCN Berlin's [Master Program Computational Neuroscience](https://www.bccn-berlin.de/master-program.html). Previously, I obtained a MSc in mathematics from [Leiden University](https://www.universiteitleiden.nl/). Outside of the lab, I'm a voracious reader and a less-than-voracious runner.  
 
 ### Publications & Preprints 
