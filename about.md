@@ -8,7 +8,7 @@ I am a PhD student in computational neuroscience supervised by Prof. [Henning Sp
  [[bioRxiv]](https://doi.org/10.1101/2023.02.23.529671) [[Poster]](https://github.com/JoramKeijser/JoramKeijser.github.io/blob/master/files/bernstein22_poster.pdf)
 - [Inhibitory top-down projections from zona incerta mediate neocortical memory](https://doi.org/10.1016/j.neuron.2022.12.010)\
   Schroeder, Pardi, **Keijser**, Dalmay, Schuman, Sprekeler & Letzkus,  _Neuron_ 2023 \
-  [[bioRxiv]](https://doi.org/10.1101/2022.02.07.479360) [[Twitter]](https://twitter.com/anna_schroed/status/1490986047186288643?s=20&t=9szqPmtJHnibb7hc3OgJUw)
+  [[bioRxiv]](https://doi.org/10.1101/2022.02.07.479360) [[Twitter]](https://twitter.com/anna_schroed/status/1490986047186288643?s=20&t=9szqPmtJHnibb7hc3OgJUw) [[Summary]](https://maxplanckneuroscience.org/in-the-zone-for-memories/)
 - [Optimizing interneuron circuits for compartment-specific feedback inhibition](https://doi.org/10.1371/journal.pcbi.1009933)\
   **Keijser** & Sprekeler, _PLOS Computational Biology_ 2022 \
   [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2020.11.17.386920v2) [[Twitter]](https://twitter.com/sprekeler/status/1329388530808877057?s=20&t=mTEadfKIlJjh6b3N7Or6_Q) [[WWNeuro talk]](https://youtu.be/xU-fNLfY3gY)
