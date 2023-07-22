@@ -1,10 +1,15 @@
 ## Joram Keijser
 
-I am a final-year PhD student in computational neuroscience supervised by Prof. [Henning Sprekeler](https://www.sprekelerlab.org/), funded by [TU Berlin](https://www.tu.berlin/) and [ECN Berlin](https://www.ecn-berlin.de/). I am broadly interested in the evolution of neural computation and behaviour. My PhD thesis focuses on the functions and evolution of cell types, in particular inhibitory interneurons. In this work, I use deep network models to find interneuron properties that can emerge from functional pressure, and I test these models by analyzing neural and genomic data. 
+I am a final-year PhD student in computational neuroscience supervised by Prof. [Henning Sprekeler](https://www.sprekelerlab.org/), funded by [TU Berlin](https://www.tu.berlin/) and [ECN Berlin](https://www.ecn-berlin.de/). I am broadly interested in the evolution of neural computation and behaviour. My PhD thesis focuses on the functions and evolution of cell types, in particular inhibitory interneurons. In this work, I use deep network models to find interneuron properties that can emerge from functional pressure, and then I test these models by analyzing neural and genomic data. 
 
-Besides doing research, I co-organize the [WWNeuRise seminar](https://neurise.github.io/) for early career researchers and teach at [BCCN Berlin's](https://www.bccn-berlin.de/) Master Program Computational Neuroscience. Previously, I obtained an MSc in mathematics from [Leiden University](https://www.universiteitleiden.nl/). Outside of the lab, I'm a voracious reader and a less-than-voracious runner.  
+Besides doing research, I co-organize the [WWNeuRise seminar](https://twitter.com/WWNeuRise) for early career researchers and an upcoming 
+[conference workshop](https://bernstein-network.de/bernstein-conference/program/satellite-workshops/tree-of-life/). I also teach at [BCCN Berlin's](https://www.bccn-berlin.de/) Master's Program in Computational Neuroscience. Previously, I obtained an MSc in mathematics from [Leiden University](https://www.universiteitleiden.nl/). Outside of the lab, I'm a voracious reader and a less-than-voracious runner.  
 
-### Publications & Preprints 
+<img src="/images/about/treeworkshop.png" alt="drawing" width="600"/>
+
+
+
+### Publications 
 - [Cortical interneurons: fit for function and fit to function? Evidence from development and evolution](https://doi.org/10.3389/fncir.2023.1172464)\
  **Keijser** & Sprekeler, _Frontiers in Neural Circuits_ 2023\
  [[bioRxiv]](https://doi.org/10.1101/2023.02.23.529671) [[Twitter]](https://twitter.com/sprekeler/status/1630502782431113218?s=20) [[Poster]](https://github.com/JoramKeijser/JoramKeijser.github.io/blob/master/files/bernstein22_poster.pdf)
