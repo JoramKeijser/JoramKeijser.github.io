@@ -5,7 +5,7 @@ I am a final-year PhD student in computational neuroscience supervised by Prof. 
 Besides doing research, I co-organize the [WWNeuRise seminar](https://twitter.com/WWNeuRise) for early career researchers and an upcoming 
 [conference workshop](https://bernstein-network.de/bernstein-conference/program/satellite-workshops/tree-of-life/). I also teach at [BCCN Berlin's](https://www.bccn-berlin.de/) Master's Program in Computational Neuroscience. Previously, I obtained an MSc in mathematics from [Leiden University](https://www.universiteitleiden.nl/). Outside of the lab, I'm a voracious reader and a less-than-voracious runner.  
 
-<img src="/images/about/treeworkshop.png" alt="drawing" width="600"/>
+<img src="/images/about/treeworkshop.png" alt="drawing" width="500"/>
 
 
 
