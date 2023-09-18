@@ -3,7 +3,7 @@
 I am a final-year PhD student in computational neuroscience supervised by Prof. [Henning Sprekeler](https://www.sprekelerlab.org/), funded by [TU Berlin](https://www.tu.berlin/) and [ECN Berlin](https://www.ecn-berlin.de/). My PhD work focuses on the functions and evolution of cell types, in particular inhibitory interneurons. In this work, I use deep network models to find interneuron properties that can emerge from functional pressure, and then I test these models by analyzing neural and genomic data. 
 
 Besides doing research, I co-organize the [WWNeuRise seminar](https://twitter.com/WWNeuRise) for early career researchers and an upcoming 
-[conference workshop](https://bernstein-network.de/bernstein-conference/program/satellite-workshops/tree-of-life/). I also teach at [BCCN Berlin's](https://www.bccn-berlin.de/) Master's Program in Computational Neuroscience. Previously, I obtained an MSc in mathematics from [Leiden University](https://www.universiteitleiden.nl/). Outside of the lab, I'm a voracious reader and a less-than-voracious runner.  
+[conference workshop](https://bernstein-network.de/bernstein-conference/program/satellite-workshops/tree-of-life/). I also teach at [BCCN Berlin's](https://www.bccn-berlin.de/) Master's Program in Computational Neuroscience. In the summer of 2023, I worked as a biostatistics intern at [Novartis](https://www.novartis.com/). Outside of the lab, I'm a voracious reader and a less-than-voracious runner.  
 
 <img src="/images/about/treeworkshop.png" alt="drawing" width="500"/>
 
