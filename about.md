@@ -11,7 +11,7 @@ Besides doing research, I co-organized the [WWNeuRise seminar](https://twitter.c
 
 ### Publications & Preprints
 - [Transcriptomic correlates of state modulation in forebrain interneurons: A cross-species analysis](https://doi.org/10.1101/2023.12.04.569849)\
-  **Keijser**, Hertäg & Sprekeler, _bioRxiv_, 2023
+  **Keijser**, Hertäg & Sprekeler, _bioRxiv_ 2023
 - [Cortical interneurons: fit for function and fit to function? Evidence from development and evolution](https://doi.org/10.3389/fncir.2023.1172464)\
  **Keijser** & Sprekeler, _Frontiers in Neural Circuits_ 2023\
  [[bioRxiv]](https://doi.org/10.1101/2023.02.23.529671) [[Twitter]](https://twitter.com/sprekeler/status/1630502782431113218?s=20) [[Poster]](https://github.com/JoramKeijser/JoramKeijser.github.io/blob/master/files/bernstein22_poster.pdf)
