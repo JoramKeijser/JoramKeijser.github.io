@@ -1,15 +1,12 @@
 ## Joram Keijser
 
-I am a final-year PhD student in computational neuroscience supervised by Prof. [Henning Sprekeler](https://www.sprekelerlab.org/), funded by [TU Berlin](https://www.tu.berlin/) and [ECN Berlin](https://www.ecn-berlin.de/). My PhD work focuses on the functions and evolution of cell types, in particular inhibitory interneurons. In this work, I use deep network models to find interneuron properties that can emerge from functional pressures, and I test these models by analyzing neural and genomic data. 
+I am a postdoc in the [Cortexlab](https://www.ucl.ac.uk/cortexlab/), working with Kenneth Harris and Matteo Carandini. I recently obtained my PhD in computational neuroscience, supervised by [Henning Sprekeler](https://www.sprekelerlab.org/). Before that, I studied mathematics at Leiden University in the Netherlands.
 
-Besides doing research, I co-organized the [WWNeuRise seminar](https://twitter.com/WWNeuRise) for early career researchers and a 
-[conference workshop](https://bernstein-network.de/bernstein-conference/program/satellite-workshops/tree-of-life/). I also teach at [BCCN Berlin's](https://www.bccn-berlin.de/) Master's Program in Computational Neuroscience. In the summer of 2023, I worked as a biostatistics intern at [Novartis](https://www.novartis.com/). Outside of the lab, I'm a voracious reader and a less-than-voracious runner.  
-
-<img src="/images/about/treeworkshop_color.jpeg" alt="drawing" width="500"/>
-
-
+I am broadly interested in how large populations of neurons process information and how this emergent behaviour is influenced by neuronal diversity and an animal's internal state.  
 
 ### Publications & Preprints
+- [Computational and Comparative Analyses of Inhibitory Interneuron Diversity](https://drive.google.com/file/d/1RNkXPaBfNRcGjxzB0uksAku3BL8KvNc0/view?usp=sharing)\
+  **Keijser**, PhD thesis, 2024
 - [Transcriptomic correlates of state modulation in GABAergic interneurons: A cross-species analysis](https://doi.org/10.1101/2023.12.04.569849)\
   **Keijser**, Hertäg & Sprekeler, _bioRxiv_ 2023
 - [Cortical interneurons: fit for function and fit to function? Evidence from development and evolution](https://doi.org/10.3389/fncir.2023.1172464)\
