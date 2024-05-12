@@ -5,7 +5,7 @@ I am a postdoc in the [Cortexlab](https://www.ucl.ac.uk/cortexlab/), working wit
 I am broadly interested in how large populations of neurons process information and how this emergent behaviour is influenced by neuronal diversity and an animal's internal state.  
 
 ### Publications & Preprints
-- [Computational and Comparative Analyses of Inhibitory Interneuron Diversity](https://drive.google.com/file/d/1RNkXPaBfNRcGjxzB0uksAku3BL8KvNc0/view?usp=sharing)\
+- [Computational and Comparative Analyses of Inhibitory Interneuron Diversity](https://drive.google.com/file/d/1xx7VepZ3dEynu2qOrgCip1Y9K3Oe5piV/view?usp=sharing)\
   **Keijser**, PhD thesis, 2024
 - [Transcriptomic correlates of state modulation in GABAergic interneurons: A cross-species analysis](https://doi.org/10.1101/2023.12.04.569849)\
   **Keijser**, Hertäg & Sprekeler, _bioRxiv_ 2023
