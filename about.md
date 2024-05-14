@@ -1,8 +1,8 @@
 ## Joram Keijser
 
-I am a postdoc in the [Cortexlab](https://www.ucl.ac.uk/cortexlab/), working with Kenneth Harris and Matteo Carandini. I recently obtained my PhD in computational neuroscience, supervised by [Henning Sprekeler](https://www.sprekelerlab.org/). Before that, I studied mathematics at Leiden University in the Netherlands.
+I am a postdoc in the [Cortexlab](https://www.ucl.ac.uk/cortexlab/) (UCL), working with Kenneth Harris and Matteo Carandini. I recently obtained a PhD in computational neuroscience from TU Berlin, supervised by [Henning Sprekeler](https://www.sprekelerlab.org/). Before that, I studied mathematics at Leiden University in the Netherlands.
 
-I am broadly interested in how large populations of neurons process information and how this emergent behaviour is influenced by neuronal diversity and an animal's internal state.  
+I am broadly interested in how large populations of neurons process information and how this emergent behaviour is influenced by single-cell diversity and an animal's behavioural state.  
 
 ### Publications & Preprints
 - [Computational and Comparative Analyses of Inhibitory Interneuron Diversity](https://drive.google.com/file/d/1xx7VepZ3dEynu2qOrgCip1Y9K3Oe5piV/view?usp=sharing)\
