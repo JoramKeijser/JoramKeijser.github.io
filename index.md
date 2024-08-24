@@ -1,2 +1,2 @@
-I started this blog to write freely about whatever I fancied. After two fun posts, though, life got in the way—between research, teaching, and everything else, 
-I simply didn't find the time. I hope to get back to it one day, though! 
+I started this blog to write freely and speculatively about exciting questions. After two posts, though, life got in the way. Between research, teaching, and everything else, 
+I haven't found the time to write more. I hope to get back to it one day, though! 
