@@ -1,6 +1,6 @@
 ## Joram Keijser
 
-I am a postdoc in the lab of Kenneth Harris and Matteo Carandini [UCL](https://www.ucl.ac.uk/cortexlab/). After obtaining a PhD in computational neuroscience (supervised by [Henning Sprekeler](https://www.sprekelerlab.org/)), I’m expanding my skill set to experimental methods. 
+I am a postdoc in the lab of Kenneth Harris and Matteo Carandini at [UCL](https://www.ucl.ac.uk/cortexlab/). After training in mathematics and computational neuroscience, I am now expanding my skill set to experimental methods. 
 
 ### Publications & Preprints
 - [Computational and Comparative Analyses of Inhibitory Interneuron Diversity](https://drive.google.com/file/d/1xx7VepZ3dEynu2qOrgCip1Y9K3Oe5piV/view?usp=sharing)\
