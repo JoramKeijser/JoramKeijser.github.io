@@ -3,7 +3,7 @@
 I am a postdoc in the lab of Kenneth Harris and Matteo Carandini at [UCL](https://www.ucl.ac.uk/cortexlab/), where I investigate how diverse cell types shape population activity. 
 
 ### Publications 
-- [Transcriptomic correlates of state modulation in GABAergic interneurons: A cross-species analysis]([https://doi.org/10.1101/2023.12.04.569849](https://doi.org/10.1523/JNEUROSCI.2371-23.2024))\
+- [Transcriptomic correlates of state modulation in GABAergic interneurons: A cross-species analysis](https://doi.org/10.1523/JNEUROSCI.2371-23.2024)\
   **Keijser**, Hertäg & Sprekeler, _Journal of Neuroscience_ 2024\
   [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2023.12.04.569849v4)
 - [Cortical interneurons: fit for function and fit to function? Evidence from development and evolution](https://doi.org/10.3389/fncir.2023.1172464)\
