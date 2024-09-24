@@ -1,12 +1,11 @@
 ## Joram Keijser
 
-I am a postdoc in the lab of Kenneth Harris and Matteo Carandini at [UCL](https://www.ucl.ac.uk/cortexlab/). After training in mathematics and computational neuroscience, I am now expanding my skill set to experimental methods. 
+I am a postdoc in the lab of Kenneth Harris and Matteo Carandini at [UCL](https://www.ucl.ac.uk/cortexlab/), where I investigate how diverse cell types shape population activity. 
 
-### Publications & Preprints
-- [Computational and Comparative Analyses of Inhibitory Interneuron Diversity](https://drive.google.com/file/d/1xx7VepZ3dEynu2qOrgCip1Y9K3Oe5piV/view?usp=sharing)\
-  **Keijser**, PhD thesis, 2024
-- [Transcriptomic correlates of state modulation in GABAergic interneurons: A cross-species analysis](https://doi.org/10.1101/2023.12.04.569849)\
-  **Keijser**, Hertäg & Sprekeler, _bioRxiv_ 2023
+### Publications 
+- [Transcriptomic correlates of state modulation in GABAergic interneurons: A cross-species analysis]([https://doi.org/10.1101/2023.12.04.569849](https://doi.org/10.1523/JNEUROSCI.2371-23.2024))\
+  **Keijser**, Hertäg & Sprekeler, _Journal of Neuroscience_ 2024\
+  [[bioRxiv]](https://www.biorxiv.org/content/10.1101/2023.12.04.569849v4)
 - [Cortical interneurons: fit for function and fit to function? Evidence from development and evolution](https://doi.org/10.3389/fncir.2023.1172464)\
  **Keijser** & Sprekeler, _Frontiers in Neural Circuits_ 2023\
  [[bioRxiv]](https://doi.org/10.1101/2023.02.23.529671) [[Twitter]](https://twitter.com/sprekeler/status/1630502782431113218?s=20) [[Poster]](https://github.com/JoramKeijser/JoramKeijser.github.io/blob/master/files/bernstein22_poster.pdf)
