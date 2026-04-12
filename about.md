@@ -1,8 +1,10 @@
 ## Joram Keijser
 
-I am a postdoc in the lab of Kenneth Harris and Matteo Carandini at [UCL](https://www.ucl.ac.uk/cortexlab/), where I investigate how diverse cell types shape neural population activity. After training in mathematics and computational neuroscience, I am currently expanding my skillset to the wet lab. 
+I'm a postdoc in the lab of Kenneth Harris and Matteo Carandini at [UCL](https://www.ucl.ac.uk/cortexlab/), where I investigate how diverse cell types shape neural population activity. 
 
 ### Publications
+- [ Voltage imaging as a window into neural computation ](https://discovery.ucl.ac.uk/id/eprint/10221613/)\
+ **Keijser** & Sadeh, _Neurophotonics_ 2026
 - [Calcium-permeable AMPA receptors govern PV neuron feature selectivity](https://doi.org/10.1038/s41586-024-08027-2)\
   Hong, Kim, Hainmueller, Kim, **Keijser**, Johnson, ... & Huganir, _Nature_ 2024
 - [Transcriptomic correlates of state modulation in GABAergic interneurons: A cross-species analysis](https://doi.org/10.1523/JNEUROSCI.2371-23.2024)\
